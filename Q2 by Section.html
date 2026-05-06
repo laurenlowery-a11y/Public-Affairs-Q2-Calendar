@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Q2 Snapshot — CodePath Public Affairs (by Section)</title>
+<meta name="viewport" content="width=1200">
+<link rel="stylesheet" href="tokens.v3.css">
+<style>
+  :root{
+    --bg-page:#F5F1EA;
+    --paper:#FFFFFF;
+    --rule:#E5E0D6;
+  }
+  html, body{ background:var(--bg-page); color:var(--cp-navy); font-family:var(--font-body); }
+  .doc{ max-width:1180px; margin:0 auto; padding:40px 36px 64px; }
+
+  /* Masthead */
+  .mast{ display:grid; grid-template-columns:1fr auto; align-items:end; gap:24px; border-bottom:2px solid var(--cp-navy); padding-bottom:18px; margin-bottom:28px; }
+  .eyebrow{ font-family:var(--font-display); font-weight:800; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; display:flex; gap:12px; align-items:center; }
+  .eyebrow .dot{ width:8px; height:8px; border-radius:50%; background:var(--cp-kelly-green); }
+  h1{ font-family:var(--font-display); font-weight:400; font-size:60px; line-height:0.95; letter-spacing:-0.02em; margin:14px 0 0; text-wrap:balance; }
+  h1 em{ font-style:normal; font-weight:700; color:var(--cp-kelly-green); }
+  .meta{ text-align:right; font-size:12px; color:var(--neutral-600); line-height:1.5; }
+  .meta strong{ color:var(--cp-navy); display:block; font-size:13px; font-weight:600; }
+
+  /* Goal legend */
+  .goal-legend{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px; padding:14px 18px; background:var(--paper); border:1px solid var(--rule); border-radius:10px; }
+  .goal-legend .lab{ font-size:10px; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:var(--neutral-600); margin-right:8px; align-self:center; }
+  .goal-chip{ font-size:11px; font-weight:700; padding:4px 10px; border-radius:999px; letter-spacing:0.02em; display:inline-flex; align-items:center; gap:6px; }
+  .goal-chip .ct{ font-family:var(--font-mono); font-weight:800; font-size:10px; padding:1px 6px; border-radius:999px; background:rgba(255,255,255,0.45); }
+
+  /* Section blocks — masonry-style grid, balanced columns */
+  .grid{ column-count:3; column-gap:16px; }
+  @media (max-width: 1100px){ .grid{ column-count:2; } }
+  @media (max-width: 720px){ .grid{ column-count:1; } }
+  .section{ background:var(--paper); border:1px solid var(--rule); border-radius:12px; margin:0 0 16px; overflow:hidden; break-inside:avoid; -webkit-column-break-inside:avoid; page-break-inside:avoid; display:inline-block; width:100%; }
+  .sec-head{ display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:12px; padding:14px 18px 14px 22px; border-bottom:1px solid var(--rule); position:relative; }
+  .sec-head::before{ content:''; position:absolute; left:0; top:0; bottom:0; width:5px; background:var(--accent); }
+  .sec-num{ font-family:var(--font-mono); font-size:11px; font-weight:700; color:var(--neutral-500); letter-spacing:0.08em; }
+  .sec-name{ font-family:var(--font-display); font-weight:700; font-size:18px; line-height:1.15; letter-spacing:-0.005em; }
+  .sec-name .desc{ display:block; font-family:var(--font-body); font-size:11px; font-weight:400; color:var(--neutral-600); margin-top:2px; letter-spacing:0; line-height:1.4; }
+  .sec-count{ font-size:10px; font-weight:800; background:var(--cp-navy); color:#fff; padding:4px 10px; border-radius:999px; letter-spacing:0.04em; }
+
+  /* Goal coverage strip per section */
+  .sec-goals{ display:flex; flex-wrap:wrap; gap:5px; padding:10px 18px; background:#FBF8F2; border-bottom:1px solid var(--rule); align-items:center; }
+  .sec-goals .label{ font-size:9.5px; font-weight:800; letter-spacing:0.14em; text-transform:uppercase; color:var(--neutral-500); margin-right:4px; }
+  .sec-goals .empty{ font-size:11px; color:var(--neutral-500); font-style:italic; }
+  .gc{ font-size:10px; font-weight:700; padding:3px 8px; border-radius:3px; letter-spacing:0.02em; }
+
+  /* Task rows */
+  .tasks{ padding:4px 0; }
+  .task{ display:flex; flex-direction:column; gap:5px; padding:11px 18px; }
+  .task + .task{ border-top:1px solid var(--rule); }
+  .task .what{ display:flex; flex-direction:column; gap:4px; min-width:0; }
+  .task .name{ font-size:13px; font-weight:600; line-height:1.35; color:var(--cp-navy); }
+  .task .name .wa{ font-size:9px; font-weight:800; background:var(--cp-navy); color:#fff; padding:2px 5px; border-radius:3px; letter-spacing:0.04em; margin-left:6px; vertical-align:1px; }
+  .task .ctx{ display:flex; flex-wrap:wrap; gap:5px; align-items:center; font-size:11px; color:var(--neutral-600); }
+  .task .ctx .goal{ font-size:9.5px; font-weight:700; padding:2px 6px; border-radius:3px; letter-spacing:0.02em; }
+  .task .right{ display:flex; gap:6px; align-items:center; flex-shrink:0; margin-top:2px; }
+
+  /* Owner chip */
+  .own{ font-size:9.5px; font-weight:800; padding:2px 7px; border-radius:4px; letter-spacing:0.04em; background:#F5F5F5; color:var(--cp-navy); white-space:nowrap; align-self:flex-start; }
+  .own.lauren{ background:#E9EBFF; color:#2F3899; }
+  .own.madison{ background:#F4E5FF; color:#7A1FB8; }
+  .own.victoria{ background:#D7FFEE; color:#00734F; }
+
+  /* Footer */
+  .foot{ margin-top:28px; padding-top:14px; border-top:1px solid var(--rule); font-size:11px; color:var(--neutral-500); display:flex; justify-content:space-between; gap:16px; }
+  .foot a{ color:var(--ui-primary); text-decoration:none; font-weight:600; }
+
+  @media print{ body{ background:#fff; } .doc{ padding:16px; } }
+</style>
+</head>
+<body>
+<div class="doc">
+  <header class="mast">
+    <div>
+      <div class="eyebrow"><span class="dot"></span><span>CodePath · Public Affairs · W/A</span></div>
+      <h1>What we're doing <em>this quarter.</em></h1>
+    </div>
+    <div class="meta">
+      <strong>Now → end of Q2</strong>
+      27 active items<br>
+      across 8 sections
+    </div>
+  </header>
+
+  <!-- Master goal legend -->
+  <div class="goal-legend">
+    <span class="lab">Strategic Goals</span>
+    <span class="goal-chip" style="background:#D7FFEE; color:#00734F;">Earned Media / Content <span class="ct">9</span></span>
+    <span class="goal-chip" style="background:#FFEDF0; color:#A60C46;">CEO Influence <span class="ct">3</span></span>
+    <span class="goal-chip" style="background:#E9F6FF; color:#0070A8;">Higher Ed Strategy <span class="ct">3</span></span>
+    <span class="goal-chip" style="background:#FFF6BF; color:#7A5A00;">Govt &amp; Public Sector <span class="ct">1</span></span>
+    <span class="goal-chip" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr <span class="ct">2</span></span>
+    <span class="goal-chip" style="background:#FFEDF0; color:#A60C46;">Events &amp; Speaking <span class="ct">2</span></span>
+    <span class="goal-chip" style="background:#FEA08D; color:#1B1C57;">Public Recognition <span class="ct">2</span></span>
+    <span class="goal-chip" style="background:#FFEDF0; color:#A60C46;">Earned Revenue <span class="ct">1</span></span>
+  </div>
+
+  <div class="grid">
+  <!-- Section 1: Media Relations -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#4F5EFF;">
+      <span class="sec-num">01</span>
+      <div class="sec-name">Media Relations<span class="desc">Pitches, quotes, and press coverage placements</span></div>
+      <span class="sec-count">4</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="gc" style="background:#D7FFEE; color:#00734F;">Earned Media · 3</span>
+      <span class="gc" style="background:#FFEDF0; color:#A60C46;">CEO Influence · 1</span>
+      <span class="gc" style="background:#FFEDF0; color:#A60C46;">Earned Revenue · 1</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Forbes CIR Pitch <span class="wa">W/A</span></div>
+          <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">The Atlantic — Quote + Intro Call</div>
+          <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Wells Fargo Press Release</div>
+          <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span><span class="goal" style="background:#FFEDF0; color:#A60C46;">Earned Revenue</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Quarterly Engineering Survey</div>
+          <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Content Development -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#B243FF;">
+      <span class="sec-num">02</span>
+      <div class="sec-name">Content Development<span class="desc">Op-eds, case studies, and CEO/leadership letters</span></div>
+      <span class="sec-count">5</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="gc" style="background:#D7FFEE; color:#00734F;">Earned Media · 3</span>
+      <span class="gc" style="background:#FFEDF0; color:#A60C46;">CEO Influence · 1</span>
+      <span class="gc" style="background:#E9F6FF; color:#0070A8;">Higher Ed · 2</span>
+      <span class="gc" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr · 1</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Op-Ed with Stephen Moret &amp; Michael Ellison <span class="wa">W/A</span></div>
+          <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span><span class="goal" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr</span></div>
+        </div>
+        <div class="right"><span class="own madison">Madison</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Op-Ed with Ade (Base10 Founder) + Michael</div>
+          <div class="ctx"><span style="font-style:italic; color:var(--neutral-500);">Goal TBD</span></div>
+        </div>
+        <div class="right"><span class="own madison">Madison</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">New Profit Story</div>
+          <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">CodePath / OOCEO Quarterly Letters</div>
+          <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Faculty Op-Ed Pipeline</div>
+          <div class="ctx"><span class="goal" style="background:#E9F6FF; color:#0070A8;">Higher Ed</span><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Recognition / Awards -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#FEA08D;">
+      <span class="sec-num">03</span>
+      <div class="sec-name">Recognition / Awards / Vetted Opportunities<span class="desc">Building pipelines for awards, panels, and speaking</span></div>
+      <span class="sec-count">4</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="gc" style="background:#FEA08D; color:#1B1C57;">Public Recognition · 2</span>
+      <span class="gc" style="background:#FFEDF0; color:#A60C46;">Events &amp; Speaking · 2</span>
+      <span class="gc" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr · 2</span>
+      <span class="gc" style="background:#FFEDF0; color:#A60C46;">CEO Influence · 2</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Awards target list creation</div>
+          <div class="ctx"><span class="goal" style="background:#FEA08D; color:#1B1C57;">Public Recognition</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Awards rolling submissions</div>
+          <div class="ctx"><span class="goal" style="background:#FEA08D; color:#1B1C57;">Public Recognition</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Events &amp; Speaking — target list creation</div>
+          <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">Events &amp; Speaking</span><span class="goal" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr</span><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Events &amp; Speaking — rolling approvals</div>
+          <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">Events &amp; Speaking</span><span class="goal" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr</span><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: External Event Prep -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#02BCFF;">
+      <span class="sec-num">04</span>
+      <div class="sec-name">External Event Prep<span class="desc">Conferences and summits the team is attending</span></div>
+      <span class="sec-count">3</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="empty">Cross-cutting — relationship building &amp; field presence</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Development Team Offsite (Louisville, KY)</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Internal alignment</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Social Innovation Summit (Atlanta)</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Development team — attending</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Databricks Data &amp; AI Summit (San Francisco)</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Development team — attending</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Hosted Convenings -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#FE3C84;">
+      <span class="sec-num">05</span>
+      <div class="sec-name">Hosted Convenings<span class="desc">CodePath-hosted events, roundtables, and webinars</span></div>
+      <span class="sec-count">5</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="empty">Partner cultivation &amp; community surface area</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Golden Gate Institute Convening w/ Superset</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Partner convening</span></div>
+        </div>
+        <div class="right"><span class="own madison">Madison</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Ken Chenault Co-Hosted Event <span class="wa">W/A</span></div>
+          <div class="ctx"><span style="color:var(--neutral-500);">High-profile co-host</span></div>
+        </div>
+        <div class="right"><span class="own madison">Madison</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Talent Bridge Event w/ Beacon Council</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Target major employers</span></div>
+        </div>
+        <div class="right"><span class="own madison">Madison</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Annual Report Internal Webinar</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Stakeholder share-out</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+      <div class="task">
+        <div class="what">
+          <div class="name">Base 10 + Student + Alumni Panel</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Investor + community surface</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Government Relations -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#FFCB03;">
+      <span class="sec-num">06</span>
+      <div class="sec-name">Government Relations<span class="desc">Public-sector strategy &amp; relationships</span></div>
+      <span class="sec-count">1</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="gc" style="background:#FFF6BF; color:#7A5A00;">Govt &amp; Public Sector · 1</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Learning + Strategy call w/ Wallerstein + Michael</div>
+          <div class="ctx"><span class="goal" style="background:#FFF6BF; color:#7A5A00;">Govt &amp; Public Sector</span></div>
+        </div>
+        <div class="right"><span class="own lauren">Lauren</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Misc -->
+  <section class="section">
+    <header class="sec-head" style="--accent:#737373;">
+      <span class="sec-num">07</span>
+      <div class="sec-name">Miscellaneous<span class="desc">Items with timelines still being scoped</span></div>
+      <span class="sec-count">1</span>
+    </header>
+    <div class="sec-goals">
+      <span class="label">Drives</span>
+      <span class="empty">Cross-cutting partner storytelling</span>
+    </div>
+    <div class="tasks">
+      <div class="task">
+        <div class="what">
+          <div class="name">Salesforce x CodePath Storytelling and Comms</div>
+          <div class="ctx"><span style="color:var(--neutral-500);">Partner narrative development</span></div>
+        </div>
+        <div class="right"><span class="own madison">Madison</span></div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <div class="foot">
+    <span>Snapshot · Public Affairs Project Tracker · 27 active items now → end of Q2</span>
+    <span><a href="Q2 Calendar.html">View calendar →</a> &nbsp; <a href="Q2 Snapshot.html">View timeline snapshot →</a></span>
+  </div>
+</div>
+</body>
+</html>

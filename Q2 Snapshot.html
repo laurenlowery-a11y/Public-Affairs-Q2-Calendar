@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Q2 Snapshot — CodePath Public Affairs</title>
+<meta name="viewport" content="width=1200">
+<link rel="stylesheet" href="tokens.v3.css">
+<style>
+  :root{
+    --bg-page:#F5F1EA;
+    --paper:#FFFFFF;
+    --rule:#E5E0D6;
+  }
+  html, body{ background:var(--bg-page); color:var(--cp-navy); font-family:var(--font-body); }
+  .doc{ max-width:1180px; margin:0 auto; padding:40px 36px 64px; }
+
+  /* masthead */
+  .mast{ display:grid; grid-template-columns:1fr auto; align-items:end; gap:24px; border-bottom:2px solid var(--cp-navy); padding-bottom:18px; margin-bottom:28px; }
+  .eyebrow{ font-family:var(--font-display); font-weight:800; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; display:flex; gap:12px; align-items:center; }
+  .eyebrow .dot{ width:8px; height:8px; border-radius:50%; background:var(--ui-success); animation:pulse 2s infinite; }
+  @keyframes pulse{ 0%{box-shadow:0 0 0 0 rgba(34,169,0,.5);} 70%{box-shadow:0 0 0 8px rgba(34,169,0,0);} 100%{box-shadow:0 0 0 0 rgba(34,169,0,0);} }
+  h1{ font-family:var(--font-display); font-weight:400; font-size:64px; line-height:0.95; letter-spacing:-0.02em; margin:14px 0 0; text-wrap:balance; }
+  h1 em{ font-style:normal; font-weight:700; color:var(--cp-kelly-green); }
+  .meta{ text-align:right; font-size:12px; color:var(--neutral-600); line-height:1.5; font-variant-numeric:tabular-nums; }
+  .meta strong{ color:var(--cp-navy); display:block; font-size:13px; font-weight:600; }
+
+  /* KPI strip */
+  .kpis{ display:grid; grid-template-columns:repeat(4, 1fr); gap:10px; margin-bottom:32px; }
+  .kpi{ background:var(--paper); border:1px solid var(--rule); border-radius:10px; padding:18px 20px; position:relative; overflow:hidden; }
+  .kpi::before{ content:''; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--accent); }
+  .kpi .label{ font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--neutral-600); font-weight:700; }
+  .kpi .num{ font-family:var(--font-display); font-weight:700; font-size:48px; line-height:1; margin-top:8px; font-variant-numeric:tabular-nums; }
+  .kpi .sub{ font-size:11px; color:var(--neutral-500); margin-top:6px; line-height:1.4; }
+
+  /* Three-column board */
+  .board{ display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-bottom:32px; }
+  .col{ background:var(--paper); border:1px solid var(--rule); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; min-height:480px; }
+  .col-head{ padding:16px 20px 14px; border-bottom:1px solid var(--rule); position:relative; }
+  .col-head::after{ content:''; position:absolute; left:0; right:0; bottom:-1px; height:3px; background:var(--accent); }
+  .col-head .when{ font-family:var(--font-mono); font-size:10px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:var(--neutral-500); }
+  .col-head .title{ font-family:var(--font-display); font-weight:700; font-size:24px; line-height:1.05; margin-top:4px; letter-spacing:-0.01em; }
+  .col-head .count{ position:absolute; top:18px; right:20px; background:var(--cp-navy); color:#fff; font-size:11px; font-weight:700; padding:3px 9px; border-radius:999px; font-variant-numeric:tabular-nums; }
+  .col-body{ padding:8px 8px 12px; flex:1; }
+
+  /* task row */
+  .row{ display:grid; grid-template-columns:auto 1fr auto; gap:10px; padding:10px 12px; border-radius:6px; align-items:center; }
+  .row + .row{ border-top:1px solid var(--rule); border-radius:0; }
+  .row + .row:last-child{ border-radius:0 0 6px 6px; }
+  .row .when{ font-family:var(--font-mono); font-size:10px; font-weight:700; color:var(--cp-navy); letter-spacing:0.04em; text-transform:uppercase; min-width:36px; }
+  .row .name{ font-size:13px; line-height:1.35; color:var(--cp-navy); font-weight:500; }
+  .row .name .note{ display:block; font-size:11px; color:var(--neutral-500); font-weight:400; margin-top:2px; font-style:italic; }
+  .row .right{ display:flex; gap:6px; align-items:center; }
+
+  .own{ font-size:9.5px; font-weight:800; padding:2px 6px; border-radius:3px; letter-spacing:0.04em; background:#F5F5F5; color:var(--cp-navy); white-space:nowrap; }
+  .own.lauren{ background:#E9EBFF; color:#2F3899; }
+  .own.madison{ background:#F4E5FF; color:#7A1FB8; }
+  .own.victoria{ background:#D7FFEE; color:#00734F; }
+
+  .stat{ font-size:9.5px; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; padding:2px 7px; border-radius:3px; white-space:nowrap; display:inline-flex; align-items:center; gap:5px; }
+  .stat::before{ content:''; width:6px; height:6px; border-radius:50%; }
+  .stat.inprog{ background:#FFF6BF; color:#7A5A00; } .stat.inprog::before{ background:#D9A600; }
+  .stat.pending{ background:#FFF6BF; color:#7A5A00; background-image:repeating-linear-gradient(135deg, transparent 0 4px, rgba(0,0,0,.06) 4px 6px); } .stat.pending::before{ background:#D9A600; }
+  .stat.notstarted{ background:#F5F5F5; color:#525252; } .stat.notstarted::before{ background:#B8B8B8; }
+  .stat.dash{ background:#F5F5F5; color:#525252; } .stat.dash::before{ background:#B8B8B8; }
+
+  .wa{ font-size:9px; font-weight:800; background:var(--cp-navy); color:#fff; padding:2px 5px; border-radius:3px; letter-spacing:0.04em; }
+
+  /* risks band */
+  .risks{ background:var(--paper); border:1px solid var(--rule); border-radius:10px; padding:20px 24px; margin-bottom:24px; }
+  .risks h2{ font-family:var(--font-display); font-weight:700; font-size:18px; margin:0 0 14px; letter-spacing:-0.005em; display:flex; align-items:center; gap:10px; }
+  .risks h2::before{ content:'!'; display:inline-flex; width:22px; height:22px; align-items:center; justify-content:center; background:#AF1E1E; color:#fff; font-weight:800; border-radius:50%; font-family:var(--font-body); font-size:13px; }
+  .risk-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; }
+  .risk{ border-left:3px solid #AF1E1E; padding:4px 0 4px 14px; }
+  .risk .rh{ font-size:13px; font-weight:700; color:var(--cp-navy); margin-bottom:4px; }
+  .risk .rb{ font-size:12px; color:var(--neutral-700); line-height:1.5; }
+
+  /* footer strip */
+  .strip{ display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:24px; }
+  .panel{ background:var(--paper); border:1px solid var(--rule); border-radius:10px; padding:16px 20px; }
+  .panel h3{ font-family:var(--font-display); font-weight:700; font-size:14px; margin:0 0 10px; letter-spacing:0.02em; text-transform:uppercase; color:var(--cp-navy); display:flex; justify-content:space-between; align-items:center; }
+  .panel h3 .pill{ font-size:10px; font-weight:700; padding:2px 8px; border-radius:999px; background:var(--neutral-100); color:var(--neutral-700); letter-spacing:0.04em; }
+  .panel ul{ margin:0; padding:0; list-style:none; }
+  .panel li{ font-size:12px; line-height:1.5; padding:6px 0; border-bottom:1px dotted var(--rule); display:grid; grid-template-columns:54px 1fr auto; gap:10px; align-items:baseline; }
+  .panel li:last-child{ border-bottom:none; }
+  .panel li .when{ font-family:var(--font-mono); font-size:10px; font-weight:700; letter-spacing:0.04em; color:var(--neutral-600); text-transform:uppercase; }
+  .panel li .what{ color:var(--neutral-800); }
+  .panel li.cancel .what{ text-decoration:line-through; color:var(--neutral-500); }
+  .panel li .who{ font-size:9px; font-weight:700; color:var(--neutral-500); letter-spacing:0.04em; text-transform:uppercase; }
+
+  /* full link */
+  .more{ background:var(--cp-navy); color:#fff; border-radius:10px; padding:18px 24px; display:flex; justify-content:space-between; align-items:center; gap:24px; }
+  .more .text{ font-size:13px; line-height:1.5; }
+  .more .text strong{ display:block; font-size:15px; font-family:var(--font-display); font-weight:700; margin-bottom:2px; }
+  .more a{ background:var(--cp-kelly-green); color:var(--cp-navy); padding:10px 18px; border-radius:6px; text-decoration:none; font-weight:700; font-size:12px; letter-spacing:0.04em; text-transform:uppercase; white-space:nowrap; }
+  .more a:hover{ filter:brightness(1.05); }
+
+  .foot{ margin-top:18px; padding-top:14px; border-top:1px solid var(--rule); font-size:11px; color:var(--neutral-500); display:flex; justify-content:space-between; }
+
+  @media print{
+    body{ background:#fff; }
+    .doc{ padding:16px; }
+    .more a{ display:none; }
+  }
+</style>
+</head>
+<body>
+<div class="doc">
+  <header class="mast">
+    <div>
+      <div class="eyebrow"><span class="dot"></span><span>CodePath · Public Affairs · W/A</span></div>
+      <h1>Q2 2026 <em>at a glance.</em></h1>
+    </div>
+    <div class="meta">
+      <strong>Snapshot · Mon, May 4</strong>
+      8 weeks remaining<br>
+      <span style="color:var(--cp-kelly-green); font-weight:700;">●</span> 17 active &nbsp;·&nbsp; 5 wins
+    </div>
+  </header>
+
+  <!-- KPIs -->
+  <section class="kpis">
+    <div class="kpi" style="--accent:#FFCB03;">
+      <div class="label">In Progress</div>
+      <div class="num">11</div>
+      <div class="sub">Moving — touching weekly</div>
+    </div>
+    <div class="kpi" style="--accent:#D9A600;">
+      <div class="label">Pending Info</div>
+      <div class="num">8</div>
+      <div class="sub">Blocked on input — see risks</div>
+    </div>
+    <div class="kpi" style="--accent:#B8B8B8;">
+      <div class="label">Not Started</div>
+      <div class="num">2</div>
+      <div class="sub">Recognition rolling submissions</div>
+    </div>
+    <div class="kpi" style="--accent:#00C385;">
+      <div class="label">Q2 Wins</div>
+      <div class="num">2</div>
+      <div class="sub">+ 2 cancelled with reason</div>
+    </div>
+  </section>
+
+  <!-- Three column board -->
+  <section class="board">
+
+    <!-- THIS WEEK -->
+    <div class="col">
+      <div class="col-head" style="--accent:#FE3C84;">
+        <div class="when">May 4 — May 10</div>
+        <div class="title">This week</div>
+        <span class="count">7</span>
+      </div>
+      <div class="col-body">
+        <div class="row"><span class="when">Mon 4</span>
+          <div class="name">Development Team Offsite (Louisville, KY)</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Mon 4</span>
+          <div class="name">Golden Gate Institute Convening w/ Superset</div>
+          <div class="right"><span class="own madison">M</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Mon 4</span>
+          <div class="name">Talent Bridge Event w/ Beacon Council<span class="note">Target major employers</span></div>
+          <div class="right"><span class="own madison">M</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Mon 4</span>
+          <div class="name">Ken Chenault Co-Hosted Event</div>
+          <div class="right"><span class="wa">W/A</span><span class="own madison">M</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Tue 6</span>
+          <div class="name">The Atlantic — Quote + Intro Call</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">Tue 6</span>
+          <div class="name">Op-Ed with Ade (Base10) + Michael</div>
+          <div class="right"><span class="own madison">M</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Tue 6</span>
+          <div class="name">New Profit Story</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat pending">Pending</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEXT 2 WEEKS -->
+    <div class="col">
+      <div class="col-head" style="--accent:#4F5EFF;">
+        <div class="when">May 11 — May 24</div>
+        <div class="title">Next two weeks</div>
+        <span class="count">4</span>
+      </div>
+      <div class="col-body">
+        <div class="row"><span class="when">Sun 11</span>
+          <div class="name">Annual Report Internal Webinar</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">Wed 13</span>
+          <div class="name">Wells Fargo Press Release</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">Thu 14</span>
+          <div class="name">Strategy call w/ Wallerstein + Michael<span class="note">Govt &amp; Public Sector — early signal</span></div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat dash">—</span></div>
+        </div>
+        <div class="row" style="opacity:.6;">
+          <span class="when">—</span>
+          <div class="name" style="font-style:italic; color:var(--neutral-500);">Quiet stretch — heads-down execution on long-running Q2 op-eds &amp; pitches.</div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LATER IN Q2 -->
+    <div class="col">
+      <div class="col-head" style="--accent:#00C385;">
+        <div class="when">May 25 — Jun 30</div>
+        <div class="title">Later in Q2</div>
+        <span class="count">10</span>
+      </div>
+      <div class="col-body">
+        <div class="row"><span class="when">May 29</span>
+          <div class="name">Recognition target list — Awards</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">May 29</span>
+          <div class="name">Recognition target list — Events &amp; Speaking</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">May 29</span>
+          <div class="name">Salesforce x CodePath Storytelling &amp; Comms</div>
+          <div class="right"><span class="own madison">M</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">Jun 2-3</span>
+          <div class="name">Social Innovation Summit (Atlanta)</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Jun 3</span>
+          <div class="name">Recognition rolling submissions</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat notstarted">Not Started</span></div>
+        </div>
+        <div class="row"><span class="when">Jun 9</span>
+          <div class="name">Base10 + Student + Alumni Panel</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat inprog">In Progress</span></div>
+        </div>
+        <div class="row"><span class="when">Jun 15-18</span>
+          <div class="name">Databricks Data &amp; AI Summit (SF)</div>
+          <div class="right"><span class="own lauren">LL</span><span class="stat pending">Pending</span></div>
+        </div>
+        <div class="row"><span class="when">Jun 30</span>
+          <div class="name">Forbes CIR Pitch · Op-Ed w/ Moret &amp; Ellison · Faculty Op-Ed Pipeline · Quarterly Engineering Survey · OOCEO Quarterly Letters<span class="note">5 long-running items landing end of quarter</span></div>
+          <div class="right"><span class="stat inprog">In Progress</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RISKS -->
+  <section class="risks">
+    <h2>What needs attention</h2>
+    <div class="risk-grid">
+      <div class="risk">
+        <div class="rh">8 items "Pending more info"</div>
+        <div class="rb">Five hosted convenings &amp; the Quarterly Engineering Survey are stalled on input. Triage in the next stand-up.</div>
+      </div>
+      <div class="risk">
+        <div class="rh">June 30 cliff</div>
+        <div class="rb">Five long-running deliverables all due the last day of Q2. Flag any that should slip into Q3 now, not on June 25.</div>
+      </div>
+      <div class="risk">
+        <div class="rh">Govt &amp; Public Sector is light</div>
+        <div class="rb">Only one active task (Wallerstein call) tagged to this priority. Worth a goal-coverage check with Michael.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WINS + HORIZON -->
+  <section class="strip">
+    <div class="panel">
+      <h3>Q2 wins &amp; resolutions <span class="pill">4</span></h3>
+      <ul>
+        <li><span class="when">Apr 22</span><span class="what">Wells Fargo / Charlotte Partnership</span><span class="who">VA</span></li>
+        <li><span class="when">Apr 22</span><span class="what">Knight × FIU × CP S. Florida (Emerge)</span><span class="who">M</span></li>
+        <li class="cancel"><span class="when">May 3</span><span class="what">Anthropic + CP side event (Milken) — cancelled</span><span class="who">M</span></li>
+        <li class="cancel"><span class="when">May 4</span><span class="what">Fortune Brand Studio Doc — declined (poor ROI)</span><span class="who">LL</span></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>On the horizon · Q3 <span class="pill">7</span></h3>
+      <ul>
+        <li><span class="when">Jul 13</span><span class="what">JFF Horizons + Knowledge Network kickoff</span><span class="who">LL/M</span></li>
+        <li><span class="when">Jul 15</span><span class="what">UNCF Unite</span><span class="who">M</span></li>
+        <li><span class="when">Jul 27</span><span class="what">Maryland AI Roundtable</span><span class="who">LL</span></li>
+        <li><span class="when">Aug 3</span><span class="what">FIU Case Study</span><span class="who">VA</span></li>
+        <li><span class="when">Aug 31</span><span class="what">Shultz Convening</span><span class="who">LL</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="more">
+    <div class="text">
+      <strong>Need the full picture?</strong>
+      Open the Q2 Calendar for the day-by-day grid with all 27 active items, hover details, and goal coverage.
+    </div>
+    <a href="Q2 Calendar.html">Open full calendar →</a>
+  </div>
+
+  <div class="foot">
+    <span>Snapshot generated Mon May 4, 2026 from Asana · Public Affairs Project Tracker</span>
+    <span>Owners — LL Lauren Lowery · M Madison · VA Victoria Angulo</span>
+  </div>
+</div>
+</body>
+</html>

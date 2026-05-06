@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CodePath Public Affairs · Q2 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="tokens.v3.css">
+<style>
+  :root{
+    --bg:#0E1030;
+    --bg-2:#1B1C57;
+    --paper:#FFFFFF;
+    --rule:rgba(255,255,255,0.12);
+    --ink:#0E1030;
+    --lime:var(--cp-lime, #B6FF6E);
+    --kelly:var(--cp-kelly-green, #00C385);
+    --pink:#FE3C84;
+    --periwinkle:#02BCFF;
+    --yellow:#FFCB03;
+  }
+  *{ box-sizing:border-box; }
+  html, body{ background:var(--bg); color:#fff; font-family:var(--font-body); margin:0; min-height:100vh; }
+  body{
+    background:
+      radial-gradient(1200px 600px at 85% -10%, rgba(2,188,255,0.18), transparent 60%),
+      radial-gradient(900px 700px at 0% 110%, rgba(0,195,133,0.18), transparent 60%),
+      radial-gradient(700px 500px at 50% 50%, rgba(254,60,132,0.08), transparent 60%),
+      var(--bg);
+  }
+  a{ color:inherit; text-decoration:none; }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 32px;
+    border-bottom:1px solid var(--rule);
+    position:sticky; top:0; z-index:10;
+    backdrop-filter: blur(12px);
+    background: rgba(14,16,48,0.7);
+  }
+  .brand{ display:flex; align-items:center; gap:12px; font-family:var(--font-display); font-weight:800; font-size:14px; letter-spacing:0.04em; }
+  .brand .mark{
+    width:32px; height:32px; border-radius:8px;
+    background:
+      conic-gradient(from 220deg at 60% 50%, var(--kelly), var(--periwinkle), var(--pink), var(--yellow), var(--kelly));
+    display:flex; align-items:center; justify-content:center;
+    font-size:14px; font-weight:900; color:var(--bg);
+    box-shadow: 0 4px 16px rgba(0,195,133,0.35);
+  }
+  .brand .mark::after{ content:'CP'; }
+  .topbar .meta{
+    font-size:11px; color:rgba(255,255,255,0.6); letter-spacing:0.06em; font-variant-numeric:tabular-nums;
+    display:flex; gap:18px; align-items:center;
+  }
+  .topbar .meta .live{
+    display:inline-flex; align-items:center; gap:7px;
+    color: var(--kelly); font-weight:700;
+  }
+  .topbar .meta .live::before{
+    content:''; width:7px; height:7px; border-radius:50%; background: var(--kelly);
+    animation: pulse 1.8s infinite; box-shadow: 0 0 0 0 rgba(0,195,133,0.6);
+  }
+  @keyframes pulse{ 70%{box-shadow:0 0 0 8px rgba(0,195,133,0);} 100%{box-shadow:0 0 0 0 rgba(0,195,133,0);} }
+
+  /* ---------- hero ---------- */
+  .hero{
+    padding: 72px 32px 56px;
+    max-width: 1320px; margin: 0 auto;
+    position: relative;
+  }
+  .hero .eyebrow{
+    font-family: var(--font-display);
+    font-size: 11px; font-weight: 800;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--lime);
+    margin-bottom: 20px;
+  }
+  .hero h1{
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(48px, 8vw, 124px);
+    line-height: 0.92;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-wrap: balance;
+    max-width: 1100px;
+  }
+  .hero h1 .stamp{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--bg);
+    background: var(--kelly);
+    padding: 0 18px 4px;
+    border-radius: 14px;
+    transform: rotate(-2deg);
+    margin-right: 8px;
+  }
+  .hero h1 em{
+    font-style: normal;
+    color: var(--periwinkle);
+    font-weight: 700;
+  }
+  .hero .lede{
+    font-size: 18px; line-height: 1.5;
+    color: rgba(255,255,255,0.78);
+    max-width: 620px;
+    margin-top: 28px;
+  }
+
+  /* hero quick stats */
+  .hero-stats{
+    display:flex; flex-wrap:wrap; gap: 32px 56px;
+    margin-top: 40px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+  }
+  .hero-stat .num{
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1;
+    color: #fff;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+  .hero-stat .num em{ font-style:normal; color: var(--lime); }
+  .hero-stat .lab{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: rgba(255,255,255,0.6);
+    margin-top: 8px;
+    font-weight: 600;
+  }
+
+  /* ---------- pick-a-view section ---------- */
+  .pick{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 24px 32px 80px;
+  }
+  .pick-h{
+    display:flex; justify-content:space-between; align-items:end;
+    margin-bottom: 28px;
+    flex-wrap: wrap; gap: 18px;
+  }
+  .pick-h h2{
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(32px, 4vw, 52px);
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0;
+    text-wrap: balance;
+    max-width: 720px;
+  }
+  .pick-h h2 em{ font-style:normal; color: var(--lime); font-weight:700; }
+  .pick-h .hint{
+    font-size: 12px; color: rgba(255,255,255,0.55);
+    text-align: right;
+    line-height: 1.5;
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
+  }
+
+  /* asymmetric grid: 3 tiles */
+  .views{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 16px;
+  }
+  @media (max-width: 980px){
+    .views{ grid-template-columns: 1fr; }
+    .view-1{ grid-column: 1 / -1; }
+  }
+
+  .view{
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    min-height: 380px;
+    cursor: pointer;
+    color: var(--ink);
+    background: var(--paper);
+    transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s ease;
+    text-decoration: none;
+    display: flex; flex-direction: column;
+    isolation: isolate;
+  }
+  .view:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+  }
+  .view:hover .v-cta{ background: var(--ink); color: #fff; }
+  .view:hover .v-art{ transform: scale(1.04); }
+
+  .view .v-tag{
+    position: absolute; top: 18px; left: 18px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 9px;
+    border-radius: 4px;
+    background: var(--ink); color: #fff;
+    z-index: 3;
+  }
+  .view .v-num{
+    position: absolute; top: 14px; right: 18px;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--ink);
+    opacity: 0.4;
+    z-index: 3;
+  }
+
+  .view .v-art{
+    position: relative;
+    flex: 1;
+    margin: 56px 22px 16px;
+    transition: transform .5s cubic-bezier(.2,.7,.2,1);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .view .v-foot{
+    padding: 18px 22px 22px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    position: relative; z-index: 2;
+    background: var(--paper);
+  }
+  .view .v-title{
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  .view .v-desc{
+    font-size: 13px;
+    color: rgba(14,16,48,0.65);
+    line-height: 1.5;
+    margin-top: 6px;
+  }
+  .view .v-cta{
+    margin-top: 14px;
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: rgba(14,16,48,0.06);
+    color: var(--ink);
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background .25s, color .25s;
+  }
+  .view .v-cta::after{ content: '→'; transition: transform .25s; }
+  .view:hover .v-cta::after{ transform: translateX(4px); }
+
+  /* tile-specific accents */
+  .view-1{ background: linear-gradient(135deg, #FFFFFF 0%, #FBF8F2 100%); }
+  .view-1 .v-tag{ background: var(--periwinkle); }
+  .view-2{ background: linear-gradient(135deg, #FFF6BF 0%, #FFFFFF 60%); }
+  .view-2 .v-tag{ background: var(--kelly); color:#fff; }
+  .view-3{ background: linear-gradient(135deg, #F4E5FF 0%, #FFFFFF 60%); }
+  .view-3 .v-tag{ background: var(--pink); color:#fff; }
+
+  /* ---------- art: calendar mini ---------- */
+  .art-cal{
+    width: 100%; height: 100%;
+    background: #fff;
+    border: 1px solid #E5E0D6;
+    border-radius: 8px;
+    padding: 14px;
+    display: flex; flex-direction: column; gap: 6px;
+    font-family: var(--font-mono);
+  }
+  .art-cal .header{
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom: 4px;
+  }
+  .art-cal .month{
+    font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--bg-2);
+  }
+  .art-cal .month em{ color: var(--kelly); font-style:normal; }
+  .art-cal .dow{
+    display: grid; grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+    font-size: 8px;
+    text-align: center;
+    color: rgba(14,16,48,0.4);
+    letter-spacing: 0.08em;
+    margin-bottom: 2px;
+  }
+  .art-cal .grid{
+    display: grid; grid-template-columns: repeat(7, 1fr); grid-template-rows: repeat(5, 1fr);
+    gap: 3px;
+    flex: 1;
+  }
+  .art-cal .day{
+    background: #FBF8F2;
+    border-radius: 3px;
+    position: relative;
+    min-height: 28px;
+  }
+  .art-cal .day.we{ background: #F5F1EA; }
+  .art-cal .day .pip{
+    position: absolute; left: 3px; right: 3px; height: 3.5px; border-radius: 1.5px;
+  }
+  .art-cal .day .pip.p1{ top: 4px; }
+  .art-cal .day .pip.p2{ top: 10px; }
+  .art-cal .day .pip.p3{ top: 16px; }
+  .art-cal .day.today{ outline: 2px solid var(--bg-2); outline-offset: -1px; background: var(--yellow); }
+  .art-cal .day .num{ position: absolute; top: 2px; right: 4px; font-size: 7px; color: rgba(14,16,48,0.45); font-weight: 700; }
+
+  /* art: section blocks */
+  .art-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%; height: 100%;
+  }
+  .art-sec .blk{
+    background: #fff;
+    border: 1px solid #E5E0D6;
+    border-radius: 6px;
+    padding: 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  .art-sec .blk::before{ content: ''; position:absolute; left:0; top:0; bottom:0; width: 3px; background: var(--accent); }
+  .art-sec .blk .lab{ font-size: 9px; font-weight: 800; color: var(--bg-2); margin-bottom: 6px; line-height: 1.1; }
+  .art-sec .blk .row{ height: 5px; background: #F5F1EA; border-radius: 1.5px; margin-bottom: 3px; }
+  .art-sec .blk .row.short{ width: 70%; }
+  .art-sec .blk .row.shorter{ width: 50%; }
+  .art-sec .blk .chip{
+    display: inline-block;
+    width: 16px; height: 5px; border-radius: 1.5px; margin-right: 2px;
+    background: var(--accent); opacity: 0.7;
+  }
+
+  /* art: snapshot KPI tiles */
+  .art-snap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 6px;
+    width: 100%; height: 100%;
+  }
+  .art-snap .kpi{
+    background: #fff;
+    border: 1px solid #E5E0D6;
+    border-radius: 6px;
+    padding: 8px 10px;
+    position: relative;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .art-snap .kpi::before{
+    content:''; position:absolute; left:0; top:0; bottom:0; width: 3px; background: var(--accent);
+  }
+  .art-snap .kpi .lab{ font-size: 8px; font-weight:800; color: rgba(14,16,48,0.55); letter-spacing: 0.1em; text-transform: uppercase; }
+  .art-snap .kpi .num{ font-family: var(--font-display); font-weight:700; font-size: 24px; color: var(--bg-2); line-height: 1; font-variant-numeric: tabular-nums; }
+  .art-snap .kpi.span2{ grid-column: span 2; }
+  .art-snap .kpi.span2 .num{ font-size: 32px; }
+  .art-snap .kpi.span2 .num em{ color: var(--pink); font-style:normal; }
+  .art-snap .kpi .barbar{
+    display:flex; gap: 2px; margin-top: 6px;
+  }
+  .art-snap .kpi .barbar span{ height: 5px; border-radius: 1.5px; flex: 1; }
+
+  /* ---------- secondary band: snapshot of current week ---------- */
+  .band{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 32px 80px;
+  }
+  .band-h{
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom: 18px; flex-wrap: wrap; gap: 12px;
+  }
+  .band-h h2{
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .band-h h2 em{ font-style:normal; color: var(--lime); font-weight:700; }
+  .band-h .nudge{ font-size: 12px; color: rgba(255,255,255,0.55); }
+
+  .week-strip{
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 20px 24px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 28px;
+  }
+  @media (max-width: 880px){ .week-strip{ grid-template-columns: 1fr; } }
+  .week-strip .col h3{
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.55);
+    margin: 0 0 14px;
+  }
+  .week-strip .col .item{
+    font-size: 13px;
+    line-height: 1.45;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--rule);
+    display: flex; gap: 8px; align-items: baseline;
+  }
+  .week-strip .col .item:last-child{ border-bottom: none; }
+  .week-strip .col .item .dot{ width:6px; height:6px; border-radius:50%; flex-shrink:0; margin-top: 5px; }
+  .week-strip .col .item .name{ flex: 1; }
+  .week-strip .col .item .who{ font-size: 9px; font-weight: 800; letter-spacing: 0.06em; color: rgba(255,255,255,0.5); text-transform: uppercase; }
+
+  /* ---------- footer ---------- */
+  footer{
+    padding: 28px 32px 40px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    color: rgba(255,255,255,0.5);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  footer a{ color: var(--periwinkle); font-weight: 600; }
+
+  /* ---------- floating decoration ---------- */
+  .float-dec{
+    position: absolute; pointer-events: none; z-index: 0;
+    font-family: var(--font-display);
+    color: rgba(255,255,255,0.04);
+    font-weight: 800;
+    font-size: clamp(180px, 28vw, 380px);
+    line-height: 0.85;
+    top: 40px;
+    right: -4vw;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark"></span>
+    <span>CodePath · Public Affairs</span>
+  </div>
+  <div class="meta">
+    <span class="live">Live · refreshed May 5, 2026</span>
+    <span>Internal · Q2 2026</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="float-dec">Q2</div>
+  <div class="eyebrow">Public Affairs Project Tracker · Internal Dashboard</div>
+  <h1><span class="stamp">27</span> things we're <em>shipping</em><br>between now and June 30.</h1>
+  <p class="lede">Three ways to look at the same data — pick the lens that fits your meeting. Pulled live from Asana, redesigned for the team.</p>
+
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="num">11</div>
+      <div class="lab">In Progress</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num">8</div>
+      <div class="lab">Pending Info</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num"><em>9</em></div>
+      <div class="lab">Strategic Goals Tracked</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num">8</div>
+      <div class="lab">Weeks Remaining</div>
+    </div>
+  </div>
+</section>
+
+<section class="pick">
+  <div class="pick-h">
+    <h2>Pick your <em>view</em>.</h2>
+    <div class="hint">click any card →<br>same data, different lens</div>
+  </div>
+
+  <div class="views">
+
+    <a class="view view-1" href="Q2 Calendar.html">
+      <span class="v-tag">Calendar · Day-by-day</span>
+      <span class="v-num">01</span>
+      <div class="v-art">
+        <div class="art-cal">
+          <div class="header">
+            <div class="month">May <em>2026</em></div>
+            <div style="font-size:8px; color: rgba(14,16,48,0.5); letter-spacing:0.08em;">17 ITEMS</div>
+          </div>
+          <div class="dow"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+          <div class="grid">
+            <!-- week 1: Apr 26-May 2 (greyed) -->
+            <div class="day we" style="opacity:0.5"></div>
+            <div class="day" style="opacity:0.5"><span class="num">27</span></div>
+            <div class="day" style="opacity:0.5"><span class="num">28</span></div>
+            <div class="day" style="opacity:0.5"><span class="num">29</span></div>
+            <div class="day" style="opacity:0.5"><span class="num">30</span></div>
+            <div class="day" style="opacity:0.5"><span class="num">1</span></div>
+            <div class="day we" style="opacity:0.5"><span class="num">2</span></div>
+            <!-- week 2: May 3-9 -->
+            <div class="day we"><span class="num">3</span></div>
+            <div class="day today"><span class="num">4</span><span class="pip p1" style="background:var(--pink)"></span><span class="pip p2" style="background:var(--periwinkle)"></span></div>
+            <div class="day"><span class="num">5</span><span class="pip p1" style="background:var(--periwinkle)"></span></div>
+            <div class="day"><span class="num">6</span><span class="pip p1" style="background:var(--kelly)"></span><span class="pip p2" style="background:var(--pink)"></span></div>
+            <div class="day"><span class="num">7</span></div>
+            <div class="day"><span class="num">8</span></div>
+            <div class="day we"><span class="num">9</span></div>
+            <!-- week 3: May 10-16 -->
+            <div class="day we"><span class="num">10</span></div>
+            <div class="day"><span class="num">11</span><span class="pip p1" style="background:var(--periwinkle)"></span></div>
+            <div class="day"><span class="num">12</span></div>
+            <div class="day"><span class="num">13</span><span class="pip p1" style="background:var(--kelly)"></span></div>
+            <div class="day"><span class="num">14</span><span class="pip p1" style="background:var(--yellow)"></span></div>
+            <div class="day"><span class="num">15</span></div>
+            <div class="day we"><span class="num">16</span></div>
+            <!-- week 4 -->
+            <div class="day we"><span class="num">17</span></div>
+            <div class="day"><span class="num">18</span></div>
+            <div class="day"><span class="num">19</span></div>
+            <div class="day"><span class="num">20</span></div>
+            <div class="day"><span class="num">21</span></div>
+            <div class="day"><span class="num">22</span></div>
+            <div class="day we"><span class="num">23</span></div>
+            <!-- week 5 -->
+            <div class="day we"><span class="num">24</span></div>
+            <div class="day"><span class="num">25</span></div>
+            <div class="day"><span class="num">26</span></div>
+            <div class="day"><span class="num">27</span></div>
+            <div class="day"><span class="num">28</span></div>
+            <div class="day"><span class="num">29</span><span class="pip p1" style="background:var(--pink)"></span><span class="pip p2" style="background:var(--pink)"></span></div>
+            <div class="day we"><span class="num">30</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="v-foot">
+        <div class="v-title">The Calendar</div>
+        <div class="v-desc">Every task plotted on May & June, with hover detail and goal coverage. The deepest view — best for planning.</div>
+        <span class="v-cta">Open calendar</span>
+      </div>
+    </a>
+
+    <a class="view view-2" href="Q2 by Section.html">
+      <span class="v-tag">By section · No dates</span>
+      <span class="v-num">02</span>
+      <div class="v-art">
+        <div class="art-sec">
+          <div class="blk" style="--accent: var(--periwinkle);">
+            <div class="lab">Media Relations</div>
+            <div class="row"></div><div class="row short"></div><div class="row"></div><div class="row shorter"></div>
+            <div style="margin-top:6px;"><span class="chip" style="background:var(--kelly)"></span><span class="chip" style="background:var(--pink)"></span></div>
+          </div>
+          <div class="blk" style="--accent: var(--pink);">
+            <div class="lab">Content Dev</div>
+            <div class="row"></div><div class="row"></div><div class="row short"></div><div class="row"></div><div class="row shorter"></div>
+          </div>
+          <div class="blk" style="--accent: var(--kelly);">
+            <div class="lab">Recognition</div>
+            <div class="row"></div><div class="row short"></div><div class="row shorter"></div>
+          </div>
+          <div class="blk" style="--accent: var(--yellow);">
+            <div class="lab">Convenings</div>
+            <div class="row"></div><div class="row"></div><div class="row short"></div><div class="row shorter"></div>
+            <div class="row"></div>
+          </div>
+        </div>
+      </div>
+      <div class="v-foot">
+        <div class="v-title">By Section</div>
+        <div class="v-desc">All 27 items grouped by Asana section, mapped to the goals each one drives. No dates — just the shape of the work.</div>
+        <span class="v-cta">Browse by section</span>
+      </div>
+    </a>
+
+    <a class="view view-3" href="Q2 Snapshot.html">
+      <span class="v-tag">Snapshot · This week</span>
+      <span class="v-num">03</span>
+      <div class="v-art">
+        <div class="art-snap">
+          <div class="kpi span2" style="--accent: var(--pink);">
+            <div class="lab">Active Q2</div>
+            <div class="num"><em>17</em></div>
+            <div class="barbar">
+              <span style="background: var(--yellow); flex: 11;"></span>
+              <span style="background: #FFE285; flex: 8;"></span>
+              <span style="background: #E5E0D6; flex: 2;"></span>
+            </div>
+          </div>
+          <div class="kpi" style="--accent: var(--yellow);">
+            <div class="lab">In Progress</div>
+            <div class="num">11</div>
+          </div>
+          <div class="kpi" style="--accent: #D9A600;">
+            <div class="lab">Pending</div>
+            <div class="num">8</div>
+          </div>
+          <div class="kpi" style="--accent: var(--kelly);">
+            <div class="lab">Wins</div>
+            <div class="num">2</div>
+          </div>
+          <div class="kpi" style="--accent: #B8B8B8;">
+            <div class="lab">Not Started</div>
+            <div class="num">2</div>
+          </div>
+        </div>
+      </div>
+      <div class="v-foot">
+        <div class="v-title">The Snapshot</div>
+        <div class="v-desc">This week / next two weeks / later in Q2. Risk callouts at the bottom. Best for stand-ups and exec check-ins.</div>
+        <span class="v-cta">See the snapshot</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="band">
+  <div class="band-h">
+    <h2>What's <em>landing</em> this week.</h2>
+    <div class="nudge">May 4 → May 10 · pulled from the calendar</div>
+  </div>
+  <div class="week-strip">
+    <div class="col">
+      <h3>Today · Mon May 4</h3>
+      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Dev Team Offsite (Louisville)</span><span class="who">LL</span></div>
+      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Golden Gate Institute Convening</span><span class="who">M</span></div>
+      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Ken Chenault Co-Hosted Event</span><span class="who">M · W/A</span></div>
+      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Talent Bridge w/ Beacon Council</span><span class="who">M</span></div>
+    </div>
+    <div class="col">
+      <h3>Tue–Wed · Headlines</h3>
+      <div class="item"><span class="dot" style="background: var(--periwinkle)"></span><span class="name"><strong>The Atlantic</strong> — quote + intro call w/ Michael</span><span class="who">LL</span></div>
+      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Op-Ed with Ade (Base10) + Michael</span><span class="who">M</span></div>
+      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">New Profit Story</span><span class="who">LL</span></div>
+      <div class="item"><span class="dot" style="background: var(--periwinkle)"></span><span class="name">Annual Report Internal Webinar</span><span class="who">LL</span></div>
+    </div>
+    <div class="col">
+      <h3>Need to triage</h3>
+      <div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">8 items still "Pending — more info"</span></div>
+      <div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">5 deliverables stacked on June 30</span></div>
+      <div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">Govt &amp; Public Sector pipeline thin</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>Source: Asana · Public Affairs Project Tracker · Snapshot May 5, 2026</span>
+  <span><a href="https://app.asana.com/1/854165295642105/project/1212823017557665" target="_blank" rel="noreferrer">Open in Asana ↗</a></span>
+</footer>
+
+</body>
+</html>

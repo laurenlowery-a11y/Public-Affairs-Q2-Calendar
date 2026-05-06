@@ -1,0 +1,482 @@
+/* =========================================================
+   CodePath Design Tokens
+   ---------------------------------------------------------
+   One source of truth for colors, type, spacing, radii, and
+   elevation. Used by marketing-site designs (brand-forward)
+   AND product UI (Career Connect, Tech Role Interviewer, etc).
+   ========================================================= */
+
+/* ---------- Fonts ---------- */
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Ultralight.ttf") format("truetype");
+  font-weight: 200; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Ultrabold.ttf") format("truetype");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("./fonts/PPNeueMachina-Black.ttf") format("truetype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+
+/* Space Mono — brand-guide fallback for PP Neue Machina on surfaces
+   where the custom face isn't available (emails, embeds, PDF export). */
+@font-face {
+  font-family: "Space Mono";
+  src: url("./fonts/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("./fonts/SpaceMono-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("./fonts/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("./fonts/SpaceMono-BoldItalic.ttf") format("truetype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+
+/* Poppins — product UI workhorse + marketing body.
+   Self-hosted from the brand's licensed font files. */
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Thin.ttf") format("truetype");
+  font-weight: 100; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-ThinItalic.ttf") format("truetype");
+  font-weight: 100; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: 200; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-MediumItalic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-BoldItalic.ttf") format("truetype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-BlackItalic.ttf") format("truetype");
+  font-weight: 900; font-style: italic; font-display: swap;
+}
+
+/* IBM Plex Mono — product UI code/monospace.
+   Self-hosted from the brand's licensed font files. */
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Thin.ttf") format("truetype");
+  font-weight: 100; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-ThinItalic.ttf") format("truetype");
+  font-weight: 100; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-ExtraLight.ttf") format("truetype");
+  font-weight: 200; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Light.ttf") format("truetype");
+  font-weight: 300; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-LightItalic.ttf") format("truetype");
+  font-weight: 300; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-MediumItalic.ttf") format("truetype");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-SemiBold.ttf") format("truetype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("./fonts/IBMPlexMono-BoldItalic.ttf") format("truetype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+
+:root {
+  /* ==========================================================
+     CORE BRAND COLORS  (from brand guide)
+     These anchor identity. Green carries the mark and CTAs on
+     marketing surfaces. Navy is the dominant text + surface
+     ink on both marketing and product. White carries proportion.
+     ========================================================== */
+  --cp-white:            #FFFFFF;
+  --cp-black:            #000000;          /* strokes, borders */
+  --cp-kelly-green:      #00C385;          /* primary brand — logo + CTAs on marketing */
+  --cp-navy:             #1B1C57;          /* dominant ink */
+  --cp-medium-navy:      #062F54;          /* secondary navy from the guide */
+
+  /* ==========================================================
+     SECONDARY PALETTE  (from brand guide)
+     Use for supportive materials, illustration backdrops,
+     event pages, swag. Each family has a mid + tint + wash.
+     ========================================================== */
+  --cp-kelly-green-2:    #00C384;
+  --cp-lime:             #93FCAC;
+  --cp-mint:             #D7FFEE;
+
+  --cp-dark-violet:      #B243FF;
+  --cp-violet:           #FB7DFF;
+  --cp-primrose:         #FFEEFF;
+
+  --cp-periwinkle:       #4F5EFF;  /* brand-guide says CTA on email/web */
+  --cp-capri-blue:       #02BCFF;
+  --cp-sky-blue:         #E9F6FF;
+
+  --cp-hot-pink:         #FE3C84;
+  --cp-coral:            #FEA08D;
+  --cp-pale-peach:       #FFEDF0;
+
+  --cp-mandarin:         #FE6901;
+  --cp-lemon:            #FFCB03;
+  --cp-buttermilk:       #FFF6BF;
+
+  /* ==========================================================
+     PRODUCT UI PALETTE  (from Career Connect Figma)
+     The product surfaces use a tighter subset. Periwinkle is
+     THE interactive color in-product; Navy is body text;
+     Sky Blue is hover/selection wash.
+     ========================================================== */
+  --ui-bg:               #FFFFFF;
+  --ui-surface:          #F9F9F9;         /* card surface */
+  --ui-surface-muted:    #FAFAFA;
+
+  --ui-text:             #1B1C57;         /* = cp-navy */
+  --ui-text-subtle:      #737373;         /* secondary text */
+  --ui-text-placeholder: #737373;
+
+  --ui-border:           #D5D5D5;         /* default input/card border */
+  --ui-border-strong:    #1B1C57;         /* emphasized border */
+  --ui-divider:          #E5E5E5;
+
+  --ui-primary:          #4F5EFF;         /* periwinkle — buttons, links */
+  --ui-primary-hover:    #3B3DBD;
+  --ui-primary-pressed:  #2F3899;
+  --ui-primary-soft:     #E9F6FF;         /* hover wash, secondary btn fill */
+  --ui-primary-softer:   #C0C6FF;
+
+  --ui-focus-ring:       rgba(79,94,255,0.35);
+
+  /* Semantic (product UI) */
+  --ui-success:          #22A900;
+  --ui-success-soft:     #D2FFD1;
+  --ui-warning:          #D9A600;
+  --ui-warning-soft:     #FFFCEB;
+  --ui-error:            #AF1E1E;
+  --ui-error-strong:     #C00000;
+  --ui-error-soft:       #FDECEC;
+  --ui-info:             #4F5EFF;
+  --ui-info-soft:        #E9F6FF;
+
+  /* Neutral ramp (product UI grays) */
+  --neutral-0:   #FFFFFF;
+  --neutral-50:  #FAFAFA;
+  --neutral-100: #F5F5F5;
+  --neutral-200: #E5E5E5;
+  --neutral-300: #D5D5D5;
+  --neutral-400: #B8B8B8;
+  --neutral-500: #737373;
+  --neutral-600: #525252;
+  --neutral-700: #404040;
+  --neutral-800: #262626;
+  --neutral-900: #171717;
+
+  /* ==========================================================
+     TYPOGRAPHY
+     Marketing uses PP Neue Machina for display + Poppins for
+     body. Product UI is Poppins throughout, with IBM Plex Mono
+     for code/monospace moments.
+     ========================================================== */
+  --font-display: "PP Neue Machina", "Space Mono", ui-monospace, monospace;
+  --font-body:    "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Marketing type scale (hero → caption) */
+  --text-eyebrow:   0.75rem;    /* 12px, tracked, all caps, Ultrabold */
+  --text-caption:   0.8125rem;  /* 13px */
+  --text-body-sm:   0.875rem;   /* 14px */
+  --text-body:      1rem;       /* 16px */
+  --text-body-lg:   1.125rem;   /* 18px */
+  --text-h6:        1.25rem;    /* 20px */
+  --text-h5:        1.5rem;     /* 24px */
+  --text-h4:        2rem;       /* 32px */
+  --text-h3:        2.75rem;    /* 44px */
+  --text-h2:        3.5rem;     /* 56px */
+  --text-h1:        4.5rem;     /* 72px hero */
+
+  /* Product UI type scale (denser, smaller defaults) */
+  --ui-text-xs:   0.6875rem;  /* 11px — tag labels */
+  --ui-text-sm:   0.75rem;    /* 12px — button, tiny labels */
+  --ui-text-md:   0.8125rem;  /* 13px — body default in product */
+  --ui-text-lg:   1rem;       /* 16px — emphasized */
+  --ui-text-xl:   1.25rem;    /* 20px — H3 */
+  --ui-text-2xl:  1.5rem;     /* 24px — H2 */
+  --ui-text-3xl:  2rem;       /* 32px — H1 */
+
+  /* ==========================================================
+     SPACING   (4-unit base; marketing breathes, UI is dense)
+     ========================================================== */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-7:  32px;
+  --space-8:  40px;
+  --space-9:  48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+  --space-13: 128px;
+  --space-14: 160px;
+
+  /* ==========================================================
+     RADII   (small on product UI per Figma; medium on cards)
+     ========================================================== */
+  --radius-0: 0;
+  --radius-1: 2px;   /* checkbox */
+  --radius-2: 4px;   /* buttons, inputs */
+  --radius-3: 8px;   /* cards, containers */
+  --radius-4: 12px;
+  --radius-5: 16px;
+  --radius-pill: 999px;
+  --radius-circle: 50%;
+
+  /* ==========================================================
+     ELEVATION  (subtle — CodePath product surfaces are flat)
+     ========================================================== */
+  --shadow-0: none;
+  --shadow-1: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-2: 0 2px 2px 0 rgba(115,115,115,0.1);
+  --shadow-3: 0 4px 12px 0 rgba(27,28,87,0.08);
+  --shadow-4: 0 12px 32px 0 rgba(27,28,87,0.12);
+  --shadow-focus: 0 0 0 3px var(--ui-focus-ring);
+
+  /* ==========================================================
+     MOTION
+     ========================================================== */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.3, 0, 0, 1);
+  --dur-fast:   120ms;
+  --dur-base:   200ms;
+  --dur-slow:   320ms;
+
+  /* ==========================================================
+     LAYOUT
+     ========================================================== */
+  --container-max:   1200px;
+  --container-narrow: 848px;    /* content column from Mockups */
+  --container-wide:  1440px;
+  --gutter:          24px;
+}
+
+/* ==========================================================
+   BASE RESETS + PAGE DEFAULTS
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: 1.5;
+  color: var(--ui-text);
+  background: var(--ui-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ==========================================================
+   TYPE CLASSES — marketing
+   ========================================================== */
+.cp-eyebrow {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-eyebrow);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--cp-navy);
+}
+.cp-hero {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--text-h1);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--cp-navy);
+  text-wrap: balance;
+}
+.cp-h2 { font-family: var(--font-display); font-weight: 400; font-size: var(--text-h2); line-height: 1.08; letter-spacing: -0.01em; color: var(--cp-navy); text-wrap: balance; }
+.cp-h3 { font-family: var(--font-display); font-weight: 400; font-size: var(--text-h3); line-height: 1.1;  letter-spacing: -0.01em; color: var(--cp-navy); text-wrap: balance; }
+.cp-h4 { font-family: var(--font-display); font-weight: 500; font-size: var(--text-h4); line-height: 1.15; color: var(--cp-navy); }
+.cp-h5 { font-family: var(--font-body);    font-weight: 600; font-size: var(--text-h5); line-height: 1.2;  color: var(--cp-navy); }
+.cp-h6 { font-family: var(--font-body);    font-weight: 600; font-size: var(--text-h6); line-height: 1.3;  color: var(--cp-navy); }
+.cp-body-lg { font-size: var(--text-body-lg); line-height: 1.55; color: var(--cp-navy); text-wrap: pretty; }
+.cp-body    { font-size: var(--text-body);    line-height: 1.55; color: var(--cp-navy); text-wrap: pretty; }
+.cp-body-sm { font-size: var(--text-body-sm); line-height: 1.5;  color: var(--cp-navy); }
+.cp-caption { font-size: var(--text-caption); line-height: 1.4;  color: var(--neutral-500); }
+
+/* ==========================================================
+   TYPE CLASSES — product UI
+   ========================================================== */
+.ui-h1     { font-family: var(--font-body); font-weight: 700; font-size: var(--ui-text-3xl); line-height: 1.2;  color: var(--ui-text); letter-spacing: -0.01em; }
+.ui-h2     { font-family: var(--font-body); font-weight: 700; font-size: var(--ui-text-2xl); line-height: 1.25; color: var(--ui-text); }
+.ui-h3     { font-family: var(--font-body); font-weight: 700; font-size: var(--ui-text-xl);  line-height: 1.3;  color: var(--ui-text); }
+.ui-h4     { font-family: var(--font-body); font-weight: 700; font-size: var(--ui-text-lg);  line-height: 1.35; color: var(--ui-text); }
+.ui-table-header { font-family: var(--font-body); font-weight: 700; font-size: var(--ui-text-md); line-height: 1; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ui-text); }
+.ui-body   { font-family: var(--font-body); font-size: var(--ui-text-md); line-height: 1.5;  color: var(--ui-text); }
+.ui-body-sm{ font-family: var(--font-body); font-size: var(--ui-text-sm); line-height: 1.5;  color: var(--ui-text); }
+.ui-caption{ font-family: var(--font-body); font-size: var(--ui-text-xs); line-height: 1.4;  color: var(--ui-text-subtle); }
+.ui-mono   { font-family: var(--font-mono); font-size: var(--ui-text-md); line-height: 1.4;  color: var(--ui-text); }
+.ui-deprecated { text-decoration: line-through; color: var(--ui-text-subtle); }
+
+/* Link treatments */
+.ui-link {
+  color: var(--ui-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+.ui-link:hover  { color: var(--ui-primary-hover); }
+.ui-link:active { color: var(--ui-primary-pressed); }
