@@ -134,7 +134,7 @@ function Tooltip({ tip }){
       {t.event && (
         <div className="t-row"><b>Event</b>{fmt(D(t.event), {weekday:'short', month:'short', day:'numeric'})}</div>
       )}
-      <div className="t-row"><b>Owner</b>{t.owner}{t.wa ? ' · W/A' : ''}</div>
+      <div className="t-row"><b>Status</b>{t.status || '—'}{t.wa ? ' · W/A' : ''}</div>
       {t.goals && t.goals.length > 0 && (
         <div className="t-goals">
           {t.goals.map(g => GOAL[g] && (
@@ -479,28 +479,6 @@ function Legend({ filter, setFilter }){
               }}
             >
               {s === 'all' ? 'All' : s === '—' ? 'Unset' : s}
-            </button>
-          ))}
-        </div>
-        <h4 style={{marginTop: 12}}>Filter by owner</h4>
-        <div className="legend-row">
-          {['all','Lauren','Madison','Victoria'].map(o => (
-            <button
-              key={o}
-              onClick={() => setFilter({...filter, owner: filter.owner === o ? 'all' : o})}
-              style={{
-                padding: '5px 10px',
-                fontSize: 11,
-                fontFamily: 'inherit',
-                fontWeight: 600,
-                border: '1px solid ' + (filter.owner === o ? 'var(--cp-navy)' : 'var(--rule)'),
-                background: filter.owner === o ? 'var(--cp-navy)' : 'var(--paper)',
-                color: filter.owner === o ? '#fff' : 'var(--cp-navy)',
-                borderRadius: 4,
-                cursor: 'pointer',
-              }}
-            >
-              {o === 'all' ? 'All' : o}
             </button>
           ))}
         </div>
