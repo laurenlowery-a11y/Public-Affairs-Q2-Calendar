@@ -24,9 +24,6 @@ window.PA_TASKS = [
   { id:'sis', name:'Social Innovation Summit (Atlanta)', section:'External Event Prep', owner:'Lauren', status:'Pending', goals:[], start:'2026-06-02', due:'2026-06-03', notes:'Development Team — attending' },
   { id:'databricks', name:'Databricks Data & AI Summit (San Francisco)', section:'External Event Prep', owner:'Lauren', status:'Pending', goals:[], start:'2026-06-15', due:'2026-06-18', notes:'Development Team — attending' },
 
-  { id:'ggi', name:'Golden Gate Institute Convening w/ Superset', section:'Hosted Convenings', owner:'Madison', status:'Pending', goals:[], due:'2026-05-04' },
-  { id:'chenault', name:'Ken Chenault Co-Hosted Event', section:'Hosted Convenings', owner:'Madison', wa:true, status:'Pending', goals:[], due:'2026-05-04', event:'2026-04-15' },
-  { id:'beacon', name:'Talent Bridge Event w/ Beacon Council', section:'Hosted Convenings', owner:'Madison', status:'Pending', goals:[], due:'2026-05-04', notes:'Target major employers' },
   { id:'webinar', name:'Annual Report Internal Webinar', section:'Hosted Convenings', owner:'Lauren', status:'In Progress', goals:[], due:'2026-05-11' },
   { id:'base10panel', name:'Base 10 + Student + Alumni Panel', section:'Hosted Convenings', owner:'Lauren', status:'In Progress', goals:[], due:'2026-06-09' },
 
@@ -35,10 +32,21 @@ window.PA_TASKS = [
   { id:'salesforce', name:'Salesforce x CodePath Storytelling and Comms', section:'Misc', owner:'Madison', status:'In Progress', goals:[], due:'2026-05-29' },
 
   // ---- Q2 wins (Completed/Cancelled in Q2 window) ----
-  { id:'shonda', name:'Introductions: Shonda Gibson and A&M System', section:'Completed', owner:'Lauren', status:'Completed', goals:[], start:'2026-04-30', due:'2026-06-30', completed:true },
-  { id:'durruthy', name:'Op-Ed w/ Rosanna Durruthy (LinkedIn)', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-06', completed:true },
-  { id:'fortune', name:'Fortune Brand Studio Documentary', section:'Completed', owner:'Lauren', status:'Cancelled', goals:['EM'], due:'2026-05-04', completed:true, notes:'W/A vetted — not pursuing. Charged for the story.' },
+  { id:'wfvideo', name:'WF — Michael Video to be shared', section:'Completed', owner:'Lauren', status:'Completed', goals:['HE','EM'], due:'2026-04-06', completed:true },
+  { id:'wfcharlotte', name:'TBD Charlotte/Wells Fargo Event', section:'Completed', owner:'Madison', status:'Completed', goals:['HE','EM'], due:'2026-04-07', completed:true },
+  { id:'asugsv', name:'Anthropic + CP side event (ASU GSV)', section:'Completed', owner:'Madison', wa:true, status:'Completed', goals:['GP','RT'], due:'2026-04-13', event:'2026-04-13', completed:true },
+  { id:'knightfiu', name:'Knight x FIU x CP S. Florida event (Emerge — Vic)', section:'Completed', owner:'Madison', status:'Completed', goals:['HE'], due:'2026-04-22', event:'2026-04-23', completed:true },
+  { id:'wfpartner', name:'Wells Fargo/Charlotte Partnership', section:'Completed', owner:'Victoria', wa:true, status:'Completed', goals:['HE'], due:'2026-04-22', completed:true },
+  { id:'milkenglobal', name:'Milken Global Dialogues', section:'Completed', owner:'Madison', wa:true, status:'Completed', goals:[], due:'2026-04-27', event:'2026-05-05', completed:true },
   { id:'milkenanthropic', name:'Anthropic + CP side event (Milken Global)', section:'Completed', owner:'Madison', wa:true, status:'Cancelled', goals:['AP','RT'], due:'2026-05-03', event:'2026-05-05', completed:true },
+  { id:'ggi', name:'Golden Gate Institute Convening w/ Superset', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-04', completed:true },
+  { id:'chenault', name:'Ken Chenault Co-Hosted Event', section:'Completed', owner:'Madison', wa:true, status:'Cancelled', goals:[], due:'2026-05-04', event:'2026-04-15', completed:true },
+  { id:'beacon', name:'Talent Bridge Event w/ Beacon Council', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-04', notes:'Target major employers', completed:true },
+  { id:'fortune', name:'Fortune Brand Studio Documentary', section:'Completed', owner:'Lauren', status:'Cancelled', goals:['EM'], due:'2026-05-04', completed:true, notes:'W/A vetted — not pursuing. Charged for the story.' },
+  { id:'durruthy', name:'Op-Ed w/ Rosanna Durruthy (LinkedIn)', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-06', completed:true },
+  { id:'sisreg', name:'Social Innovation Summit: Registrant List Request', section:'Completed', owner:'Lauren', status:'Completed', goals:[], due:'2026-05-07', completed:true, notes:'Requested by Sarah Perry' },
+  { id:'shonda', name:'Introductions: Shonda Gibson and A&M System', section:'Completed', owner:'Lauren', status:'Completed', goals:[], start:'2026-04-30', due:'2026-06-30', completed:true },
+  { id:'ooceoQ2', name:'Q2 OOCEO Quarterly Letter', section:'Completed', owner:'Lauren', status:'Completed', goals:['CI'], due:'2026-06-30', completed:true },
 
   // ---- Beyond Q2 (Q3+) ----
   { id:'jffhorizons', name:'JFF Horizons', section:'External Event Prep', owner:'Madison', wa:true, status:'In Progress', goals:[], due:'2026-07-13', beyond:true },
