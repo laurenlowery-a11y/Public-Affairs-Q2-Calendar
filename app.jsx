@@ -70,7 +70,6 @@ function Pill({ task, onHover, dim }){
       onMouseLeave={() => onHover(null)}
     >
       <span className="name">{task.name}</span>
-      {task.wa && <span className="wa" title="W/A engaged">W/A</span>}
     </div>
   );
 }
@@ -106,7 +105,6 @@ function SpanPill({ task, weekStart, weekEnd, onHover, dim }){
     >
       {continuesLeft && <span style={{opacity:0.6}}>‹</span>}
       <span style={{overflow:'hidden', textOverflow:'ellipsis'}}>{task.name}</span>
-      {task.wa && <span className="own" style={{background:'rgba(0,0,0,0.18)', color:'#fff'}}>W/A</span>}
       {continuesRight && <span style={{opacity:0.6, marginLeft:'auto'}}>›</span>}
     </div>
   );
@@ -129,7 +127,7 @@ function Tooltip({ tip }){
       {t.event && (
         <div className="t-row"><b>Event</b>{fmt(D(t.event), {weekday:'short', month:'short', day:'numeric'})}</div>
       )}
-      <div className="t-row"><b>Status</b>{t.status || '—'}{t.wa ? ' · W/A' : ''}</div>
+      <div className="t-row"><b>Status</b>{t.status || '—'}</div>
       {t.goals && t.goals.length > 0 && (
         <div className="t-goals">
           {t.goals.map(g => GOAL[g] && (
@@ -232,7 +230,7 @@ function App(){
 
       <footer className="foot">
         <div>20 active tasks across 7 workstreams · 9 strategic goal areas · Q2 = May–June 2026</div>
-        <div>Designed for the W/A + OOCEO team · <a href="https://app.asana.com/1/854165295642105/project/1212823017557665" target="_blank" rel="noreferrer">Open in Asana ↗</a></div>
+        <div><a href="https://app.asana.com/1/854165295642105/project/1212823017557665" target="_blank" rel="noreferrer">Open in Asana ↗</a></div>
       </footer>
 
       <Tooltip tip={tip} />
@@ -432,7 +430,6 @@ function Rail({ title, tasks, kind }){
           <div key={t.id} className={'rail-item' + (struck ? ' cancel' : '')}>
             <span className="when">{dueLabel}</span>
             <span className="what">{t.name}{t.notes ? <span style={{color:'var(--neutral-500)', fontSize: 11, fontStyle:'italic'}}> — {t.notes}</span> : ''}</span>
-            {t.wa ? <span className="who">W/A</span> : null}
           </div>
         );
       })}
@@ -450,7 +447,6 @@ function Legend({ filter, setFilter }){
           <div className="legend-key"><span className="swatch" style={{background:'#B243FF'}}></span> Color = primary goal area (Earned Media shown)</div>
           <div className="legend-key"><span className="swatch pat"></span> Diagonal hatch = Pending input/dependency</div>
           <div className="legend-key"><span className="swatch" style={{background:'var(--paper)', border:'1px solid var(--neutral-300)'}}></span> Outline = Not started yet</div>
-          <div className="legend-key"><span style={{fontSize:8, fontWeight:800, background:'var(--cp-navy)', color:'#fff', padding:'1px 4px', borderRadius:2}}>W/A</span> Whiteboard Advisors engaged</div>
           <div className="legend-key"><span style={{fontSize:8, fontWeight:800, background:'rgba(255,255,255,0.85)', color:'var(--cp-navy)', padding:'1px 4px', borderRadius:2, border:'1px solid var(--rule)'}}>LL</span> Owner initials (LL=Lauren · M=Madison · VA=Victoria)</div>
         </div>
       </div>
