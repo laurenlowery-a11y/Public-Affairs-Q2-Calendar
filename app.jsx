@@ -432,9 +432,9 @@ function Rail({ title, tasks, kind }){
       </h3>
       {tasks.map(t => {
         const dueLabel = t.due ? fmt(D(t.due), {month:'short', day:'numeric'}) : 'TBD';
-        const cancelled = t.status === 'Cancelled';
+        const struck = t.status === 'Cancelled' || t.status === 'Completed';
         return (
-          <div key={t.id} className={'rail-item' + (cancelled ? ' cancel' : '')}>
+          <div key={t.id} className={'rail-item' + (struck ? ' cancel' : '')}>
             <span className="when">{dueLabel}</span>
             <span className="what">{t.name}{t.notes ? <span style={{color:'var(--neutral-500)', fontSize: 11, fontStyle:'italic'}}> — {t.notes}</span> : ''}</span>
             <span className="who">{t.owner}{t.wa ? ' · W/A' : ''}</span>
