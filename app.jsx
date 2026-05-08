@@ -163,7 +163,7 @@ function computeGoalCoverage(tasks){
 
 // ---------- Filters / state ----------
 function App(){
-  const [filter, setFilter] = useState({ goal: 'all', owner: 'all', status: 'all' });
+  const [filter, setFilter] = useState({ goal: 'all', owner: 'all', status: 'all', section: 'all' });
   const [tip, setTip] = useState(null);
 
   const onHover = (task, e) => {
@@ -175,6 +175,7 @@ function App(){
     if (filter.goal !== 'all' && !(t.goals||[]).includes(filter.goal)) return true;
     if (filter.owner !== 'all' && t.owner !== filter.owner) return true;
     if (filter.status !== 'all' && t.status !== filter.status) return true;
+    if (filter.section !== 'all' && t.section !== filter.section) return true;
     return false;
   };
 
@@ -227,6 +228,8 @@ function App(){
       </div>
 
       <Legend filter={filter} setFilter={setFilter} />
+
+      <BottomFilters filter={filter} setFilter={setFilter} goalCov={goalCov} sectionCounts={sectionCounts} />
 
       <footer className="foot">
         <div>20 active tasks across 7 workstreams · 9 strategic goal areas · Q2 = May–June 2026</div>
@@ -447,7 +450,6 @@ function Legend({ filter, setFilter }){
           <div className="legend-key"><span className="swatch" style={{background:'#B243FF'}}></span> Color = primary goal area (Earned Media shown)</div>
           <div className="legend-key"><span className="swatch pat"></span> Diagonal hatch = Pending input/dependency</div>
           <div className="legend-key"><span className="swatch" style={{background:'var(--paper)', border:'1px solid var(--neutral-300)'}}></span> Outline = Not started yet</div>
-          <div className="legend-key"><span style={{fontSize:8, fontWeight:800, background:'rgba(255,255,255,0.85)', color:'var(--cp-navy)', padding:'1px 4px', borderRadius:2, border:'1px solid var(--rule)'}}>LL</span> Owner initials (LL=Lauren · M=Madison · VA=Victoria)</div>
         </div>
       </div>
       <div>
@@ -474,6 +476,76 @@ function Legend({ filter, setFilter }){
           ))}
         </div>
       </div>
+    </div>
+  );
+}
+
+// ---------- Bottom filters ----------
+function BottomFilters({ filter, setFilter, goalCov, sectionCounts }){
+  const goalOrder = ['EM','CI','HE','PR','ES','RT','GP','ER','AP'];
+  const sectionOrder = ['Media Relations','Content Development','Recognition / Awards','Hosted Convenings','External Event Prep','Government Relations','Misc'];
+
+  const btnStyle = (active, color) => ({
+    padding: '8px 14px',
+    fontSize: 12,
+    fontFamily: 'inherit',
+    fontWeight: 700,
+    border: '1.5px solid ' + (active ? 'var(--cp-navy)' : 'var(--rule)'),
+    background: active ? (color || 'var(--cp-navy)') : 'var(--paper)',
+    color: active ? (color ? 'var(--cp-navy)' : '#fff') : 'var(--cp-navy)',
+    borderRadius: 6,
+    cursor: 'pointer',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 8,
+    transition: 'all 0.15s',
+  });
+
+  return (
+    <div className="bottom-filters" style={{marginTop: 32, padding: 24, background: 'var(--paper)', border: '1px solid var(--rule)', borderRadius: 10}}>
+      <div style={{marginBottom: 24}}>
+        <h4 style={{fontFamily:'var(--font-display)', fontSize: 14, fontWeight: 800, letterSpacing:'0.08em', textTransform:'uppercase', color:'var(--neutral-600)', margin:'0 0 12px'}}>Filter by Goal Coverage</h4>
+        <div style={{display:'flex', flexWrap:'wrap', gap: 8}}>
+          <button onClick={() => setFilter({...filter, goal: 'all'})} style={btnStyle(filter.goal === 'all')}>All goals</button>
+          {goalOrder.map(g => {
+            const meta = GOAL[g]; const n = goalCov[g] || 0;
+            if (!n) return null;
+            const active = filter.goal === g;
+            return (
+              <button key={g} onClick={() => setFilter({...filter, goal: active ? 'all' : g})} style={btnStyle(active, meta.color)}>
+                <span style={{width:10, height:10, borderRadius:2, background: meta.color, display:'inline-block'}}></span>
+                {meta.label}
+                <span style={{fontFamily:'var(--font-mono)', fontSize: 10, opacity: 0.7}}>{n}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div>
+        <h4 style={{fontFamily:'var(--font-display)', fontSize: 14, fontWeight: 800, letterSpacing:'0.08em', textTransform:'uppercase', color:'var(--neutral-600)', margin:'0 0 12px'}}>Filter by Workstream</h4>
+        <div style={{display:'flex', flexWrap:'wrap', gap: 8}}>
+          <button onClick={() => setFilter({...filter, section: 'all'})} style={btnStyle(filter.section === 'all')}>All workstreams</button>
+          {sectionOrder.map(s => {
+            const n = sectionCounts[s] || 0;
+            if (!n) return null;
+            const active = filter.section === s;
+            return (
+              <button key={s} onClick={() => setFilter({...filter, section: active ? 'all' : s})} style={btnStyle(active)}>
+                {s}
+                <span style={{fontFamily:'var(--font-mono)', fontSize: 10, opacity: 0.7}}>{n}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {(filter.goal !== 'all' || filter.section !== 'all' || filter.status !== 'all') && (
+        <div style={{marginTop: 20, paddingTop: 16, borderTop: '1px solid var(--rule)', display:'flex', alignItems:'center', gap: 12, flexWrap:'wrap'}}>
+          <span style={{fontSize: 11, color:'var(--neutral-600)', fontWeight: 600, letterSpacing:'0.04em', textTransform:'uppercase'}}>Active filters → dimmed pills don't match</span>
+          <button onClick={() => setFilter({goal:'all', owner:'all', status:'all', section:'all'})} style={{...btnStyle(false), border:'1.5px solid var(--cp-navy)', background:'var(--cp-navy)', color:'#fff'}}>Clear all filters</button>
+        </div>
+      )}
     </div>
   );
 }
