@@ -2,7 +2,7 @@
 // To change the passcode, edit the PASSCODE value below.
 // To remove the gate, delete the <script src="gate.js"> line from each HTML file.
 (function(){
-  var PASSCODE = 'wa2026';
+  var PASSCODE = 'OOCEO+W/AQ2';
   var KEY = 'wa-q2-gate-ok';
   if (sessionStorage.getItem(KEY) === '1' || localStorage.getItem(KEY) === '1') return;
 
