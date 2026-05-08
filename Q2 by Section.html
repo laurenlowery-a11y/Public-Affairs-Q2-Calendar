@@ -59,11 +59,8 @@
   .task .ctx .goal{ font-size:9.5px; font-weight:700; padding:2px 6px; border-radius:3px; letter-spacing:0.02em; }
   .task .right{ display:flex; gap:6px; align-items:center; flex-shrink:0; margin-top:2px; }
 
-  /* Owner chip */
-  .own{ font-size:9.5px; font-weight:800; padding:2px 7px; border-radius:4px; letter-spacing:0.04em; background:#F5F5F5; color:var(--cp-navy); white-space:nowrap; align-self:flex-start; }
-  .own.lauren{ background:#E9EBFF; color:#2F3899; }
-  .own.madison{ background:#F4E5FF; color:#7A1FB8; }
-  .own.victoria{ background:#D7FFEE; color:#00734F; }
+  /* Owner chip — hidden */
+  .own, .task .right{ display:none !important; }
 
   /* Footer */
   .foot{ margin-top:28px; padding-top:14px; border-top:1px solid var(--rule); font-size:11px; color:var(--neutral-500); display:flex; justify-content:space-between; gap:16px; }
@@ -119,28 +116,24 @@
           <div class="name">Forbes CIR Pitch <span class="wa">W/A</span></div>
           <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">The Atlantic — Quote + Intro Call</div>
           <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Wells Fargo Press Release</div>
           <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span><span class="goal" style="background:#FFEDF0; color:#A60C46;">Earned Revenue</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Quarterly Engineering Survey</div>
           <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
     </div>
   </section>
@@ -165,35 +158,30 @@
           <div class="name">Op-Ed with Stephen Moret &amp; Michael Ellison <span class="wa">W/A</span></div>
           <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span><span class="goal" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr</span></div>
         </div>
-        <div class="right"><span class="own madison">Madison</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Op-Ed with Ade (Base10 Founder) + Michael</div>
           <div class="ctx"><span style="font-style:italic; color:var(--neutral-500);">Goal TBD</span></div>
         </div>
-        <div class="right"><span class="own madison">Madison</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">New Profit Story</div>
           <div class="ctx"><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">CodePath / OOCEO Quarterly Letters</div>
           <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Faculty Op-Ed Pipeline</div>
           <div class="ctx"><span class="goal" style="background:#E9F6FF; color:#0070A8;">Higher Ed</span><span class="goal" style="background:#D7FFEE; color:#00734F;">Earned Media</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
     </div>
   </section>
@@ -218,28 +206,24 @@
           <div class="name">Awards target list creation</div>
           <div class="ctx"><span class="goal" style="background:#FEA08D; color:#1B1C57;">Public Recognition</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Awards rolling submissions</div>
           <div class="ctx"><span class="goal" style="background:#FEA08D; color:#1B1C57;">Public Recognition</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Events &amp; Speaking — target list creation</div>
           <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">Events &amp; Speaking</span><span class="goal" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr</span><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Events &amp; Speaking — rolling approvals</div>
           <div class="ctx"><span class="goal" style="background:#FFEDF0; color:#A60C46;">Events &amp; Speaking</span><span class="goal" style="background:#F4E5FF; color:#7A1FB8;">Research / Thought Ldr</span><span class="goal" style="background:#FFEDF0; color:#A60C46;">CEO Influence</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
     </div>
   </section>
@@ -261,21 +245,18 @@
           <div class="name">Development Team Offsite (Louisville, KY)</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Internal alignment</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Social Innovation Summit (Atlanta)</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Development team — attending</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Databricks Data &amp; AI Summit (San Francisco)</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Development team — attending</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
     </div>
   </section>
@@ -297,35 +278,30 @@
           <div class="name">Golden Gate Institute Convening w/ Superset</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Partner convening</span></div>
         </div>
-        <div class="right"><span class="own madison">Madison</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Ken Chenault Co-Hosted Event <span class="wa">W/A</span></div>
           <div class="ctx"><span style="color:var(--neutral-500);">High-profile co-host</span></div>
         </div>
-        <div class="right"><span class="own madison">Madison</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Talent Bridge Event w/ Beacon Council</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Target major employers</span></div>
         </div>
-        <div class="right"><span class="own madison">Madison</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Annual Report Internal Webinar</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Stakeholder share-out</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
       <div class="task">
         <div class="what">
           <div class="name">Base 10 + Student + Alumni Panel</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Investor + community surface</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
     </div>
   </section>
@@ -347,7 +323,6 @@
           <div class="name">Learning + Strategy call w/ Wallerstein + Michael</div>
           <div class="ctx"><span class="goal" style="background:#FFF6BF; color:#7A5A00;">Govt &amp; Public Sector</span></div>
         </div>
-        <div class="right"><span class="own lauren">Lauren</span></div>
       </div>
     </div>
   </section>
@@ -369,7 +344,6 @@
           <div class="name">Salesforce x CodePath Storytelling and Comms</div>
           <div class="ctx"><span style="color:var(--neutral-500);">Partner narrative development</span></div>
         </div>
-        <div class="right"><span class="own madison">Madison</span></div>
       </div>
     </div>
   </section>
