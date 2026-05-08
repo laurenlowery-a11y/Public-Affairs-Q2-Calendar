@@ -60,7 +60,6 @@ function Pill({ task, onHover, dim }){
   const meta = goal ? GOAL[goal] : null;
   const bg = meta ? meta.color : '#E5E5E5';
   const ink = meta ? meta.ink : '#1B1C57';
-  const own = OWNER[task.owner];
   return (
     <div
       className={'pill' + (dim ? ' dim' : '')}
@@ -70,7 +69,6 @@ function Pill({ task, onHover, dim }){
       onMouseMove={(e) => onHover(task, e)}
       onMouseLeave={() => onHover(null)}
     >
-      <span className="own" title={task.owner} style={own ? {color: own.color} : {}}>{own ? own.initials : '·'}</span>
       <span className="name">{task.name}</span>
       {task.wa && <span className="wa" title="W/A engaged">W/A</span>}
     </div>
@@ -90,7 +88,6 @@ function SpanPill({ task, weekStart, weekEnd, onHover, dim }){
   const meta = goal ? GOAL[goal] : null;
   const bg = meta ? meta.color : '#E5E5E5';
   const ink = meta ? meta.ink : '#1B1C57';
-  const own = OWNER[task.owner];
   return (
     <div
       className={'span-pill' + (dim ? ' dim' : '')}
@@ -108,7 +105,6 @@ function SpanPill({ task, weekStart, weekEnd, onHover, dim }){
       onMouseLeave={() => onHover(null)}
     >
       {continuesLeft && <span style={{opacity:0.6}}>‹</span>}
-      <span className="own" style={own ? {color: own.color} : {}}>{own ? own.initials : '·'}</span>
       <span style={{overflow:'hidden', textOverflow:'ellipsis'}}>{task.name}</span>
       {task.wa && <span className="own" style={{background:'rgba(0,0,0,0.18)', color:'#fff'}}>W/A</span>}
       {continuesRight && <span style={{opacity:0.6, marginLeft:'auto'}}>›</span>}
@@ -120,7 +116,6 @@ function SpanPill({ task, weekStart, weekEnd, onHover, dim }){
 function Tooltip({ tip }){
   if (!tip) return null;
   const t = tip.task;
-  const own = OWNER[t.owner];
   return (
     <div className="tip show" style={{ left: tip.x + 14, top: tip.y + 14 }}>
       <div className="t-title">{t.name}</div>
@@ -437,7 +432,7 @@ function Rail({ title, tasks, kind }){
           <div key={t.id} className={'rail-item' + (struck ? ' cancel' : '')}>
             <span className="when">{dueLabel}</span>
             <span className="what">{t.name}{t.notes ? <span style={{color:'var(--neutral-500)', fontSize: 11, fontStyle:'italic'}}> — {t.notes}</span> : ''}</span>
-            <span className="who">{t.owner}{t.wa ? ' · W/A' : ''}</span>
+            {t.wa ? <span className="who">W/A</span> : null}
           </div>
         );
       })}
