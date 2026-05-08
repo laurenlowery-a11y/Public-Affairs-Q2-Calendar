@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-08T15:36:48.304Z
+// Last updated: 2026-05-08T16:01:43.086Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -226,7 +226,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-05-08",
+    "due": "2026-05-29",
     "event": null,
     "notes": ""
   },
@@ -399,20 +399,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a336915",
-    "gid": "1213399863336915",
-    "name": "Golden Gate Institute Convening w/ Superset",
-    "section": "Hosted Convenings",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a336922",
     "gid": "1213399863336922",
     "name": "State of Maryland + Anthropic (JFF Horizons)",
@@ -425,34 +411,6 @@ window.PA_TASKS = [
     "due": "2026-07-13",
     "event": null,
     "notes": ""
-  },
-  {
-    "id": "a503394",
-    "gid": "1212941263503394",
-    "name": "Ken Chenault Co-Hosted Event",
-    "section": "Hosted Convenings",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a184821",
-    "gid": "1213106556184821",
-    "name": "Talent Bridge Event w/ Beacon Council",
-    "section": "Hosted Convenings",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": "Target major employers"
   },
   {
     "id": "a623843",
@@ -551,6 +509,48 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-05-29",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a184821",
+    "gid": "1213106556184821",
+    "name": "Talent Bridge Event w/ Beacon Council",
+    "section": "Completed",
+    "owner": "Madison",
+    "wa": false,
+    "status": "Cancelled",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-04",
+    "event": null,
+    "notes": "Target major employers"
+  },
+  {
+    "id": "a503394",
+    "gid": "1212941263503394",
+    "name": "Ken Chenault Co-Hosted Event",
+    "section": "Completed",
+    "owner": "Madison",
+    "wa": false,
+    "status": "Cancelled",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-04",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a336915",
+    "gid": "1213399863336915",
+    "name": "Golden Gate Institute Convening w/ Superset",
+    "section": "Completed",
+    "owner": "Madison",
+    "wa": false,
+    "status": "Cancelled",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-04",
     "event": null,
     "notes": ""
   },
