@@ -1,33 +1,41 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-08T18:36:30.472Z
+// Last updated: 2026-05-08T18:45:55.929Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
 
 window.PA_TASKS = [
   {
-    "id": "a912058",
-    "gid": "1213561203912058",
-    "name": "Forbes CIR Pitch",
-    "section": "Media Relations",
-    "owner": "Lauren",
-    "wa": false,
+    "id": "a557673",
+    "gid": "1212823017557673",
+    "name": "Wells Fargo/Charlotte Partnership ",
+    "section": "Completed",
     "status": "In Progress",
     "goals": [
-      "EM"
+      "HE"
     ],
-    "start": "2026-05-06",
-    "due": "2026-06-30",
+    "start": null,
+    "due": "2026-04-22",
+    "event": "2026-03-02",
+    "notes": ""
+  },
+  {
+    "id": "a346341",
+    "gid": "1214559832346341",
+    "name": "Social Innovation Summit: Registrant List Request (by Sarah Perry)",
+    "section": "Completed",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-07",
     "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+    "notes": ""
   },
   {
     "id": "a772864",
     "gid": "1214389801772864",
     "name": "The Atlantic - Quote + Intro Call",
     "section": "Media Relations",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
     "goals": [
       "CI"
@@ -42,8 +50,6 @@ window.PA_TASKS = [
     "gid": "1214390333117289",
     "name": "WF Press Release",
     "section": "Media Relations",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
     "goals": [
       "EM",
@@ -55,75 +61,10 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a117328",
-    "gid": "1214390333117328",
-    "name": "Quarterly Engineering Survey",
-    "section": "Media Relations",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Pending more info "
-  },
-  {
-    "id": "a253979",
-    "gid": "1212879831253979",
-    "name": "Op-ED with Stephen Moret & Michael Ellison",
-    "section": "Content Development",
-    "owner": "Madison",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": "2026-02-09",
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a253998",
-    "gid": "1212879831253998",
-    "name": "FIU Case Study",
-    "section": "Content Development",
-    "owner": "Victoria",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-08-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503365",
-    "gid": "1212941263503365",
-    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
-    "section": "Content Development",
-    "owner": "Madison",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-14",
-    "event": "2026-03-31",
-    "notes": ""
-  },
-  {
     "id": "a772860",
     "gid": "1214389801772860",
     "name": "New Profit Story",
     "section": "Content Development",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
     "goals": [
       "EM"
@@ -134,29 +75,60 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a117314",
-    "gid": "1214390333117314",
-    "name": "Faculty Op-Ed Pipeline",
+    "id": "a503365",
+    "gid": "1212941263503365",
+    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
     "section": "Content Development",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-14",
+    "event": "2026-03-31",
+    "notes": ""
+  },
+  {
+    "id": "a117306",
+    "gid": "1214390333117306",
+    "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
+    "section": "Government Relations",
+    "status": "Not Started",
     "goals": [
-      "HE",
-      "EM"
+      "GP"
     ],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
+    "start": null,
+    "due": "2026-05-14",
     "event": null,
-    "notes": "Goal is Q2, dependent on engagement from contacts"
+    "notes": ""
+  },
+  {
+    "id": "a937199",
+    "gid": "1213636095937199",
+    "name": "Development Team Offsite (Louisville, KY)",
+    "section": "External Event Prep",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-18",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Annual Report Internal Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-27",
+    "event": null,
+    "notes": ""
   },
   {
     "id": "a117311",
     "gid": "1214390333117311",
     "name": "Target List Creation",
     "section": "Recognition/Awards/Vetted Opportunities",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
     "goals": [
       "PR"
@@ -167,45 +139,10 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a919554",
-    "gid": "1214480780919554",
-    "name": "Rolling Basis Submissions",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Not Started",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919568",
-    "gid": "1214480780919568",
-    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Not Started",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a919563",
     "gid": "1214480780919563",
     "name": "Target List Creation (Events + Speaking Opportunities)",
     "section": "Recognition/Awards/Vetted Opportunities",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
     "goals": [
       "RT",
@@ -221,280 +158,10 @@ window.PA_TASKS = [
     "gid": "1214621790888173",
     "name": "AI for Humanity Awards ",
     "section": "Recognition/Awards/Vetted Opportunities",
-    "owner": "Lauren",
-    "wa": false,
     "status": "In Progress",
     "goals": [],
     "start": null,
     "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503338",
-    "gid": "1212941263503338",
-    "name": "UNCF Unite",
-    "section": "External Event Prep",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-15",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503406",
-    "gid": "1212941263503406",
-    "name": "JFF Horizons",
-    "section": "External Event Prep",
-    "owner": "Madison",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a937199",
-    "gid": "1213636095937199",
-    "name": "Development Team Offsite (Louisville, KY)",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-18",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a937202",
-    "gid": "1213636095937202",
-    "name": "Social Innovation Summit (Atlanta)",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-06-02",
-    "due": "2026-06-03",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a937206",
-    "gid": "1213636095937206",
-    "name": "Databricks Data & AI Summit (San Francisco)",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-06-15",
-    "due": "2026-06-18",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a937213",
-    "gid": "1213636095937213",
-    "name": "Ed Tech Week (New York)",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-10-20",
-    "due": "2026-10-22",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a578543",
-    "gid": "1213636150578543",
-    "name": "SOCAP Global (San Francisco)",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-10-27",
-    "due": "2026-10-29",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a578548",
-    "gid": "1213636150578548",
-    "name": "TechCrunch Disrupt (San Francisco)",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-10-27",
-    "due": "2026-10-29",
-    "event": null,
-    "notes": "Development Team Event - Attending"
-  },
-  {
-    "id": "a578553",
-    "gid": "1213636150578553",
-    "name": "Human Potential Summit",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-11-12",
-    "due": "2026-11-13",
-    "event": null,
-    "notes": "Development Team Event -Attending"
-  },
-  {
-    "id": "a782368",
-    "gid": "1214083027782368",
-    "name": "ASU GSV",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2027-04-05",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a117334",
-    "gid": "1214390333117334",
-    "name": "Semafor",
-    "section": "External Event Prep",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Not Started",
-    "goals": [],
-    "start": null,
-    "due": "2026-11-02",
-    "event": null,
-    "notes": "https://events.semafor.com/svw2026apply/11877241?ref=PR"
-  },
-  {
-    "id": "a336912",
-    "gid": "1213399863336912",
-    "name": "Student Activation w/ Comcast",
-    "section": "Hosted Convenings",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-11-02",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a336922",
-    "gid": "1213399863336922",
-    "name": "State of Maryland + Anthropic (JFF Horizons)",
-    "section": "Hosted Convenings",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a623843",
-    "gid": "1213571840623843",
-    "name": "Maryland AI Roundtable",
-    "section": "Hosted Convenings",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a727287",
-    "gid": "1213876993727287",
-    "name": "JFF Horizons - Knowledge Network Kickoff",
-    "section": "Hosted Convenings",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Annual Report Internal Webinar",
-    "section": "Hosted Convenings",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a984781",
-    "gid": "1213887260984781",
-    "name": "Base 10 + Student + Alumni Panel",
-    "section": "Hosted Convenings",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-09",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a013947",
-    "gid": "1214149663013947",
-    "name": "Shultz Convening",
-    "section": "Hosted Convenings",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-31",
-    "event": null,
-    "notes": "See Vic for more details"
-  },
-  {
-    "id": "a117306",
-    "gid": "1214390333117306",
-    "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
-    "section": "Government Relations",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Not Started",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-05-14",
     "event": null,
     "notes": ""
   },
@@ -503,8 +170,6 @@ window.PA_TASKS = [
     "gid": "1212879831254018",
     "name": "Salesforce x CodePath Storytelling and Comms",
     "section": "Miscellaneous Asks (Dates to be Determined)",
-    "owner": "Madison",
-    "wa": false,
     "status": "In Progress",
     "goals": [],
     "start": null,
@@ -513,12 +178,331 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a919554",
+    "gid": "1214480780919554",
+    "name": "Rolling Basis Submissions",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "Not Started",
+    "goals": [
+      "PR"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a919568",
+    "gid": "1214480780919568",
+    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "Not Started",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a937202",
+    "gid": "1213636095937202",
+    "name": "Social Innovation Summit (Atlanta)",
+    "section": "External Event Prep",
+    "status": "Pending",
+    "goals": [],
+    "start": "2026-06-02",
+    "due": "2026-06-03",
+    "event": null,
+    "notes": "Development Team Event-Attending"
+  },
+  {
+    "id": "a984781",
+    "gid": "1213887260984781",
+    "name": "Base 10 + Student + Alumni Panel",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-09",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a937206",
+    "gid": "1213636095937206",
+    "name": "Databricks Data & AI Summit (San Francisco)",
+    "section": "External Event Prep",
+    "status": "Pending",
+    "goals": [],
+    "start": "2026-06-15",
+    "due": "2026-06-18",
+    "event": null,
+    "notes": "Development Team Event-Attending"
+  },
+  {
+    "id": "a912058",
+    "gid": "1213561203912058",
+    "name": "Forbes CIR Pitch",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-05-06",
+    "due": "2026-06-30",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a117328",
+    "gid": "1214390333117328",
+    "name": "Quarterly Engineering Survey",
+    "section": "Media Relations",
+    "status": "Pending",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-04-30",
+    "due": "2026-06-30",
+    "event": null,
+    "notes": "Pending more info "
+  },
+  {
+    "id": "a253979",
+    "gid": "1212879831253979",
+    "name": "Op-ED with Stephen Moret & Michael Ellison",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "RT"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-06-30",
+    "event": "2026-02-09",
+    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a117314",
+    "gid": "1214390333117314",
+    "name": "Faculty Op-Ed Pipeline",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "HE",
+      "EM"
+    ],
+    "start": "2026-04-30",
+    "due": "2026-06-30",
+    "event": null,
+    "notes": "Goal is Q2, dependent on engagement from contacts"
+  },
+  {
+    "id": "a184790",
+    "gid": "1213106556184790",
+    "name": "Q2 OOCEO Quarterly Letter",
+    "section": "Completed",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-06-30",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a503406",
+    "gid": "1212941263503406",
+    "name": "JFF Horizons",
+    "section": "External Event Prep",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-13",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a336922",
+    "gid": "1213399863336922",
+    "name": "State of Maryland + Anthropic (JFF Horizons)",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-13",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a727287",
+    "gid": "1213876993727287",
+    "name": "JFF Horizons - Knowledge Network Kickoff",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-13",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a503338",
+    "gid": "1212941263503338",
+    "name": "UNCF Unite",
+    "section": "External Event Prep",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a623843",
+    "gid": "1213571840623843",
+    "name": "Maryland AI Roundtable",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-27",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a253998",
+    "gid": "1212879831253998",
+    "name": "FIU Case Study",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "HE"
+    ],
+    "start": null,
+    "due": "2026-08-03",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a013947",
+    "gid": "1214149663013947",
+    "name": "Shultz Convening",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-31",
+    "event": null,
+    "notes": "See Vic for more details",
+    "beyond": true
+  },
+  {
+    "id": "a461019",
+    "gid": "1213887050461019",
+    "name": "WF - Michael Video to be shared",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "HE",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-04-06",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a801634",
+    "gid": "1213345842801634",
+    "name": "TBD Charlotte/Wells Fargo Event",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "HE",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-04-07",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a503375",
+    "gid": "1212941263503375",
+    "name": "Anthropic + CP side event (ASU GSV) ",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "GP",
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-04-13",
+    "event": null,
+    "notes": "ASU GSV",
+    "completed": true
+  },
+  {
+    "id": "a503399",
+    "gid": "1212941263503399",
+    "name": "Knight x FIU x CP S. Florida event (Emerge - Vic Attendance Only)",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "HE"
+    ],
+    "start": null,
+    "due": "2026-04-22",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a503389",
+    "gid": "1212941263503389",
+    "name": "Milken Global Dialogues",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-04-27",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a503384",
+    "gid": "1212941263503384",
+    "name": "Anthropic + CP side event (Milken Global) ",
+    "section": "Completed",
+    "status": "Cancelled",
+    "goals": [
+      "AP",
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-05-03",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a184821",
     "gid": "1213106556184821",
     "name": "Talent Bridge Event w/ Beacon Council",
     "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
     "status": "Cancelled",
     "goals": [],
     "start": null,
@@ -531,8 +515,6 @@ window.PA_TASKS = [
     "gid": "1212941263503394",
     "name": "Ken Chenault Co-Hosted Event",
     "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
     "status": "Cancelled",
     "goals": [],
     "start": null,
@@ -545,8 +527,6 @@ window.PA_TASKS = [
     "gid": "1213399863336915",
     "name": "Golden Gate Institute Convening w/ Superset",
     "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
     "status": "Cancelled",
     "goals": [],
     "start": null,
@@ -555,84 +535,10 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a346341",
-    "gid": "1214559832346341",
-    "name": "Social Innovation Summit: Registrant List Request (by Sarah Perry)",
-    "section": "Completed",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-07",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a184790",
-    "gid": "1213106556184790",
-    "name": "Q2 OOCEO Quarterly Letter",
-    "section": "Completed",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503389",
-    "gid": "1212941263503389",
-    "name": "Milken Global Dialogues",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-04-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a117295",
-    "gid": "1214390333117295",
-    "name": "Introductions: Shonda Gibson and A&M System",
-    "section": "Completed",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a621029",
-    "gid": "1213546479621029",
-    "name": "Op Ed w/ Rosanna Durruthy (LinkedIn)",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Cancelled",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-06",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a476520",
     "gid": "1214429614476520",
     "name": "Fortune Brand Studio Documentary ",
     "section": "Completed",
-    "owner": "Lauren",
-    "wa": false,
     "status": "Cancelled",
     "goals": [
       "EM"
@@ -643,473 +549,31 @@ window.PA_TASKS = [
     "notes": "W/A vetted, we should not pursue. Not good ROI, and we're charged for the story. "
   },
   {
-    "id": "a503399",
-    "gid": "1212941263503399",
-    "name": "Knight x FIU x CP S. Florida event (Emerge - Vic Attendance Only)",
+    "id": "a621029",
+    "gid": "1213546479621029",
+    "name": "Op Ed w/ Rosanna Durruthy (LinkedIn)",
     "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-04-22",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a557673",
-    "gid": "1212823017557673",
-    "name": "Wells Fargo/Charlotte Partnership ",
-    "section": "Completed",
-    "owner": "Victoria",
-    "wa": false,
-    "status": "In Progress",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-04-22",
-    "event": "2026-03-02",
-    "notes": ""
-  },
-  {
-    "id": "a503384",
-    "gid": "1212941263503384",
-    "name": "Anthropic + CP side event (Milken Global) ",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Cancelled",
-    "goals": [
-      "AP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-05-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503375",
-    "gid": "1212941263503375",
-    "name": "Anthropic + CP side event (ASU GSV) ",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "GP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-04-13",
-    "event": null,
-    "notes": "ASU GSV"
-  },
-  {
-    "id": "a801634",
-    "gid": "1213345842801634",
-    "name": "TBD Charlotte/Wells Fargo Event",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-04-07",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a461019",
-    "gid": "1213887050461019",
-    "name": "WF - Michael Video to be shared",
-    "section": "Completed",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-04-06",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a254001",
-    "gid": "1212879831254001",
-    "name": "Follow up w/ Lindsay Ellis, WSJ",
-    "section": "Completed",
-    "owner": "",
-    "wa": false,
     "status": "Cancelled",
     "goals": [],
     "start": null,
-    "due": null,
-    "event": null,
-    "notes": "Check with Ben what this means. Discuss follow ups and next steps"
-  },
-  {
-    "id": "a254016",
-    "gid": "1212879831254016",
-    "name": "Newsweek AI Impact Award",
-    "section": "Completed",
-    "owner": "",
-    "wa": false,
-    "status": "Cancelled",
-    "goals": [],
-    "start": null,
-    "due": null,
+    "due": "2026-05-06",
     "event": null,
     "notes": ""
   },
   {
-    "id": "a815726",
-    "gid": "1213198222815726",
-    "name": "Tour the Floor w/ Base10",
+    "id": "a117295",
+    "gid": "1214390333117295",
+    "name": "Introductions: Shonda Gibson and A&M System",
     "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-03-18",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503362",
-    "gid": "1212941263503362",
-    "name": "Base10 Roundtable NYC",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-03-17",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a815723",
-    "gid": "1213198222815723",
-    "name": "Base10 Educating in the Age of AI panel",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
     "status": "Completed",
     "goals": [],
-    "start": null,
-    "due": "2026-03-16",
+    "start": "2026-04-30",
+    "due": "2026-06-30",
     "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503324",
-    "gid": "1212941263503324",
-    "name": "SXSW Edu",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "AP",
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-03-09",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a573224",
-    "gid": "1213143811573224",
-    "name": "Base10 Roundtable SF",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-03-04",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a031158",
-    "gid": "1212990695031158",
-    "name": "HCZ Intro by Ben Wallerstein",
-    "section": "Completed",
-    "owner": "watsky@whiteboardadvisors.com",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-02-04",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a227971",
-    "gid": "1213040029227971",
-    "name": "Base 10 SF Event-Berkeley Center for Research on Expanding Edu Opportunities",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-03-03",
-    "event": null,
-    "notes": "Chris Coleman speaking"
-  },
-  {
-    "id": "a503341",
-    "gid": "1212941263503341",
-    "name": "HBCU Aware Fest",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Cancelled",
-    "goals": [
-      "AP",
-      "HE",
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-03-23",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503368",
-    "gid": "1212941263503368",
-    "name": "ATL Salon",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Cancelled",
-    "goals": [
-      "AP",
-      "HE",
-      "GP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-03-26",
-    "event": null,
-    "notes": "To take advantage of HBCU aware fest"
-  },
-  {
-    "id": "a503328",
-    "gid": "1212941263503328",
-    "name": "Knight Media Forum Event Prep",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "GP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-02-06",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503302",
-    "gid": "1212941263503302",
-    "name": "2025 Public Affairs Strategy",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "AP",
-      "HE",
-      "GP",
-      "EM",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-01-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a821150",
-    "gid": "1212992560821150",
-    "name": "Salon Dinner Event Prep w/ Michael",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-02-06",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a253977",
-    "gid": "1212879831253977",
-    "name": "Anthropic Partnership Announcement",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "AP",
-      "EM",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-02-12",
-    "event": "2026-02-10",
-    "notes": ""
-  },
-  {
-    "id": "a503351",
-    "gid": "1212941263503351",
-    "name": "Miami Salon",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "GP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-02-09",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a815729",
-    "gid": "1213198222815729",
-    "name": "Media Mention: University Business Published Piece",
-    "section": "Completed",
-    "owner": "",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-02-09",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a689482",
-    "gid": "1212941042689482",
-    "name": "South Florida Impact 2-Pager",
-    "section": "Completed",
-    "owner": "Victoria",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-01-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503316",
-    "gid": "1212941263503316",
-    "name": "Milken S Florida Dialogues",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [
-      "AP",
-      "GP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-01-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503285",
-    "gid": "1212941263503285",
-    "name": "Draft of CodePath materials sent to Anthropic team",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-01-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a254012",
-    "gid": "1212879831254012",
-    "name": "Preston Fore, Fortune",
-    "section": "Completed",
-    "owner": "Lauren",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": null,
-    "event": "2025-12-18",
-    "notes": "Pitched reactions to NSC data. Isn't going to write immediately but want to be kept apprised on the topic; good candidate for hiring survey"
-  },
-  {
-    "id": "a253992",
-    "gid": "1212879831253992",
-    "name": "Freeman + Michael Intro",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": null,
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503347",
-    "gid": "1212941263503347",
-    "name": "Freeman intro to Michael",
-    "section": "Completed",
-    "owner": "Madison",
-    "wa": false,
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": null,
-    "event": null,
-    "notes": ""
+    "notes": "",
+    "completed": true
   }
 ];
-
-// Goal / status / owner metadata is preserved from the original file;
-// re-inject if you regenerated tasks-data.js from scratch.
 
 window.PA_GOAL_META = {
   AP: { label:'Anthropic Partnership', color:'#00C385', ink:'#062F54' },
