@@ -1,13 +1,13 @@
 // Pulls the Public Affairs Project Tracker from Asana and regenerates tasks-data.js
 // Runs in GitHub Actions; reads ASANA_TOKEN + ASANA_PROJECT_ID from env.
 //
-// Custom field mapping (best-effort — adjust GOAL_MAP if Asana field labels change):
-//   "Notes" -> notes
-//   "Goal" / "Strategic Goal" / "Goals" -> goals[] (multi-enum or enum)
-//   "Publish Date" / "Event Date" -> event
-//   "W/A" / "Wallerstein/Anthropic" -> wa (true if any value)
+// Filtering rules (matches what the calendar UI expects):
+//   - Active tasks with due in Q2 window (Apr 1 – Jun 30, 2026)        -> main set
+//   - Active tasks with due in Q3 window (Jul 1 – Sep 30, 2026)        -> beyond:true ("On the Horizon")
+//   - Completed/Cancelled with due >= Apr 1, 2026                       -> Wins (kept in main set, status drives rendering)
+//   - Everything else (no due date, due before Apr 1, due after Sep 30) -> dropped
 //
-// Anything we don't recognize is preserved as-is (silent fallback to existing fields).
+// Privacy: owner names and W/A flag are stripped from output.
 
 const fs = require('fs');
 const https = require('https');
@@ -18,6 +18,12 @@ if (!TOKEN || !PROJECT_ID) {
   console.error('Missing ASANA_TOKEN or ASANA_PROJECT_ID');
   process.exit(1);
 }
+
+// Q2 / Q3 windows
+const Q2_START = '2026-04-01';
+const Q2_END   = '2026-06-30';
+const Q3_START = '2026-07-01';
+const Q3_END   = '2026-09-30';
 
 // Map Asana goal labels -> short codes used by the calendar UI
 const GOAL_MAP = {
@@ -57,7 +63,6 @@ function api(path) {
 }
 
 function statusFromCustomField(t) {
-  // Asana "Status" or "Progress" enum custom field
   const cf = (t.custom_fields || []).find(f => /status|progress/i.test(f.name || ''));
   if (cf && cf.enum_value && cf.enum_value.name) return cf.enum_value.name;
   if (t.completed) return 'Completed';
@@ -95,51 +100,64 @@ function extractText(t, regex) {
   return '';
 }
 
-function isWA(t) {
-  for (const cf of (t.custom_fields || [])) {
-    if (!/(w\/a|wallerstein|anthropic)/i.test(cf.name || '')) continue;
-    if (cf.enum_value && cf.enum_value.name && !/^(no|none|n\/a)$/i.test(cf.enum_value.name)) return true;
-    if (cf.text_value) return true;
-    if (cf.multi_enum_values && cf.multi_enum_values.length) return true;
-  }
-  return false;
+function classify(date) {
+  if (!date) return null;
+  if (date < Q2_START) return 'pre';
+  if (date <= Q2_END) return 'q2';
+  if (date <= Q3_END) return 'q3';
+  return 'post';
 }
 
 (async () => {
-  console.log('Fetching project sections...');
-  const sections = (await api(`/projects/${PROJECT_ID}/sections`)).data;
-
   console.log('Fetching tasks...');
   const fields = [
-    'name','assignee.name','completed','due_on','start_on',
+    'name','completed','due_on','start_on',
     'memberships.section.name','custom_fields.name','custom_fields.enum_value.name',
     'custom_fields.multi_enum_values.name','custom_fields.text_value','custom_fields.date_value.date',
   ].join(',');
   const tasks = (await api(`/projects/${PROJECT_ID}/tasks?opt_fields=${fields}&limit=100`)).data;
+  console.log(`Got ${tasks.length} tasks from Asana.`);
 
-  console.log(`Got ${tasks.length} tasks.`);
+  let kept = 0, droppedNoDate = 0, droppedOutOfWindow = 0;
 
   const out = tasks.map(t => {
     const section = (t.memberships && t.memberships[0] && t.memberships[0].section && t.memberships[0].section.name) || '';
     const eventDate = extractDate(t, /(publish|event)\s*date/i);
     const startCustom = extractDate(t, /start\s*date/i);
+    const due = t.due_on || null;
+    const status = statusFromCustomField(t);
+
+    const window = classify(due);
+
+    if (!due) { droppedNoDate++; return null; }
+    if (window === 'pre' || window === 'post') { droppedOutOfWindow++; return null; }
+
+    const beyond = window === 'q3' && status !== 'Completed' && status !== 'Cancelled';
+
+    kept++;
     return {
       id: 'a' + t.gid.slice(-6),
       gid: t.gid,
       name: t.name,
       section,
-      owner: (t.assignee && t.assignee.name && t.assignee.name.split(' ')[0]) || '',
-      wa: isWA(t),
-      status: statusFromCustomField(t),
+      status,
       goals: extractGoals(t),
       start: startCustom || t.start_on || null,
-      due: t.due_on || null,
+      due,
       event: eventDate,
       notes: extractText(t, /^notes?$/i),
+      ...(beyond ? { beyond: true } : {}),
+      ...(status === 'Completed' ? { completed: true } : {}),
     };
+  }).filter(Boolean);
+
+  console.log(`Kept ${kept} · Dropped ${droppedNoDate} (no due date) + ${droppedOutOfWindow} (outside Apr 1 – Sep 30)`);
+
+  out.sort((a, b) => {
+    const rank = (x) => x.beyond ? 1 : (x.status === 'Completed' || x.status === 'Cancelled') ? 2 : 0;
+    return rank(a) - rank(b) || (a.due || '').localeCompare(b.due || '');
   });
 
-  // Preserve the existing file's preamble; replace only the data array
   const header = `// Q2 2026 Public Affairs tasks — auto-refreshed from Asana
 // Last updated: ${new Date().toISOString()}
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
@@ -148,16 +166,13 @@ function isWA(t) {
 
 window.PA_TASKS = ${JSON.stringify(out, null, 2)};
 
-// Goal / status / owner metadata is preserved from the original file;
-// re-inject if you regenerated tasks-data.js from scratch.
 `;
 
-  // If existing file has GOAL/STATUS/OWNER meta blocks, keep them by re-reading and appending
   let existing = '';
   try { existing = fs.readFileSync('tasks-data.js', 'utf8'); } catch (e) {}
   const metaMatch = existing.match(/window\.PA_GOAL_META[\s\S]*$/);
   const meta = metaMatch ? metaMatch[0] : '';
 
-  fs.writeFileSync('tasks-data.js', header + '\n' + meta);
+  fs.writeFileSync('tasks-data.js', header + meta);
   console.log('Wrote tasks-data.js');
 })().catch(err => { console.error(err); process.exit(1); });
