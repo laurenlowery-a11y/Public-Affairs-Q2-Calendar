@@ -1,0 +1,39 @@
+name: Refresh Asana data
+
+on:
+  schedule:
+    # Daily at 12:00 UTC (8am ET / 5am PT)
+    - cron: '0 12 * * *'
+  workflow_dispatch: # allows manual trigger from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Pull latest from Asana
+        env:
+          ASANA_TOKEN: ${{ secrets.ASANA_TOKEN }}
+          ASANA_PROJECT_ID: '1212823017557665'
+        run: node scripts/refresh-asana.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "asana-refresh-bot"
+          git config user.email "actions@github.com"
+          git add tasks-data.js
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh Asana snapshot ($(date -u +'%Y-%m-%d'))"
+            git push
+          fi
