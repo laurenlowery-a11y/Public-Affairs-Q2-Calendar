@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-11T20:32:45.830Z
+// Last updated: 2026-05-11T20:36:49.047Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -80,7 +80,9 @@ window.PA_TASKS = [
     "name": "Op-Ed with Ade (Base10 Founder) + Michael",
     "section": "Content Development",
     "status": "In Progress",
-    "goals": [],
+    "goals": [
+      "RT"
+    ],
     "start": null,
     "due": "2026-05-14",
     "event": "2026-03-31",
@@ -159,7 +161,9 @@ window.PA_TASKS = [
     "name": "AI for Humanity Awards ",
     "section": "Recognition/Awards/Vetted Opportunities",
     "status": "In Progress",
-    "goals": [],
+    "goals": [
+      "PR"
+    ],
     "start": null,
     "due": "2026-05-29",
     "event": null,
@@ -320,7 +324,11 @@ window.PA_TASKS = [
     "name": "JFF Horizons",
     "section": "External Event Prep",
     "status": "In Progress",
-    "goals": [],
+    "goals": [
+      "AP",
+      "RT",
+      "CI"
+    ],
     "start": null,
     "due": "2026-07-13",
     "event": null,
@@ -333,7 +341,11 @@ window.PA_TASKS = [
     "name": "State of Maryland + Anthropic (JFF Horizons)",
     "section": "Hosted Convenings",
     "status": "Pending",
-    "goals": [],
+    "goals": [
+      "AP",
+      "RT",
+      "CI"
+    ],
     "start": null,
     "due": "2026-07-13",
     "event": null,
@@ -346,7 +358,11 @@ window.PA_TASKS = [
     "name": "JFF Horizons - Knowledge Network Kickoff",
     "section": "Hosted Convenings",
     "status": "In Progress",
-    "goals": [],
+    "goals": [
+      "AP",
+      "RT",
+      "CI"
+    ],
     "start": null,
     "due": "2026-07-13",
     "event": null,
