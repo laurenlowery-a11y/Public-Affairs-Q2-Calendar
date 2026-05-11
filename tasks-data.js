@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-11T14:28:48.334Z
+// Last updated: 2026-05-11T17:24:37.118Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -219,18 +219,6 @@ window.PA_TASKS = [
     "notes": "Development Team Event-Attending"
   },
   {
-    "id": "a984781",
-    "gid": "1213887260984781",
-    "name": "Base 10 + Student + Alumni Panel",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-09",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a937206",
     "gid": "1213636095937206",
     "name": "Databricks Data & AI Summit (San Francisco)",
@@ -241,6 +229,18 @@ window.PA_TASKS = [
     "due": "2026-06-18",
     "event": null,
     "notes": "Development Team Event-Attending"
+  },
+  {
+    "id": "a984781",
+    "gid": "1213887260984781",
+    "name": "Base 10 + Student + Alumni Panel",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-23",
+    "event": null,
+    "notes": ""
   },
   {
     "id": "a912058",
