@@ -307,9 +307,9 @@ function GoalCoverage({ goalCov, total, filter, setFilter }){
           const active = filter.goal === g;
           return (
             <div key={g} className="item" style={{cursor:'pointer', opacity: filter.goal === 'all' || active ? 1 : 0.5}} onClick={() => setFilter({...filter, goal: active ? 'all' : g})}>
+              <span className="num" style={{minWidth: 22, textAlign:'right', marginRight: 6}}>{n}</span>
               <span className="swatch" style={{background: meta.color}}></span>
               <span style={{flex:1}}>{meta.label}</span>
-              <span className="num">{n}</span>
             </div>
           );
         })}
