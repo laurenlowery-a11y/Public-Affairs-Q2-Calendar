@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="tokens.v3.css">
 <script src="gate.js"></script>
+<style>.who, .own{ display:none !important; }</style>
 <style>
   :root{
     --bg:#0E1030;
@@ -459,7 +460,7 @@
     <span>CodePath · Public Affairs</span>
   </div>
   <div class="meta">
-    <span class="live">Live · refreshed May 5, 2026</span>
+    <span class="live" id="refreshed">Live</span>
     <span>Internal · Q2 2026</span>
   </div>
 </header>
@@ -467,16 +468,16 @@
 <section class="hero">
   <div class="float-dec">Q2</div>
   <div class="eyebrow">Public Affairs Project Tracker · Internal Dashboard</div>
-  <h1><span class="stamp">27</span> things we're <em>shipping</em><br>between now and June 30.</h1>
+  <h1><span class="stamp" id="hero-count">—</span> things we're <em>shipping</em><br>between now and June 30.</h1>
   <p class="lede">Three ways to look at the same data — pick the lens that fits your meeting. Pulled live from Asana, redesigned for the team.</p>
 
   <div class="hero-stats">
     <div class="hero-stat">
-      <div class="num">11</div>
+      <div class="num" id="kpi-inprogress">—</div>
       <div class="lab">In Progress</div>
     </div>
     <div class="hero-stat">
-      <div class="num">8</div>
+      <div class="num" id="kpi-pending">—</div>
       <div class="lab">Pending Info</div>
     </div>
     <div class="hero-stat">
@@ -484,7 +485,7 @@
       <div class="lab">Strategic Goals Tracked</div>
     </div>
     <div class="hero-stat">
-      <div class="num">8</div>
+      <div class="num" id="kpi-weeks">—</div>
       <div class="lab">Weeks Remaining</div>
     </div>
   </div>
@@ -663,9 +664,32 @@
 </section>
 
 <footer>
-  <span>Source: Asana · Public Affairs Project Tracker · Snapshot May 5, 2026</span>
+  <span id="footer-source">Source: Asana · Public Affairs Project Tracker</span>
   <span><a href="https://app.asana.com/1/854165295642105/project/1212823017557665" target="_blank" rel="noreferrer">Open in Asana ↗</a></span>
 </footer>
+
+<script src="tasks-data.js"></script>
+<script>
+(function(){
+  var tasks = (window.PA_TASKS || []);
+  var active = tasks.filter(function(t){ return !t.beyond && t.status !== 'Completed' && t.status !== 'Cancelled'; });
+  var inProg = active.filter(function(t){ return t.status === 'In Progress'; }).length;
+  var pending = active.filter(function(t){ return (t.status || '').toLowerCase().indexOf('pending') === 0; }).length;
+
+  var today = new Date();
+  var end = new Date('2026-06-30T23:59:59');
+  var weeksLeft = Math.max(0, Math.ceil((end - today) / (1000*60*60*24*7)));
+
+  var hero = document.getElementById('hero-count'); if (hero) hero.textContent = active.length;
+  var ip = document.getElementById('kpi-inprogress'); if (ip) ip.textContent = inProg;
+  var pd = document.getElementById('kpi-pending'); if (pd) pd.textContent = pending;
+  var wk = document.getElementById('kpi-weeks'); if (wk) wk.textContent = weeksLeft;
+
+  var fmt = today.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+  var rf = document.getElementById('refreshed'); if (rf) rf.textContent = 'Live · refreshed ' + fmt;
+  var fs = document.getElementById('footer-source'); if (fs) fs.textContent = 'Source: Asana · Public Affairs Project Tracker · Updated ' + fmt;
+})();
+</script>
 
 </body>
 </html>
