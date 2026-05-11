@@ -266,7 +266,7 @@ function KPIStrip({ kpis }){
 
 // ---------- Goal coverage ----------
 function GoalCoverage({ goalCov, total, filter, setFilter }){
-  const order = ['EM','CI','HE','PR','ES','RT','GP','ER','AP'];
+  const order = ['EM','CI','HE','PR','ES','RT','GP','ER','AP','IN','RC'];
   return (
     <div className="coverage">
       <h3>
@@ -482,7 +482,7 @@ function Legend({ filter, setFilter }){
 
 // ---------- Bottom filters ----------
 function BottomFilters({ filter, setFilter, goalCov, sectionCounts }){
-  const goalOrder = ['EM','CI','HE','PR','ES','RT','GP','ER','AP'];
+  const goalOrder = ['EM','CI','HE','PR','ES','RT','GP','ER','AP','IN','RC'];
   const sectionOrder = ['Media Relations','Content Development','Recognition / Awards','Hosted Convenings','External Event Prep','Government Relations','Misc'];
 
   const btnStyle = (active, color) => ({
@@ -540,12 +540,15 @@ function BottomFilters({ filter, setFilter, goalCov, sectionCounts }){
         </div>
       </div>
 
-      {(filter.goal !== 'all' || filter.section !== 'all' || filter.status !== 'all') && (
-        <div style={{marginTop: 20, paddingTop: 16, borderTop: '1px solid var(--rule)', display:'flex', alignItems:'center', gap: 12, flexWrap:'wrap'}}>
-          <span style={{fontSize: 11, color:'var(--neutral-600)', fontWeight: 600, letterSpacing:'0.04em', textTransform:'uppercase'}}>Active filters → dimmed pills don't match</span>
-          <button onClick={() => setFilter({goal:'all', owner:'all', status:'all', section:'all'})} style={{...btnStyle(false), border:'1.5px solid var(--cp-navy)', background:'var(--cp-navy)', color:'#fff'}}>Clear all filters</button>
-        </div>
-      )}
+      {(filter.goal !== 'all' || filter.section !== 'all' || filter.status !== 'all') && (() => {
+        const matches = TASKS.filter(t => !t.beyond && t.status !== 'Completed' && t.status !== 'Cancelled' && !((filter.goal !== 'all' && !(t.goals||[]).includes(filter.goal)) || (filter.section !== 'all' && t.section !== filter.section) || (filter.status !== 'all' && t.status !== filter.status))).length;
+        return (
+          <div style={{marginTop: 20, paddingTop: 16, borderTop: '1px solid var(--rule)', display:'flex', alignItems:'center', gap: 12, flexWrap:'wrap'}}>
+            <span style={{fontSize: 12, color: matches === 0 ? 'var(--ui-warning)' : 'var(--cp-navy)', fontWeight: 700}}>{matches} task{matches === 1 ? '' : 's'} match{matches === 1 ? 'es' : ''} {matches === 0 ? '— try removing a filter' : '(others dimmed)'}</span>
+            <button onClick={() => setFilter({goal:'all', owner:'all', status:'all', section:'all'})} style={{...btnStyle(false), border:'1.5px solid var(--cp-navy)', background:'var(--cp-navy)', color:'#fff'}}>Clear all filters</button>
+          </div>
+        );
+      })()}
     </div>
   );
 }
