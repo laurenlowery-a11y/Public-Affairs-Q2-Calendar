@@ -718,25 +718,27 @@
     return 'var(--periwinkle)';
   }
 
-  // Triage callouts — computed live
+  // Triage callouts — computed live, scoped to now → June 30, 2026
+  var q2End = new Date(2026, 5, 30); q2End.setHours(23,59,59,999);
+  function inQ2Window(t){
+    var d = parseISO(t.due) || parseISO(t.event) || parseISO(t.start);
+    if (!d) return false;
+    return d >= now && d <= q2End;
+  }
+  var inWindow = activeForWeek.filter(inQ2Window);
+
   var triage = [];
-  var pendingCt = activeForWeek.filter(function(t){ return (t.status||'').toLowerCase().indexOf('pending') === 0; }).length;
+  var pendingCt = inWindow.filter(function(t){ return (t.status||'').toLowerCase().indexOf('pending') === 0; }).length;
   if (pendingCt > 0) triage.push(pendingCt + ' item' + (pendingCt===1?'':'s') + ' still "Pending — more info"');
 
   // Deliverables stacked on June 30
   var jun30 = new Date(2026, 5, 30);
-  var stackedJun30 = activeForWeek.filter(function(t){ return sameDay(parseISO(t.due), jun30); }).length;
+  var stackedJun30 = inWindow.filter(function(t){ return sameDay(parseISO(t.due), jun30); }).length;
   if (stackedJun30 >= 3) triage.push(stackedJun30 + ' deliverables stacked on June 30');
 
-  // Items overdue (due < this Monday)
-  var overdue = activeForWeek.filter(function(t){
-    var d = parseISO(t.due); return d && d < mon;
-  }).length;
-  if (overdue > 0) triage.push(overdue + ' item' + (overdue===1?'':'s') + ' past due');
-
-  // No goal assigned
-  var noGoal = activeForWeek.filter(function(t){ return !t.goals || t.goals.length === 0; }).length;
-  if (noGoal >= 3) triage.push(noGoal + ' active items have no goal tagged');
+  // No goal assigned (scoped to in-window items)
+  var noGoal = inWindow.filter(function(t){ return !t.goals || t.goals.length === 0; }).length;
+  if (noGoal >= 3) triage.push(noGoal + ' item' + (noGoal===1?'':'s') + ' have no goal tagged');
 
   // Build columns: split Mon-Fri tasks into 2 cols, third col is triage
   function buildCol(title, items, kind){
