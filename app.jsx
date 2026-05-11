@@ -6,7 +6,7 @@ const GOAL = window.PA_GOAL_META;
 const STATUS = window.PA_STATUS_META;
 const OWNER = window.PA_OWNER_META;
 
-const SNAPSHOT = new Date('2026-05-04T12:00:00');
+const SNAPSHOT = new Date();
 
 // ---------- date helpers ----------
 const D = (s) => s ? new Date(s + 'T12:00:00') : null;
