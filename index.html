@@ -637,29 +637,10 @@
 <section class="band">
   <div class="band-h">
     <h2>What's <em>landing</em> this week.</h2>
-    <div class="nudge">May 4 → May 10 · pulled from the calendar</div>
+    <div class="nudge" id="week-range">— · pulled from the calendar</div>
   </div>
-  <div class="week-strip">
-    <div class="col">
-      <h3>Today · Mon May 4</h3>
-      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Dev Team Offsite (Louisville)</span><span class="who">LL</span></div>
-      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Golden Gate Institute Convening</span><span class="who">M</span></div>
-      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Ken Chenault Co-Hosted Event</span><span class="who">M · W/A</span></div>
-      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Talent Bridge w/ Beacon Council</span><span class="who">M</span></div>
-    </div>
-    <div class="col">
-      <h3>Tue–Wed · Headlines</h3>
-      <div class="item"><span class="dot" style="background: var(--periwinkle)"></span><span class="name"><strong>The Atlantic</strong> — quote + intro call w/ Michael</span><span class="who">LL</span></div>
-      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">Op-Ed with Ade (Base10) + Michael</span><span class="who">M</span></div>
-      <div class="item"><span class="dot" style="background: var(--yellow)"></span><span class="name">New Profit Story</span><span class="who">LL</span></div>
-      <div class="item"><span class="dot" style="background: var(--periwinkle)"></span><span class="name">Annual Report Internal Webinar</span><span class="who">LL</span></div>
-    </div>
-    <div class="col">
-      <h3>Need to triage</h3>
-      <div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">8 items still "Pending — more info"</span></div>
-      <div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">5 deliverables stacked on June 30</span></div>
-      <div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">Govt &amp; Public Sector pipeline thin</span></div>
-    </div>
+  <div class="week-strip" id="week-strip">
+    <!-- dynamic: filled by JS from tasks-data.js -->
   </div>
 </section>
 
@@ -688,6 +669,114 @@
   var fmt = today.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
   var rf = document.getElementById('refreshed'); if (rf) rf.textContent = 'Live · refreshed ' + fmt;
   var fs = document.getElementById('footer-source'); if (fs) fs.textContent = 'Source: Asana · Public Affairs Project Tracker · Updated ' + fmt;
+
+  // ---------- "What's landing this week" — dynamic Mon-Fri rollup ----------
+  function parseISO(s){ if(!s) return null; var p = s.split('-'); return new Date(+p[0], +p[1]-1, +p[2]); }
+  function sameDay(a,b){ return a && b && a.getFullYear()===b.getFullYear() && a.getMonth()===b.getMonth() && a.getDate()===b.getDate(); }
+  function fmtShort(d){ return d.toLocaleDateString('en-US',{ month:'short', day:'numeric' }); }
+  function fmtDayLong(d){ return d.toLocaleDateString('en-US',{ weekday:'short', month:'short', day:'numeric' }); }
+
+  // Mon-Fri of current week (Mon=index 0)
+  var now = new Date(); now.setHours(0,0,0,0);
+  var dow = now.getDay(); // 0=Sun .. 6=Sat
+  var diffToMon = (dow === 0 ? -6 : 1 - dow);
+  var weekDays = [];
+  for (var i = 0; i < 5; i++){
+    var dx = new Date(now); dx.setDate(now.getDate() + diffToMon + i); weekDays.push(dx);
+  }
+  var mon = weekDays[0], fri = weekDays[4];
+
+  var rangeEl = document.getElementById('week-range');
+  if (rangeEl) rangeEl.textContent = fmtShort(mon) + ' → ' + fmtShort(fri) + ' · pulled from the calendar';
+
+  // Tasks that "land" this week: due date or event date falls Mon–Fri; exclude beyond/completed/cancelled
+  function landsOn(t, day){
+    var due = parseISO(t.due);
+    var ev  = parseISO(t.event);
+    return sameDay(due, day) || sameDay(ev, day);
+  }
+  var activeForWeek = tasks.filter(function(t){
+    return !t.beyond && t.status !== 'Completed' && t.status !== 'Cancelled';
+  });
+
+  // Bucket by weekday index 0..4
+  var buckets = [[],[],[],[],[]];
+  weekDays.forEach(function(day, idx){
+    activeForWeek.forEach(function(t){
+      if (landsOn(t, day)) buckets[idx].push(t);
+    });
+  });
+
+  // Status -> dot color (using existing CSS vars)
+  function dotFor(t){
+    var s = (t.status || '').toLowerCase();
+    if (s === 'in progress') return 'var(--yellow)';
+    if (s.indexOf('pending') === 0) return 'var(--periwinkle)';
+    if (s === 'not started') return 'var(--pink)';
+    if (s === 'blocked') return 'var(--pink)';
+    if (s === 'ready to review') return 'var(--kelly)';
+    return 'var(--periwinkle)';
+  }
+
+  // Triage callouts — computed live
+  var triage = [];
+  var pendingCt = activeForWeek.filter(function(t){ return (t.status||'').toLowerCase().indexOf('pending') === 0; }).length;
+  if (pendingCt > 0) triage.push(pendingCt + ' item' + (pendingCt===1?'':'s') + ' still "Pending — more info"');
+
+  // Deliverables stacked on June 30
+  var jun30 = new Date(2026, 5, 30);
+  var stackedJun30 = activeForWeek.filter(function(t){ return sameDay(parseISO(t.due), jun30); }).length;
+  if (stackedJun30 >= 3) triage.push(stackedJun30 + ' deliverables stacked on June 30');
+
+  // Items overdue (due < this Monday)
+  var overdue = activeForWeek.filter(function(t){
+    var d = parseISO(t.due); return d && d < mon;
+  }).length;
+  if (overdue > 0) triage.push(overdue + ' item' + (overdue===1?'':'s') + ' past due');
+
+  // No goal assigned
+  var noGoal = activeForWeek.filter(function(t){ return !t.goals || t.goals.length === 0; }).length;
+  if (noGoal >= 3) triage.push(noGoal + ' active items have no goal tagged');
+
+  // Build columns: split Mon-Fri tasks into 2 cols, third col is triage
+  function buildCol(title, items, kind){
+    var html = '<div class="col"><h3>' + title + '</h3>';
+    if (!items.length){
+      html += '<div class="item" style="opacity:0.55;"><span class="name">Nothing scheduled.</span></div>';
+    } else {
+      items.forEach(function(it){
+        if (kind === 'triage'){
+          html += '<div class="item"><span class="dot" style="background: var(--pink)"></span><span class="name">' + it + '</span></div>';
+        } else {
+          var label = (it.day ? '<strong>' + it.day + '</strong> · ' : '') + it.task.name;
+          html += '<div class="item"><span class="dot" style="background:' + dotFor(it.task) + '"></span><span class="name">' + label + '</span></div>';
+        }
+      });
+    }
+    html += '</div>';
+    return html;
+  }
+
+  // Flatten Mon-Fri with day labels
+  var earlyWeek = []; // Mon-Tue
+  var lateWeek = [];  // Wed-Fri
+  ['Mon','Tue','Wed','Thu','Fri'].forEach(function(lbl, idx){
+    var dateLbl = lbl + ' ' + fmtShort(weekDays[idx]);
+    buckets[idx].forEach(function(t){
+      var entry = { day: dateLbl, task: t };
+      if (idx <= 1) earlyWeek.push(entry); else lateWeek.push(entry);
+    });
+  });
+
+  var strip = document.getElementById('week-strip');
+  if (strip){
+    var c1Title = 'Mon ' + fmtShort(weekDays[0]) + ' – Tue ' + fmtShort(weekDays[1]);
+    var c2Title = 'Wed ' + fmtShort(weekDays[2]) + ' – Fri ' + fmtShort(weekDays[4]);
+    strip.innerHTML =
+      buildCol(c1Title, earlyWeek, 'tasks') +
+      buildCol(c2Title, lateWeek, 'tasks') +
+      buildCol('Need to triage', triage.length ? triage : ['Nothing flagged — clean queue.'], 'triage');
+  }
 })();
 </script>
 
