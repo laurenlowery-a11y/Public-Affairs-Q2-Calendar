@@ -1,594 +1,62 @@
-// Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-11T20:45:49.641Z
+// Q2 2026 Public Affairs tasks — snapshot from Asana May 11, 2026
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
-// CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
-
+// CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition,
+// IN=Internal, RC=Relationship Cultivation
 window.PA_TASKS = [
-  {
-    "id": "a557673",
-    "gid": "1212823017557673",
-    "name": "Wells Fargo/Charlotte Partnership ",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-04-22",
-    "event": "2026-03-02",
-    "notes": ""
-  },
-  {
-    "id": "a346341",
-    "gid": "1214559832346341",
-    "name": "Social Innovation Summit: Registrant List Request (by Sarah Perry)",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-07",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-05-13",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-05-13",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772860",
-    "gid": "1214389801772860",
-    "name": "New Profit Story",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-05-13",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503365",
-    "gid": "1212941263503365",
-    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-05-14",
-    "event": "2026-03-31",
-    "notes": ""
-  },
-  {
-    "id": "a117306",
-    "gid": "1214390333117306",
-    "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
-    "section": "Government Relations",
-    "status": "Not Started",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-05-14",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a937199",
-    "gid": "1213636095937199",
-    "name": "Development Team Offsite (Louisville, KY)",
-    "section": "External Event Prep",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-18",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Annual Report Internal Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a117311",
-    "gid": "1214390333117311",
-    "name": "Target List Creation",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919563",
-    "gid": "1214480780919563",
-    "name": "Target List Creation (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a888173",
-    "gid": "1214621790888173",
-    "name": "AI for Humanity Awards ",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a254018",
-    "gid": "1212879831254018",
-    "name": "Salesforce x CodePath Storytelling and Comms",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919554",
-    "gid": "1214480780919554",
-    "name": "Rolling Basis Submissions",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919568",
-    "gid": "1214480780919568",
-    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a937202",
-    "gid": "1213636095937202",
-    "name": "Social Innovation Summit (Atlanta)",
-    "section": "External Event Prep",
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-06-02",
-    "due": "2026-06-03",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a937206",
-    "gid": "1213636095937206",
-    "name": "Databricks Data & AI Summit (San Francisco)",
-    "section": "External Event Prep",
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-06-15",
-    "due": "2026-06-18",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a984781",
-    "gid": "1213887260984781",
-    "name": "Base 10 + Student + Alumni Panel",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-23",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a912058",
-    "gid": "1213561203912058",
-    "name": "Forbes CIR Pitch",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-05-06",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117328",
-    "gid": "1214390333117328",
-    "name": "Quarterly Engineering Survey",
-    "section": "Media Relations",
-    "status": "Pending",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Pending more info "
-  },
-  {
-    "id": "a253979",
-    "gid": "1212879831253979",
-    "name": "Op-ED with Stephen Moret & Michael Ellison",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": "2026-02-09",
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117314",
-    "gid": "1214390333117314",
-    "name": "Faculty Op-Ed Pipeline",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Goal is Q2, dependent on engagement from contacts"
-  },
-  {
-    "id": "a184790",
-    "gid": "1213106556184790",
-    "name": "Q2 OOCEO Quarterly Letter",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503406",
-    "gid": "1212941263503406",
-    "name": "JFF Horizons",
-    "section": "External Event Prep",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a336922",
-    "gid": "1213399863336922",
-    "name": "State of Maryland + Anthropic (JFF Horizons)",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [
-      "AP",
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a727287",
-    "gid": "1213876993727287",
-    "name": "JFF Horizons - Knowledge Network Kickoff",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a503338",
-    "gid": "1212941263503338",
-    "name": "UNCF Unite",
-    "section": "External Event Prep",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-15",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a623843",
-    "gid": "1213571840623843",
-    "name": "Maryland AI Roundtable",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-27",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a253998",
-    "gid": "1212879831253998",
-    "name": "FIU Case Study",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-08-03",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a013947",
-    "gid": "1214149663013947",
-    "name": "Shultz Convening",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-31",
-    "event": null,
-    "notes": "See Vic for more details",
-    "beyond": true
-  },
-  {
-    "id": "a461019",
-    "gid": "1213887050461019",
-    "name": "WF - Michael Video to be shared",
-    "section": "Completed",
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-04-06",
-    "event": null,
-    "notes": "",
-    "completed": true
-  },
-  {
-    "id": "a801634",
-    "gid": "1213345842801634",
-    "name": "TBD Charlotte/Wells Fargo Event",
-    "section": "Completed",
-    "status": "Completed",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-04-07",
-    "event": null,
-    "notes": "",
-    "completed": true
-  },
-  {
-    "id": "a503375",
-    "gid": "1212941263503375",
-    "name": "Anthropic + CP side event (ASU GSV) ",
-    "section": "Completed",
-    "status": "Completed",
-    "goals": [
-      "GP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-04-13",
-    "event": null,
-    "notes": "ASU GSV",
-    "completed": true
-  },
-  {
-    "id": "a503399",
-    "gid": "1212941263503399",
-    "name": "Knight x FIU x CP S. Florida event (Emerge - Vic Attendance Only)",
-    "section": "Completed",
-    "status": "Completed",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-04-22",
-    "event": null,
-    "notes": "",
-    "completed": true
-  },
-  {
-    "id": "a503389",
-    "gid": "1212941263503389",
-    "name": "Milken Global Dialogues",
-    "section": "Completed",
-    "status": "Completed",
-    "goals": [],
-    "start": null,
-    "due": "2026-04-27",
-    "event": null,
-    "notes": "",
-    "completed": true
-  },
-  {
-    "id": "a503384",
-    "gid": "1212941263503384",
-    "name": "Anthropic + CP side event (Milken Global) ",
-    "section": "Completed",
-    "status": "Cancelled",
-    "goals": [
-      "AP",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-05-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a184821",
-    "gid": "1213106556184821",
-    "name": "Talent Bridge Event w/ Beacon Council",
-    "section": "Completed",
-    "status": "Cancelled",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": "Target major employers"
-  },
-  {
-    "id": "a503394",
-    "gid": "1212941263503394",
-    "name": "Ken Chenault Co-Hosted Event",
-    "section": "Completed",
-    "status": "Cancelled",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a336915",
-    "gid": "1213399863336915",
-    "name": "Golden Gate Institute Convening w/ Superset",
-    "section": "Completed",
-    "status": "Cancelled",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a476520",
-    "gid": "1214429614476520",
-    "name": "Fortune Brand Studio Documentary ",
-    "section": "Completed",
-    "status": "Cancelled",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-05-04",
-    "event": null,
-    "notes": "W/A vetted, we should not pursue. Not good ROI, and we're charged for the story. "
-  },
-  {
-    "id": "a621029",
-    "gid": "1213546479621029",
-    "name": "Op Ed w/ Rosanna Durruthy (LinkedIn)",
-    "section": "Completed",
-    "status": "Cancelled",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-06",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a117295",
-    "gid": "1214390333117295",
-    "name": "Introductions: Shonda Gibson and A&M System",
-    "section": "Completed",
-    "status": "Completed",
-    "goals": [],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "",
-    "completed": true
-  }
+  // ---- Active Q2 ----
+  { id:'forbes', name:'Forbes CIR Pitch', section:'Media Relations', owner:'Lauren', wa:true, status:'In Progress', goals:['EM'], start:'2026-05-06', due:'2026-06-30', notes:'Goal is Q2 — complicated timeline due to contributions' },
+  { id:'atlantic', name:'The Atlantic — Quote + Intro Call', section:'Media Relations', owner:'Lauren', status:'In Progress', goals:['CI'], due:'2026-05-06', notes:'Atlantic story may include a quote from Michael + learn more about CodePath' },
+  { id:'wfpr', name:'WF Press Release', section:'Media Relations', owner:'Lauren', status:'In Progress', goals:['EM','ER'], due:'2026-05-13' },
+  { id:'qes', name:'Quarterly Engineering Survey', section:'Media Relations', owner:'Lauren', status:'Pending', goals:['EM'], start:'2026-04-30', due:'2026-06-30', notes:'Pending more info' },
+
+  { id:'moret', name:'Op-Ed with Stephen Moret & Michael Ellison', section:'Content Development', owner:'Madison', wa:true, status:'In Progress', goals:['EM','RT'], start:'2026-05-04', due:'2026-06-30', notes:'Goal is Q2 — complicated timeline due to contributions' },
+  { id:'ade', name:'Op-Ed with Ade (Base10 Founder) + Michael', section:'Content Development', owner:'Madison', status:'In Progress', goals:['RT'], due:'2026-05-14' },
+  { id:'newprofit', name:'New Profit Story', section:'Content Development', owner:'Lauren', status:'Pending', goals:['EM'], due:'2026-05-06' },
+  { id:'qletters', name:'CodePath / OOCEO Quarterly Letters', section:'Content Development', owner:'Lauren', status:'In Progress', goals:['CI'], start:'2026-05-04', due:'2026-06-30' },
+  { id:'facultyoped', name:'Faculty Op-Ed Pipeline', section:'Content Development', owner:'Lauren', status:'In Progress', goals:['HE','EM'], start:'2026-04-30', due:'2026-06-30', notes:'Goal is Q2, dependent on engagement from contacts' },
+
+  { id:'recogtarget', name:'Target List Creation', section:'Recognition / Awards', owner:'Lauren', status:'In Progress', goals:['PR'], start:'2026-05-04', due:'2026-05-29' },
+  { id:'rolling', name:'Rolling Basis Submissions', section:'Recognition / Awards', owner:'Lauren', status:'Not Started', goals:['PR'], due:'2026-06-03' },
+  { id:'eventsapprove', name:'Rolling Basis Approval (Events + Speaking)', section:'Recognition / Awards', owner:'Lauren', status:'Not Started', goals:['ES','RT','CI'], due:'2026-06-03' },
+  { id:'eventstarget', name:'Target List Creation (Events + Speaking)', section:'Recognition / Awards', owner:'Lauren', status:'In Progress', goals:['ES','RT','CI'], start:'2026-05-04', due:'2026-05-29' },
+
+  { id:'devoffsite', name:'Development Team Offsite (Louisville, KY)', section:'External Event Prep', owner:'Lauren', status:'Pending', goals:['IN'], due:'2026-05-18' },
+  { id:'sis', name:'Social Innovation Summit (Atlanta)', section:'External Event Prep', owner:'Lauren', status:'Pending', goals:['ES'], start:'2026-06-02', due:'2026-06-03', notes:'Development Team — attending' },
+  { id:'databricks', name:'Databricks Data & AI Summit (San Francisco)', section:'External Event Prep', owner:'Lauren', status:'Pending', goals:['ES'], start:'2026-06-15', due:'2026-06-18', notes:'Development Team — attending' },
+
+  { id:'webinar', name:'Annual Report Internal Webinar', section:'Hosted Convenings', owner:'Lauren', status:'In Progress', goals:['IN'], due:'2026-05-27' },
+  { id:'base10panel', name:'Base 10 + Student + Alumni Panel', section:'Hosted Convenings', owner:'Lauren', status:'In Progress', goals:['ES','RC'], due:'2026-06-23' },
+
+  { id:'wallerstein', name:'Learning + Strategy call w/ Wallerstein + Michael', section:'Government Relations', owner:'Lauren', status:'—', goals:['GP'], due:'2026-05-14' },
+
+  { id:'salesforce', name:'Salesforce x CodePath Storytelling and Comms', section:'Misc', owner:'Madison', status:'In Progress', goals:['RC'], due:'2026-05-29' },
+
+  // ---- Q2 wins (Completed/Cancelled in Q2 window) ----
+  { id:'wfvideo', name:'WF — Michael Video to be shared', section:'Completed', owner:'Lauren', status:'Completed', goals:['HE','EM'], due:'2026-04-06', completed:true },
+  { id:'wfcharlotte', name:'TBD Charlotte/Wells Fargo Event', section:'Completed', owner:'Madison', status:'Completed', goals:['HE','EM'], due:'2026-04-07', completed:true },
+  { id:'asugsv', name:'Anthropic + CP side event (ASU GSV)', section:'Completed', owner:'Madison', wa:true, status:'Completed', goals:['GP','RT'], due:'2026-04-13', event:'2026-04-13', completed:true },
+  { id:'knightfiu', name:'Knight x FIU x CP S. Florida event (Emerge — Vic)', section:'Completed', owner:'Madison', status:'Completed', goals:['HE'], due:'2026-04-22', event:'2026-04-23', completed:true },
+  { id:'wfpartner', name:'Wells Fargo/Charlotte Partnership', section:'Completed', owner:'Victoria', wa:true, status:'Completed', goals:['HE'], due:'2026-04-22', completed:true },
+  { id:'milkenglobal', name:'Milken Global Dialogues', section:'Completed', owner:'Madison', wa:true, status:'Completed', goals:[], due:'2026-04-27', event:'2026-05-05', completed:true },
+  { id:'milkenanthropic', name:'Anthropic + CP side event (Milken Global)', section:'Completed', owner:'Madison', wa:true, status:'Cancelled', goals:['AP','RT'], due:'2026-05-03', event:'2026-05-05', completed:true },
+  { id:'ggi', name:'Golden Gate Institute Convening w/ Superset', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-04', completed:true },
+  { id:'chenault', name:'Ken Chenault Co-Hosted Event', section:'Completed', owner:'Madison', wa:true, status:'Cancelled', goals:[], due:'2026-05-04', event:'2026-04-15', completed:true },
+  { id:'beacon', name:'Talent Bridge Event w/ Beacon Council', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-04', notes:'Target major employers', completed:true },
+  { id:'fortune', name:'Fortune Brand Studio Documentary', section:'Completed', owner:'Lauren', status:'Cancelled', goals:['EM'], due:'2026-05-04', completed:true, notes:'W/A vetted — not pursuing. Charged for the story.' },
+  { id:'durruthy', name:'Op-Ed w/ Rosanna Durruthy (LinkedIn)', section:'Completed', owner:'Madison', status:'Cancelled', goals:[], due:'2026-05-06', completed:true },
+  { id:'sisreg', name:'Social Innovation Summit: Registrant List Request', section:'Completed', owner:'Lauren', status:'Completed', goals:[], due:'2026-05-07', completed:true, notes:'Requested by Sarah Perry' },
+  { id:'shonda', name:'Introductions: Shonda Gibson and A&M System', section:'Completed', owner:'Lauren', status:'Completed', goals:[], start:'2026-04-30', due:'2026-06-30', completed:true },
+  { id:'ooceoQ2', name:'Q2 OOCEO Quarterly Letter', section:'Completed', owner:'Lauren', status:'Completed', goals:['CI'], due:'2026-06-30', completed:true },
+
+  // ---- Beyond Q2 (Q3+) ----
+  { id:'jffhorizons', name:'JFF Horizons', section:'External Event Prep', owner:'Madison', wa:true, status:'In Progress', goals:[], due:'2026-07-13', beyond:true },
+  { id:'jffknowledge', name:'JFF Horizons — Knowledge Network Kickoff', section:'Hosted Convenings', owner:'Lauren', status:'In Progress', goals:[], due:'2026-07-13', beyond:true },
+  { id:'mdanthropic', name:'State of Maryland + Anthropic (JFF Horizons)', section:'Hosted Convenings', owner:'Madison', status:'Pending', goals:[], due:'2026-07-13', beyond:true },
+  { id:'uncfunite', name:'UNCF Unite', section:'External Event Prep', owner:'Madison', status:'Pending', goals:[], due:'2026-07-15', event:'2026-07-20', beyond:true },
+  { id:'mdairound', name:'Maryland AI Roundtable', section:'Hosted Convenings', owner:'Lauren', status:'Pending', goals:[], due:'2026-07-27', beyond:true },
+  { id:'fiu', name:'FIU Case Study', section:'Content Development', owner:'Victoria', status:'In Progress', goals:['HE'], due:'2026-08-03', beyond:true },
+  { id:'shultz', name:'Shultz Convening', section:'Hosted Convenings', owner:'Lauren', status:'Pending', goals:[], due:'2026-08-31', beyond:true, notes:'See Vic for more details' },
 ];
 
 window.PA_GOAL_META = {
@@ -601,6 +69,8 @@ window.PA_GOAL_META = {
   CI: { label:'CEO Influence',          color:'#AF1E1E', ink:'#FFFFFF' },
   ER: { label:'Earned Revenue',         color:'#FE6901', ink:'#FFFFFF' },
   PR: { label:'Public Recognition',     color:'#FEA08D', ink:'#1B1C57' },
+  IN: { label:'Internal',               color:'#A8C66C', ink:'#1B1C57' },
+  RC: { label:'Relationship Cultivation', color:'#00BCB0', ink:'#FFFFFF' },
 };
 
 window.PA_STATUS_META = {
