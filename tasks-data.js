@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-12T13:56:16.118Z
+// Last updated: 2026-05-13T14:11:37.937Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -115,6 +115,20 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a406313",
+    "gid": "1214704755406313",
+    "name": "Funder Webinar/Fireside Chat",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [
+      "AP"
+    ],
+    "start": null,
+    "due": "2026-05-20",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a989645",
     "gid": "1213826062989645",
     "name": "Annual Report Internal Webinar",
@@ -178,6 +192,18 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-05-29",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a406268",
+    "gid": "1214704755406268",
+    "name": "Fast Company's \"Next Big Things in Tech\"",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-01",
     "event": null,
     "notes": ""
   },
@@ -305,6 +331,36 @@ window.PA_TASKS = [
     "notes": "Goal is Q2, dependent on engagement from contacts"
   },
   {
+    "id": "a406303",
+    "gid": "1214704755406303",
+    "name": "Third-Party Validator Op-Ed",
+    "section": "Content Development",
+    "status": "Not Started",
+    "goals": [
+      "AP",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-06-30",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a406308",
+    "gid": "1214704755406308",
+    "name": "Funder Field Op-Ed",
+    "section": "Content Development",
+    "status": "Not Started",
+    "goals": [
+      "AP",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-06-30",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a184790",
     "gid": "1213106556184790",
     "name": "Q2 OOCEO Quarterly Letter",
@@ -317,6 +373,22 @@ window.PA_TASKS = [
     "due": "2026-06-30",
     "event": null,
     "notes": ""
+  },
+  {
+    "id": "a406298",
+    "gid": "1214704755406298",
+    "name": "Joint Michael Ellison + Anthropic Leader Op Ed",
+    "section": "Content Development",
+    "status": "Not Started",
+    "goals": [
+      "AP",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-07-01",
+    "event": null,
+    "notes": "",
+    "beyond": true
   },
   {
     "id": "a503406",
