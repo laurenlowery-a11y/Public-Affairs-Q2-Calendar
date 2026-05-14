@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-13T14:11:37.937Z
+// Last updated: 2026-05-14T13:46:41.960Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -28,49 +28,6 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-05-07",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-05-13",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-05-13",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772860",
-    "gid": "1214389801772860",
-    "name": "New Profit Story",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-05-13",
     "event": null,
     "notes": ""
   },
@@ -111,6 +68,49 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-05-18",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-05-20",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "ER"
+    ],
+    "start": null,
+    "due": "2026-05-20",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772860",
+    "gid": "1214389801772860",
+    "name": "New Profit Story",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-05-20",
     "event": null,
     "notes": ""
   },
