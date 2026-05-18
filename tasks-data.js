@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-17T12:57:47.761Z
+// Last updated: 2026-05-18T14:55:13.658Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -29,20 +29,6 @@ window.PA_TASKS = [
     "start": null,
     "due": "2026-05-07",
     "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a503365",
-    "gid": "1212941263503365",
-    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-05-14",
-    "event": "2026-03-31",
     "notes": ""
   },
   {
@@ -99,6 +85,20 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a503365",
+    "gid": "1212941263503365",
+    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-05-20",
+    "event": "2026-03-31",
+    "notes": ""
+  },
+  {
     "id": "a772860",
     "gid": "1214389801772860",
     "name": "New Profit Story",
@@ -106,20 +106,6 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [
       "EM"
-    ],
-    "start": null,
-    "due": "2026-05-20",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a406313",
-    "gid": "1214704755406313",
-    "name": "Funder Webinar/Fireside Chat",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [
-      "AP"
     ],
     "start": null,
     "due": "2026-05-20",
@@ -147,6 +133,20 @@ window.PA_TASKS = [
     "section": "Hosted Convenings",
     "status": "In Progress",
     "goals": [],
+    "start": null,
+    "due": "2026-05-27",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a406313",
+    "gid": "1214704755406313",
+    "name": "Funder Webinar/Fireside Chat",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [
+      "AP"
+    ],
     "start": null,
     "due": "2026-05-27",
     "event": null,
