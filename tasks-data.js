@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-19T14:37:41.536Z
+// Last updated: 2026-05-20T14:37:29.675Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -99,20 +99,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a772860",
-    "gid": "1214389801772860",
-    "name": "New Profit Story",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-05-20",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a117306",
     "gid": "1214390333117306",
     "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
@@ -204,6 +190,20 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-05-29",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772860",
+    "gid": "1214389801772860",
+    "name": "New Profit Story",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-06-01",
     "event": null,
     "notes": ""
   },
