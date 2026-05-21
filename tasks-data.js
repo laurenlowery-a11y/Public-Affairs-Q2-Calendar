@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-20T14:37:29.675Z
+// Last updated: 2026-05-21T14:42:19.935Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -47,40 +47,11 @@ window.PA_TASKS = [
     "id": "a937199",
     "gid": "1213636095937199",
     "name": "Development Team Offsite (Louisville, KY)",
-    "section": "External Event Prep",
+    "section": "Completed",
     "status": "In Progress",
     "goals": [],
     "start": null,
     "due": "2026-05-18",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-05-20",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-05-20",
     "event": null,
     "notes": ""
   },
@@ -109,6 +80,35 @@ window.PA_TASKS = [
     ],
     "start": null,
     "due": "2026-05-20",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-05-27",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "ER"
+    ],
+    "start": null,
+    "due": "2026-05-27",
     "event": null,
     "notes": ""
   },
