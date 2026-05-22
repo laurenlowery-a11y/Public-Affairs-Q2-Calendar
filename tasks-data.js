@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-21T14:42:19.935Z
+// Last updated: 2026-05-22T14:17:47.926Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -218,6 +218,18 @@ window.PA_TASKS = [
     "due": "2026-06-01",
     "event": null,
     "notes": ""
+  },
+  {
+    "id": "a994871",
+    "gid": "1215032985994871",
+    "name": "NY Convening ",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-01",
+    "event": null,
+    "notes": "Owned by development"
   },
   {
     "id": "a919554",
