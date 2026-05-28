@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-27T14:55:36.420Z
+// Last updated: 2026-05-28T15:29:13.869Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -80,61 +80,6 @@ window.PA_TASKS = [
     ],
     "start": null,
     "due": "2026-05-20",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-05-27",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-05-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Annual Report Internal Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-27",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a406313",
-    "gid": "1214704755406313",
-    "name": "Funder Webinar/Fireside Chat",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [
-      "AP"
-    ],
-    "start": null,
-    "due": "2026-05-27",
     "event": null,
     "notes": ""
   },
@@ -232,6 +177,35 @@ window.PA_TASKS = [
     "notes": "Owned by development"
   },
   {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "ER"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a919554",
     "gid": "1214480780919554",
     "name": "Rolling Basis Submissions",
@@ -271,6 +245,32 @@ window.PA_TASKS = [
     "due": "2026-06-03",
     "event": null,
     "notes": "Development Team Event-Attending"
+  },
+  {
+    "id": "a406313",
+    "gid": "1214704755406313",
+    "name": "Funder Webinar/Fireside Chat",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [
+      "AP"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Annual Report Internal Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-09",
+    "event": null,
+    "notes": ""
   },
   {
     "id": "a937206",
