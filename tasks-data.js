@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-28T15:29:13.869Z
+// Last updated: 2026-05-29T14:40:24.826Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -451,7 +451,7 @@ window.PA_TASKS = [
   {
     "id": "a727287",
     "gid": "1213876993727287",
-    "name": "JFF Horizons - Knowledge Network Kickoff",
+    "name": "JFF Horizons ",
     "section": "Hosted Convenings",
     "status": "In Progress",
     "goals": [
