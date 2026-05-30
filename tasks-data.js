@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-05-29T14:40:24.826Z
+// Last updated: 2026-05-30T13:04:19.349Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -113,20 +113,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a888173",
-    "gid": "1214621790888173",
-    "name": "AI for Humanity Awards ",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a254018",
     "gid": "1212879831254018",
     "name": "Salesforce x CodePath Storytelling and Comms",
@@ -235,6 +221,20 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a888173",
+    "gid": "1214621790888173",
+    "name": "AI for Humanity Awards ",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "PR"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a937202",
     "gid": "1213636095937202",
     "name": "Social Innovation Summit (Atlanta)",
@@ -245,6 +245,18 @@ window.PA_TASKS = [
     "due": "2026-06-03",
     "event": null,
     "notes": "Development Team Event-Attending"
+  },
+  {
+    "id": "a209744",
+    "gid": "1215240463209744",
+    "name": "Knowledge Network Virtual Meeting",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
   },
   {
     "id": "a406313",
