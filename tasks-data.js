@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-01T17:18:16.946Z
+// Last updated: 2026-06-02T16:01:39.575Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -125,20 +125,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a772860",
-    "gid": "1214389801772860",
-    "name": "New Profit Story",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-06-01",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a406268",
     "gid": "1214704755406268",
     "name": "Fast Company's \"Next Big Things in Tech\"",
@@ -149,18 +135,6 @@ window.PA_TASKS = [
     "due": "2026-06-01",
     "event": null,
     "notes": ""
-  },
-  {
-    "id": "a994871",
-    "gid": "1215032985994871",
-    "name": "NY Convening ",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-01",
-    "event": null,
-    "notes": "Owned by development"
   },
   {
     "id": "a772864",
@@ -185,6 +159,20 @@ window.PA_TASKS = [
     "goals": [
       "EM",
       "ER"
+    ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772860",
+    "gid": "1214389801772860",
+    "name": "New Profit Story",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM"
     ],
     "start": null,
     "due": "2026-06-03",
@@ -529,6 +517,19 @@ window.PA_TASKS = [
     "due": "2026-08-31",
     "event": null,
     "notes": "See Vic for more details",
+    "beyond": true
+  },
+  {
+    "id": "a994871",
+    "gid": "1215032985994871",
+    "name": "NY Convening ",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-01",
+    "event": null,
+    "notes": "Owned by development",
     "beyond": true
   },
   {
