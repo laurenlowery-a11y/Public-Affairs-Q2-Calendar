@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-02T16:01:39.575Z
+// Last updated: 2026-06-03T16:18:17.823Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -84,35 +84,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a117311",
-    "gid": "1214390333117311",
-    "name": "Target List Creation",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919563",
-    "gid": "1214480780919563",
-    "name": "Target List Creation (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a254018",
     "gid": "1212879831254018",
     "name": "Salesforce x CodePath Storytelling and Comms",
@@ -121,18 +92,6 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a406268",
-    "gid": "1214704755406268",
-    "name": "Fast Company's \"Next Big Things in Tech\"",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-01",
     "event": null,
     "notes": ""
   },
@@ -180,6 +139,20 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a117311",
+    "gid": "1214390333117311",
+    "name": "Target List Creation",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "PR"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a919554",
     "gid": "1214480780919554",
     "name": "Rolling Basis Submissions",
@@ -209,6 +182,21 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a919563",
+    "gid": "1214480780919563",
+    "name": "Target List Creation (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a888173",
     "gid": "1214621790888173",
     "name": "AI for Humanity Awards ",
@@ -217,6 +205,18 @@ window.PA_TASKS = [
     "goals": [
       "PR"
     ],
+    "start": null,
+    "due": "2026-06-03",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a406268",
+    "gid": "1214704755406268",
+    "name": "Fast Company's \"Next Big Things in Tech\"",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
     "start": null,
     "due": "2026-06-03",
     "event": null,
@@ -235,14 +235,14 @@ window.PA_TASKS = [
     "notes": "Development Team Event-Attending"
   },
   {
-    "id": "a209744",
-    "gid": "1215240463209744",
-    "name": "Knowledge Network Virtual Meeting",
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Annual Report Internal Webinar",
     "section": "Hosted Convenings",
-    "status": "Pending",
+    "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-06-03",
+    "due": "2026-06-09",
     "event": null,
     "notes": ""
   },
@@ -256,19 +256,7 @@ window.PA_TASKS = [
       "AP"
     ],
     "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Annual Report Internal Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-09",
+    "due": "2026-06-12",
     "event": null,
     "notes": ""
   },
@@ -379,6 +367,18 @@ window.PA_TASKS = [
       "AP",
       "EM"
     ],
+    "start": null,
+    "due": "2026-06-30",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a209744",
+    "gid": "1215240463209744",
+    "name": "Knowledge Network Virtual Meeting",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
     "start": null,
     "due": "2026-06-30",
     "event": null,
