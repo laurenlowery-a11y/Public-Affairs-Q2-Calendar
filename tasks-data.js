@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-03T16:18:17.823Z
+// Last updated: 2026-06-04T14:36:37.564Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -96,137 +96,10 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a772860",
-    "gid": "1214389801772860",
-    "name": "New Profit Story",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a117311",
-    "gid": "1214390333117311",
-    "name": "Target List Creation",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919554",
-    "gid": "1214480780919554",
-    "name": "Rolling Basis Submissions",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919568",
-    "gid": "1214480780919568",
-    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919563",
-    "gid": "1214480780919563",
-    "name": "Target List Creation (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a888173",
-    "gid": "1214621790888173",
-    "name": "AI for Humanity Awards ",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a406268",
-    "gid": "1214704755406268",
-    "name": "Fast Company's \"Next Big Things in Tech\"",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-03",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a937202",
     "gid": "1213636095937202",
     "name": "Social Innovation Summit (Atlanta)",
-    "section": "External Event Prep",
+    "section": "Completed",
     "status": "Pending",
     "goals": [],
     "start": "2026-06-02",
@@ -243,6 +116,104 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-06-09",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "ER"
+    ],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a772860",
+    "gid": "1214389801772860",
+    "name": "New Profit Story",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a919554",
+    "gid": "1214480780919554",
+    "name": "Rolling Basis Submissions",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "Not Started",
+    "goals": [
+      "PR"
+    ],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a919568",
+    "gid": "1214480780919568",
+    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "Not Started",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a888173",
+    "gid": "1214621790888173",
+    "name": "AI for Humanity Awards ",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "PR"
+    ],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a406268",
+    "gid": "1214704755406268",
+    "name": "Fast Company's \"Next Big Things in Tech\"",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-10",
     "event": null,
     "notes": ""
   },
@@ -345,9 +316,9 @@ window.PA_TASKS = [
   {
     "id": "a406303",
     "gid": "1214704755406303",
-    "name": "Third-Party Validator Op-Ed",
+    "name": "Jim Shelton write up post CC announcement",
     "section": "Content Development",
-    "status": "Not Started",
+    "status": "In Progress",
     "goals": [
       "AP",
       "EM"
@@ -358,16 +329,31 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a406308",
-    "gid": "1214704755406308",
-    "name": "Funder Field Op-Ed",
+    "id": "a401939",
+    "gid": "1215395268401939",
+    "name": "POTENTIAL: Base10 content collaboration",
     "section": "Content Development",
     "status": "Not Started",
     "goals": [
-      "AP",
-      "EM"
+      "EM",
+      "RT"
     ],
     "start": null,
+    "due": "2026-06-30",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a919563",
+    "gid": "1214480780919563",
+    "name": "Target List Creation (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": "2026-05-04",
     "due": "2026-06-30",
     "event": null,
     "notes": ""
@@ -401,9 +387,9 @@ window.PA_TASKS = [
   {
     "id": "a406298",
     "gid": "1214704755406298",
-    "name": "Joint Michael Ellison + Anthropic Leader Op Ed",
+    "name": "Aaron Levie (Box CEO) write up post CC announcement",
     "section": "Content Development",
-    "status": "Not Started",
+    "status": "In Progress",
     "goals": [
       "AP",
       "EM"
@@ -417,7 +403,7 @@ window.PA_TASKS = [
   {
     "id": "a503406",
     "gid": "1212941263503406",
-    "name": "JFF Horizons",
+    "name": "JFF Horizons- Monday Dinner w/ Anthropic, CC Partners & KN Members",
     "section": "External Event Prep",
     "status": "In Progress",
     "goals": [
@@ -684,6 +670,21 @@ window.PA_TASKS = [
     "due": "2026-05-06",
     "event": null,
     "notes": ""
+  },
+  {
+    "id": "a117311",
+    "gid": "1214390333117311",
+    "name": "Target List Creation",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "PR"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-06-03",
+    "event": null,
+    "notes": "",
+    "completed": true
   },
   {
     "id": "a117295",
