@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-08T15:30:22.660Z
+// Last updated: 2026-06-09T14:27:29.983Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -56,20 +56,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a503365",
-    "gid": "1212941263503365",
-    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-05-20",
-    "event": "2026-03-31",
-    "notes": ""
-  },
-  {
     "id": "a117306",
     "gid": "1214390333117306",
     "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
@@ -84,18 +70,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a254018",
-    "gid": "1212879831254018",
-    "name": "Salesforce x CodePath Storytelling and Comms",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-29",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a937202",
     "gid": "1213636095937202",
     "name": "Social Innovation Summit (Atlanta)",
@@ -106,18 +80,6 @@ window.PA_TASKS = [
     "due": "2026-06-03",
     "event": null,
     "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Annual Report Internal Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-09",
-    "event": null,
-    "notes": ""
   },
   {
     "id": "a772864",
@@ -218,16 +180,14 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a406313",
-    "gid": "1214704755406313",
-    "name": "Funder Webinar/Fireside Chat",
+    "id": "a984781",
+    "gid": "1213887260984781",
+    "name": "Base 10 + Student + Alumni Panel",
     "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [
-      "AP"
-    ],
+    "status": "In Progress",
+    "goals": [],
     "start": null,
-    "due": "2026-06-12",
+    "due": "2026-06-16",
     "event": null,
     "notes": ""
   },
@@ -244,14 +204,14 @@ window.PA_TASKS = [
     "notes": "Development Team Event-Attending"
   },
   {
-    "id": "a984781",
-    "gid": "1213887260984781",
-    "name": "Base 10 + Student + Alumni Panel",
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Annual Report Internal Webinar",
     "section": "Hosted Convenings",
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-06-23",
+    "due": "2026-06-19",
     "event": null,
     "notes": ""
   },
@@ -297,6 +257,20 @@ window.PA_TASKS = [
     "due": "2026-06-30",
     "event": "2026-02-09",
     "notes": "Goal is Q2 - Complicated timeline due to contributions"
+  },
+  {
+    "id": "a503365",
+    "gid": "1212941263503365",
+    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-06-30",
+    "event": "2026-03-31",
+    "notes": ""
   },
   {
     "id": "a117314",
@@ -363,7 +337,19 @@ window.PA_TASKS = [
     "gid": "1215240463209744",
     "name": "Knowledge Network Virtual Meeting",
     "section": "Hosted Convenings",
-    "status": "Pending",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-30",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a254018",
+    "gid": "1212879831254018",
+    "name": "Salesforce x CodePath Storytelling and Comms",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
     "goals": [],
     "start": null,
     "due": "2026-06-30",
@@ -406,23 +392,6 @@ window.PA_TASKS = [
     "name": "JFF Horizons- Monday Dinner w/ Anthropic, CC Partners & KN Members",
     "section": "External Event Prep",
     "status": "In Progress",
-    "goals": [
-      "AP",
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a336922",
-    "gid": "1213399863336922",
-    "name": "State of Maryland + Anthropic (JFF Horizons)",
-    "section": "Hosted Convenings",
-    "status": "Pending",
     "goals": [
       "AP",
       "RT",
