@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-09T14:27:29.983Z
+// Last updated: 2026-06-10T14:54:06.692Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -406,7 +406,7 @@ window.PA_TASKS = [
   {
     "id": "a727287",
     "gid": "1213876993727287",
-    "name": "JFF Horizons ",
+    "name": "JFF Horizons- Monday Dinner w/ Anthropic, CC Partners & KN Members",
     "section": "Hosted Convenings",
     "status": "In Progress",
     "goals": [
