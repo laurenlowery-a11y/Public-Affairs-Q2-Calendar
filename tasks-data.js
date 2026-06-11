@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-10T14:54:06.692Z
+// Last updated: 2026-06-11T15:35:58.676Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -472,6 +472,19 @@ window.PA_TASKS = [
     "due": "2026-08-31",
     "event": null,
     "notes": "See Vic for more details",
+    "beyond": true
+  },
+  {
+    "id": "a298054",
+    "gid": "1215559084298054",
+    "name": "NY CodePath Week - Knowledge Network + others",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-01",
+    "event": null,
+    "notes": "September or Mid October",
     "beyond": true
   },
   {
