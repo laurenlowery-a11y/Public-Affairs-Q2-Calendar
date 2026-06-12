@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-11T15:35:58.676Z
+// Last updated: 2026-06-12T14:35:57.092Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -82,6 +82,42 @@ window.PA_TASKS = [
     "notes": "Development Team Event-Attending"
   },
   {
+    "id": "a406268",
+    "gid": "1214704755406268",
+    "name": "Fast Company's \"Next Big Things in Tech\"",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a019893",
+    "gid": "1215605386019893",
+    "name": "White Paper: EDU NYC - W/A to vet for participation",
+    "section": "Content Development",
+    "status": "Not Started",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-15",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a984781",
+    "gid": "1213887260984781",
+    "name": "Base 10 + Student + Alumni Panel",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-16",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a772864",
     "gid": "1214389801772864",
     "name": "The Atlantic - Quote + Intro Call",
@@ -91,7 +127,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-06-10",
+    "due": "2026-06-17",
     "event": null,
     "notes": "Goal is Q2 - Complicated timeline due to contributions"
   },
@@ -106,7 +142,7 @@ window.PA_TASKS = [
       "ER"
     ],
     "start": null,
-    "due": "2026-06-10",
+    "due": "2026-06-17",
     "event": null,
     "notes": ""
   },
@@ -120,7 +156,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-06-10",
+    "due": "2026-06-17",
     "event": null,
     "notes": ""
   },
@@ -134,7 +170,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-06-10",
+    "due": "2026-06-17",
     "event": null,
     "notes": ""
   },
@@ -149,7 +185,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-06-10",
+    "due": "2026-06-17",
     "event": null,
     "notes": ""
   },
@@ -163,31 +199,19 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-06-10",
+    "due": "2026-06-17",
     "event": null,
     "notes": ""
   },
   {
-    "id": "a406268",
-    "gid": "1214704755406268",
-    "name": "Fast Company's \"Next Big Things in Tech\"",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-10",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a984781",
-    "gid": "1213887260984781",
-    "name": "Base 10 + Student + Alumni Panel",
+    "id": "a019920",
+    "gid": "1215605386019920",
+    "name": "CC and KN Summer Roadshow",
     "section": "Hosted Convenings",
-    "status": "In Progress",
+    "status": "Pending",
     "goals": [],
     "start": null,
-    "due": "2026-06-16",
+    "due": "2026-06-17",
     "event": null,
     "notes": ""
   },
