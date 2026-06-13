@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-12T14:35:57.092Z
+// Last updated: 2026-06-13T13:26:53.460Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -85,7 +85,7 @@ window.PA_TASKS = [
     "id": "a406268",
     "gid": "1214704755406268",
     "name": "Fast Company's \"Next Big Things in Tech\"",
-    "section": "Recognition/Awards/Vetted Opportunities",
+    "section": "Completed",
     "status": "In Progress",
     "goals": [],
     "start": null,
