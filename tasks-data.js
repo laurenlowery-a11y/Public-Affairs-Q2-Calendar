@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-16T16:24:47.288Z
+// Last updated: 2026-06-17T14:52:23.256Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -90,18 +90,6 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-06-10",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a019893",
-    "gid": "1215605386019893",
-    "name": "White Paper: EDU NYC - W/A to vet for participation",
-    "section": "Content Development",
-    "status": "Not Started",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-16",
     "event": null,
     "notes": ""
   },
@@ -204,18 +192,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a019920",
-    "gid": "1215605386019920",
-    "name": "CC and KN Summer Roadshow",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-17",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a937206",
     "gid": "1213636095937206",
     "name": "Databricks Data & AI Summit (San Francisco)",
@@ -236,6 +212,18 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-06-19",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a019920",
+    "gid": "1215605386019920",
+    "name": "CC and KN Summer Roadshow",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-24",
     "event": null,
     "notes": ""
   },
@@ -688,6 +676,19 @@ window.PA_TASKS = [
     ],
     "start": "2026-05-04",
     "due": "2026-06-03",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a019893",
+    "gid": "1215605386019893",
+    "name": "White Paper: EDU NYC - W/A to vet for participation",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-16",
     "event": null,
     "notes": "",
     "completed": true
