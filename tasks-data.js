@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-18T14:47:35.746Z
+// Last updated: 2026-06-19T14:43:38.355Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -106,30 +106,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a937206",
-    "gid": "1213636095937206",
-    "name": "Databricks Data & AI Summit (San Francisco)",
-    "section": "External Event Prep",
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-06-15",
-    "due": "2026-06-18",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Annual Report Internal Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-19",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a772864",
     "gid": "1214389801772864",
     "name": "The Atlantic - Quote + Intro Call",
@@ -228,6 +204,18 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Annual Report Internal Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-26",
+    "event": null,
+    "notes": ""
+  },
+  {
     "id": "a912058",
     "gid": "1213561203912058",
     "name": "Forbes CIR Pitch",
@@ -319,7 +307,7 @@ window.PA_TASKS = [
     "gid": "1215395268401939",
     "name": "POTENTIAL: Base10 content collaboration",
     "section": "Content Development",
-    "status": "Not Started",
+    "status": "Pending",
     "goals": [
       "EM",
       "RT"
@@ -387,7 +375,7 @@ window.PA_TASKS = [
     "gid": "1214704755406298",
     "name": "Aaron Levie (Box CEO) write up post CC announcement",
     "section": "Content Development",
-    "status": "In Progress",
+    "status": "Pending",
     "goals": [
       "AP",
       "EM"
@@ -469,6 +457,19 @@ window.PA_TASKS = [
     ],
     "start": null,
     "due": "2026-08-03",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a640154",
+    "gid": "1215833648640154",
+    "name": "Claude Corps: Hosts and fellows selected, content locked, Cohort 2 in motion",
+    "section": "Partnership Milestones",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-28",
     "event": null,
     "notes": "",
     "beyond": true
@@ -691,6 +692,19 @@ window.PA_TASKS = [
     "due": "2026-06-16",
     "event": null,
     "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a937206",
+    "gid": "1213636095937206",
+    "name": "Databricks Data & AI Summit (San Francisco)",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": "2026-06-15",
+    "due": "2026-06-18",
+    "event": null,
+    "notes": "Development Team Event-Attending",
     "completed": true
   },
   {
