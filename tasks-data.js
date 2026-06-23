@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-22T16:29:03.854Z
+// Last updated: 2026-06-23T14:28:17.704Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -271,20 +271,6 @@ window.PA_TASKS = [
     "notes": "Goal is Q2 - Complicated timeline due to contributions"
   },
   {
-    "id": "a503365",
-    "gid": "1212941263503365",
-    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-06-30",
-    "event": "2026-03-31",
-    "notes": ""
-  },
-  {
     "id": "a117314",
     "gid": "1214390333117314",
     "name": "Faculty Op-Ed Pipeline",
@@ -455,6 +441,21 @@ window.PA_TASKS = [
     "start": null,
     "due": "2026-07-27",
     "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a503365",
+    "gid": "1212941263503365",
+    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-07-30",
+    "event": "2026-03-31",
     "notes": "",
     "beyond": true
   },
