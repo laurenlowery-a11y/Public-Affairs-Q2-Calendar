@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-25T14:04:35.473Z
+// Last updated: 2026-06-26T14:03:54.699Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -102,18 +102,6 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-06-16",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a716428",
-    "gid": "1215925519716428",
-    "name": "John Hope Bryant Podcast",
-    "section": "Content Development",
-    "status": "Not Started",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-25",
     "event": null,
     "notes": ""
   },
@@ -326,6 +314,19 @@ window.PA_TASKS = [
       "AP",
       "EM"
     ],
+    "start": null,
+    "due": "2026-07-01",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a716428",
+    "gid": "1215925519716428",
+    "name": "John Hope Bryant Podcast",
+    "section": "Content Development",
+    "status": "Not Started",
+    "goals": [],
     "start": null,
     "due": "2026-07-01",
     "event": null,
