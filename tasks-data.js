@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-29T15:31:13.565Z
+// Last updated: 2026-06-30T13:56:44.199Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -102,6 +102,18 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-06-16",
+    "event": null,
+    "notes": ""
+  },
+  {
+    "id": "a716435",
+    "gid": "1215925519716435",
+    "name": "Confirm participation",
+    "section": "Completed",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-29",
     "event": null,
     "notes": ""
   },
@@ -209,18 +221,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a209744",
-    "gid": "1215240463209744",
-    "name": "Knowledge Network Virtual Meeting",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a254018",
     "gid": "1212879831254018",
     "name": "Salesforce x CodePath Storytelling and Comms",
@@ -309,19 +309,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a716428",
-    "gid": "1215925519716428",
-    "name": "John Hope Bryant Podcast",
-    "section": "Content Development",
-    "status": "Not Started",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-01",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a919554",
     "gid": "1214480780919554",
     "name": "Rolling Basis Submissions",
@@ -381,14 +368,14 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Mid Year Impact Webinar",
+    "id": "a209744",
+    "gid": "1215240463209744",
+    "name": "Knowledge Network Virtual Meeting",
     "section": "Hosted Convenings",
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-07-02",
+    "due": "2026-07-06",
     "event": null,
     "notes": "",
     "beyond": true
@@ -421,6 +408,19 @@ window.PA_TASKS = [
       "RT",
       "CI"
     ],
+    "start": null,
+    "due": "2026-07-13",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Mid Year Impact Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
     "start": null,
     "due": "2026-07-13",
     "event": null,
@@ -479,6 +479,19 @@ window.PA_TASKS = [
     ],
     "start": null,
     "due": "2026-08-03",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a716428",
+    "gid": "1215925519716428",
+    "name": "John Hope Bryant Podcast",
+    "section": "Content Development",
+    "status": "Not Started",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
