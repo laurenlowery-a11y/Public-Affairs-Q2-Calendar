@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-06-30T13:56:44.199Z
+// Last updated: 2026-07-01T14:08:49.016Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -118,34 +118,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a912058",
-    "gid": "1213561203912058",
-    "name": "Forbes CIR Pitch",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-05-06",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117328",
-    "gid": "1214390333117328",
-    "name": "Quarterly Engineering Survey",
-    "section": "Media Relations",
-    "status": "Pending",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Pending more info "
-  },
-  {
     "id": "a253979",
     "gid": "1212879831253979",
     "name": "Op-ED with Stephen Moret & Michael Ellison",
@@ -159,66 +131,6 @@ window.PA_TASKS = [
     "due": "2026-06-30",
     "event": "2026-02-09",
     "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
-    "id": "a117314",
-    "gid": "1214390333117314",
-    "name": "Faculty Op-Ed Pipeline",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": "Goal is Q2, dependent on engagement from contacts"
-  },
-  {
-    "id": "a406303",
-    "gid": "1214704755406303",
-    "name": "Jim Shelton write up post CC announcement",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a401939",
-    "gid": "1215395268401939",
-    "name": "POTENTIAL: Base10 content collaboration",
-    "section": "Content Development",
-    "status": "Pending",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a919563",
-    "gid": "1214480780919563",
-    "name": "Target List Creation (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
   },
   {
     "id": "a254018",
@@ -340,6 +252,22 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a919563",
+    "gid": "1214480780919563",
+    "name": "Target List Creation (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-07-01",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
     "id": "a888173",
     "gid": "1214621790888173",
     "name": "AI for Humanity Awards ",
@@ -376,6 +304,68 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-07-06",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a912058",
+    "gid": "1213561203912058",
+    "name": "Forbes CIR Pitch",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-05-06",
+    "due": "2026-07-08",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a117328",
+    "gid": "1214390333117328",
+    "name": "Quarterly Engineering Survey",
+    "section": "Media Relations",
+    "status": "Pending",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-04-30",
+    "due": "2026-07-08",
+    "event": null,
+    "notes": "Pending more info ",
+    "beyond": true
+  },
+  {
+    "id": "a117314",
+    "gid": "1214390333117314",
+    "name": "Faculty Op-Ed Pipeline",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "HE",
+      "EM"
+    ],
+    "start": "2026-04-30",
+    "due": "2026-07-08",
+    "event": null,
+    "notes": "Goal is Q2, dependent on engagement from contacts",
+    "beyond": true
+  },
+  {
+    "id": "a406303",
+    "gid": "1214704755406303",
+    "name": "Jim Shelton write up post CC announcement",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "AP",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-07-08",
     "event": null,
     "notes": "",
     "beyond": true
@@ -428,19 +418,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a503338",
-    "gid": "1212941263503338",
-    "name": "UNCF Unite",
-    "section": "External Event Prep",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-15",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a623843",
     "gid": "1213571840623843",
     "name": "Maryland AI Roundtable",
@@ -465,6 +442,22 @@ window.PA_TASKS = [
     "start": null,
     "due": "2026-07-30",
     "event": "2026-03-31",
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a401939",
+    "gid": "1215395268401939",
+    "name": "POTENTIAL: Base10 content collaboration",
+    "section": "Content Development",
+    "status": "Pending",
+    "goals": [
+      "EM",
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-07-30",
+    "event": null,
     "notes": "",
     "beyond": true
   },
@@ -754,6 +747,18 @@ window.PA_TASKS = [
     "event": null,
     "notes": "",
     "completed": true
+  },
+  {
+    "id": "a503338",
+    "gid": "1212941263503338",
+    "name": "UNCF Unite",
+    "section": "Completed",
+    "status": "Cancelled",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "Michael ended up not attending"
   }
 ];
 
