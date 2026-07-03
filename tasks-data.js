@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-02T13:30:12.092Z
+// Last updated: 2026-07-03T13:43:38.071Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -169,23 +169,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-07-02",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a919563",
-    "gid": "1214480780919563",
-    "name": "Target List Creation (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-07-02",
+    "due": "2026-07-06",
     "event": null,
     "notes": "",
     "beyond": true
@@ -457,6 +441,22 @@ window.PA_TASKS = [
     ],
     "start": null,
     "due": "2026-07-30",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a919563",
+    "gid": "1214480780919563",
+    "name": "Target List Creation (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-07-31",
     "event": null,
     "notes": "",
     "beyond": true
