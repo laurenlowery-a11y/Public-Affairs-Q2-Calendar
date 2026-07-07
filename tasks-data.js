@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-06T14:59:58.003Z
+// Last updated: 2026-07-07T14:08:10.002Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -118,21 +118,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a253979",
-    "gid": "1212879831253979",
-    "name": "Op-ED with Stephen Moret & Michael Ellison",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": "2026-02-09",
-    "notes": "Goal is Q2 - Complicated timeline due to contributions"
-  },
-  {
     "id": "a254018",
     "gid": "1212879831254018",
     "name": "Salesforce x CodePath Storytelling and Comms",
@@ -159,26 +144,10 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a406298",
-    "gid": "1214704755406298",
-    "name": "Aaron Levie (Box CEO) write up post CC announcement",
-    "section": "Content Development",
-    "status": "Pending",
-    "goals": [
-      "AP",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-07-06",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a209744",
     "gid": "1215240463209744",
     "name": "Knowledge Network Virtual Meeting",
-    "section": "Hosted Convenings",
+    "section": "Completed",
     "status": "In Progress",
     "goals": [],
     "start": null,
@@ -443,6 +412,22 @@ window.PA_TASKS = [
     "due": "2026-07-30",
     "event": null,
     "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a253979",
+    "gid": "1212879831253979",
+    "name": "Op-ED with Stephen Moret & Michael Ellison",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "RT"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-07-31",
+    "event": "2026-02-09",
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
     "beyond": true
   },
   {
