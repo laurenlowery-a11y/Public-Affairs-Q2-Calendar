@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-08T13:41:13.320Z
+// Last updated: 2026-07-09T14:33:33.079Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -157,173 +157,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a912058",
-    "gid": "1213561203912058",
-    "name": "Forbes CIR Pitch",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-05-06",
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a117328",
-    "gid": "1214390333117328",
-    "name": "Quarterly Engineering Survey",
-    "section": "Media Relations",
-    "status": "Pending",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "Pending more info ",
-    "beyond": true
-  },
-  {
-    "id": "a772860",
-    "gid": "1214389801772860",
-    "name": "New Profit Story",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a117314",
-    "gid": "1214390333117314",
-    "name": "Faculty Op-Ed Pipeline",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "HE",
-      "EM"
-    ],
-    "start": "2026-04-30",
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "Goal is Q2, dependent on engagement from contacts",
-    "beyond": true
-  },
-  {
-    "id": "a406303",
-    "gid": "1214704755406303",
-    "name": "Jim Shelton write up post CC announcement",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a919554",
-    "gid": "1214480780919554",
-    "name": "Rolling Basis Submissions",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a919568",
-    "gid": "1214480780919568",
-    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
-    "goals": [
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a888173",
-    "gid": "1214621790888173",
-    "name": "AI for Humanity Awards ",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [
-      "PR"
-    ],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a019920",
-    "gid": "1215605386019920",
-    "name": "CC and KN Summer Roadshow",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-08",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a503406",
     "gid": "1212941263503406",
     "name": "JFF Horizons- Monday Dinner w/ Anthropic, CC Partners & KN Members",
@@ -371,14 +204,181 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a623843",
-    "gid": "1213571840623843",
-    "name": "Maryland AI Roundtable",
+    "id": "a912058",
+    "gid": "1213561203912058",
+    "name": "Forbes CIR Pitch",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-05-06",
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a117328",
+    "gid": "1214390333117328",
+    "name": "Quarterly Engineering Survey",
+    "section": "Media Relations",
+    "status": "Pending",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-04-30",
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "Pending more info ",
+    "beyond": true
+  },
+  {
+    "id": "a772860",
+    "gid": "1214389801772860",
+    "name": "New Profit Story",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a117314",
+    "gid": "1214390333117314",
+    "name": "Faculty Op-Ed Pipeline",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "HE",
+      "EM"
+    ],
+    "start": "2026-04-30",
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "Goal is Q2, dependent on engagement from contacts",
+    "beyond": true
+  },
+  {
+    "id": "a406303",
+    "gid": "1214704755406303",
+    "name": "Jim Shelton write up post CC announcement",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "AP",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a919554",
+    "gid": "1214480780919554",
+    "name": "Rolling Basis Submissions",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "Not Started",
+    "goals": [
+      "PR"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a919568",
+    "gid": "1214480780919568",
+    "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "Not Started",
+    "goals": [
+      "RT",
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a888173",
+    "gid": "1214621790888173",
+    "name": "AI for Humanity Awards ",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [
+      "PR"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a019920",
+    "gid": "1215605386019920",
+    "name": "CC and KN Summer Roadshow",
     "section": "Hosted Convenings",
     "status": "Pending",
     "goals": [],
     "start": null,
-    "due": "2026-07-27",
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "ER"
+    ],
+    "start": null,
+    "due": "2026-07-16",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a430688",
+    "gid": "1216391801430688",
+    "name": "Wells Fargo Press Release",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-16",
     "event": null,
     "notes": "",
     "beyond": true
@@ -483,6 +483,19 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-08-28",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a623843",
+    "gid": "1213571840623843",
+    "name": "Maryland AI Roundtable",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-31",
     "event": null,
     "notes": "",
     "beyond": true
