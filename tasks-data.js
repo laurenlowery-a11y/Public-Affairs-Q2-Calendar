@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-09T14:33:33.079Z
+// Last updated: 2026-07-10T13:59:56.087Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -355,6 +355,21 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a350039",
+    "gid": "1216432672350039",
+    "name": "Meeting with Michael Brickman-get scheduled",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [
+      "GP"
+    ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "Senior Advisor DOL",
+    "beyond": true
+  },
+  {
     "id": "a117289",
     "gid": "1214390333117289",
     "name": "WF Press Release",
@@ -379,6 +394,32 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-07-16",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350047",
+    "gid": "1216432672350047",
+    "name": "The Inc Best in Business Awards",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-17",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350055",
+    "gid": "1216432672350055",
+    "name": "Fast Co Most Innovative Companies",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-24",
     "event": null,
     "notes": "",
     "beyond": true
