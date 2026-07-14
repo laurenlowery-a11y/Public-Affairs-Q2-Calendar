@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-13T14:06:25.979Z
+// Last updated: 2026-07-14T13:09:23.015Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -191,19 +191,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Mid Year Impact Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a912058",
     "gid": "1213561203912058",
     "name": "Forbes CIR Pitch",
@@ -335,6 +322,19 @@ window.PA_TASKS = [
     "goals": [
       "PR"
     ],
+    "start": null,
+    "due": "2026-07-15",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Mid Year Impact Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
     "start": null,
     "due": "2026-07-15",
     "event": null,
