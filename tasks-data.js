@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-14T13:09:23.015Z
+// Last updated: 2026-07-15T13:13:25.055Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -157,40 +157,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a503406",
-    "gid": "1212941263503406",
-    "name": "JFF Horizons- Monday Dinner w/ Anthropic, CC Partners & KN Members",
-    "section": "External Event Prep",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a727287",
-    "gid": "1213876993727287",
-    "name": "JFF Horizons- Monday Dinner w/ Anthropic, CC Partners & KN Members",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "RT",
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-07-13",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a912058",
     "gid": "1213561203912058",
     "name": "Forbes CIR Pitch",
@@ -329,19 +295,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Mid Year Impact Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-15",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a019920",
     "gid": "1215605386019920",
     "name": "CC and KN Summer Roadshow",
@@ -352,21 +305,6 @@ window.PA_TASKS = [
     "due": "2026-07-15",
     "event": null,
     "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a350039",
-    "gid": "1216432672350039",
-    "name": "Meeting with Michael Brickman-get scheduled",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-07-15",
-    "event": null,
-    "notes": "Senior Advisor DOL",
     "beyond": true
   },
   {
@@ -409,6 +347,34 @@ window.PA_TASKS = [
     "due": "2026-07-17",
     "event": null,
     "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Mid Year Impact Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-22",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350039",
+    "gid": "1216432672350039",
+    "name": "Meeting with Michael Brickman-get scheduled",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [
+      "GP"
+    ],
+    "start": null,
+    "due": "2026-07-22",
+    "event": null,
+    "notes": "Senior Advisor DOL",
     "beyond": true
   },
   {
@@ -783,6 +749,40 @@ window.PA_TASKS = [
     "goals": [],
     "start": "2026-04-30",
     "due": "2026-06-30",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a727287",
+    "gid": "1213876993727287",
+    "name": "JFF Horizons",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "AP",
+      "RT",
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-07-13",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a503406",
+    "gid": "1212941263503406",
+    "name": "JFF Horizons Dinner w/ Matt Gee",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "AP",
+      "RT",
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-07-13",
     "event": null,
     "notes": "",
     "completed": true
