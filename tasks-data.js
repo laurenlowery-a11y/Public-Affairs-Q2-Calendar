@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-16T13:20:56.613Z
+// Last updated: 2026-07-17T13:05:25.845Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -157,15 +157,12 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Media Relations",
+    "id": "a430688",
+    "gid": "1216391801430688",
+    "name": "Wells Fargo Press Release",
+    "section": "Completed",
     "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
+    "goals": [],
     "start": null,
     "due": "2026-07-16",
     "event": null,
@@ -173,12 +170,15 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a430688",
-    "gid": "1216391801430688",
-    "name": "Wells Fargo Press Release",
-    "section": "Content Development",
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Completed",
     "status": "In Progress",
-    "goals": [],
+    "goals": [
+      "EM",
+      "ER"
+    ],
     "start": null,
     "due": "2026-07-16",
     "event": null,
