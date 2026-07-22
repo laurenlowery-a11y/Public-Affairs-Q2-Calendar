@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-21T13:17:40.526Z
+// Last updated: 2026-07-22T13:22:09.076Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -118,18 +118,6 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
-    "id": "a254018",
-    "gid": "1212879831254018",
-    "name": "Salesforce x CodePath Storytelling and Comms",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
     "id": "a184790",
     "gid": "1213106556184790",
     "name": "Q2 OOCEO Quarterly Letter",
@@ -181,19 +169,6 @@ window.PA_TASKS = [
     ],
     "start": null,
     "due": "2026-07-16",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a350047",
-    "gid": "1216432672350047",
-    "name": "The Inc Best in Business Awards",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-20",
     "event": null,
     "notes": "",
     "beyond": true
@@ -275,27 +250,11 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a406303",
-    "gid": "1214704755406303",
-    "name": "Jim Shelton write up post CC announcement",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "AP",
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-07-22",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a919554",
     "gid": "1214480780919554",
     "name": "Rolling Basis Submissions",
     "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
+    "status": "In Progress",
     "goals": [
       "PR"
     ],
@@ -310,11 +269,24 @@ window.PA_TASKS = [
     "gid": "1214480780919568",
     "name": "Rolling Basis Approval (Events + Speaking Opportunities)",
     "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "Not Started",
+    "status": "In Progress",
     "goals": [
       "RT",
       "CI"
     ],
+    "start": null,
+    "due": "2026-07-22",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350047",
+    "gid": "1216432672350047",
+    "name": "The Inc Best in Business Awards",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
     "start": null,
     "due": "2026-07-22",
     "event": null,
@@ -339,7 +311,7 @@ window.PA_TASKS = [
   {
     "id": "a989645",
     "gid": "1213826062989645",
-    "name": "Mid Year Impact Webinar",
+    "name": "Funders Webinar",
     "section": "Hosted Convenings",
     "status": "In Progress",
     "goals": [],
@@ -395,7 +367,7 @@ window.PA_TASKS = [
     "gid": "1212941263503365",
     "name": "Op-Ed with Ade (Base10 Founder) + Michael",
     "section": "Content Development",
-    "status": "In Progress",
+    "status": "Pending",
     "goals": [
       "RT"
     ],
@@ -415,6 +387,19 @@ window.PA_TASKS = [
       "EM",
       "RT"
     ],
+    "start": null,
+    "due": "2026-07-30",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a254018",
+    "gid": "1212879831254018",
+    "name": "Salesforce x CodePath Storytelling and Comms",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [],
     "start": null,
     "due": "2026-07-30",
     "event": null,
@@ -469,11 +454,24 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a000749",
+    "gid": "1216756086000749",
+    "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-13",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
     "id": "a716428",
     "gid": "1215925519716428",
     "name": "John Hope Bryant Podcast",
     "section": "Content Development",
-    "status": "Not Started",
+    "status": "In Progress",
     "goals": [],
     "start": null,
     "due": "2026-08-26",
@@ -544,6 +542,19 @@ window.PA_TASKS = [
     "due": "2026-09-01",
     "event": null,
     "notes": "Owned by development",
+    "beyond": true
+  },
+  {
+    "id": "a000757",
+    "gid": "1216756086000757",
+    "name": "US News Future of Higher Education Forum",
+    "section": "External Event Prep",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-28",
+    "event": null,
+    "notes": "NYC - Michael Speaking",
     "beyond": true
   },
   {
@@ -798,6 +809,22 @@ window.PA_TASKS = [
     "due": "2026-07-15",
     "event": null,
     "notes": "Michael ended up not attending"
+  },
+  {
+    "id": "a406303",
+    "gid": "1214704755406303",
+    "name": "Jim Shelton write up post CC announcement",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "AP",
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-07-22",
+    "event": null,
+    "notes": "",
+    "completed": true
   }
 ];
 
