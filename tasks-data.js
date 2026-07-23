@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-22T13:22:09.076Z
+// Last updated: 2026-07-23T13:24:52.174Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -174,6 +174,47 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Funders Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-23",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350055",
+    "gid": "1216432672350055",
+    "name": "Fast Co Most Innovative Companies",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-24",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350039",
+    "gid": "1216432672350039",
+    "name": "Meeting with Michael Brickman-get scheduled",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [
+      "GP"
+    ],
+    "start": null,
+    "due": "2026-07-28",
+    "event": null,
+    "notes": "Senior Advisor DOL",
+    "beyond": true
+  },
+  {
     "id": "a912058",
     "gid": "1213561203912058",
     "name": "Forbes CIR Pitch",
@@ -182,8 +223,8 @@ window.PA_TASKS = [
     "goals": [
       "EM"
     ],
-    "start": "2026-05-06",
-    "due": "2026-07-22",
+    "start": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "Goal is Q2 - Complicated timeline due to contributions",
     "beyond": true
@@ -198,7 +239,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "Goal is Q2 - Complicated timeline due to contributions",
     "beyond": true
@@ -212,8 +253,8 @@ window.PA_TASKS = [
     "goals": [
       "EM"
     ],
-    "start": "2026-04-30",
-    "due": "2026-07-22",
+    "start": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "Pending more info ",
     "beyond": true
@@ -228,7 +269,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "",
     "beyond": true
@@ -244,7 +285,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": "2026-04-30",
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "Goal is Q2, dependent on engagement from contacts",
     "beyond": true
@@ -259,7 +300,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "",
     "beyond": true
@@ -275,7 +316,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "",
     "beyond": true
@@ -288,7 +329,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "",
     "beyond": true
@@ -303,20 +344,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-07-22",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Funders Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-22",
+    "due": "2026-07-29",
     "event": null,
     "notes": "",
     "beyond": true
@@ -329,35 +357,7 @@ window.PA_TASKS = [
     "status": "Pending",
     "goals": [],
     "start": null,
-    "due": "2026-07-22",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a350039",
-    "gid": "1216432672350039",
-    "name": "Meeting with Michael Brickman-get scheduled",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-07-22",
-    "event": null,
-    "notes": "Senior Advisor DOL",
-    "beyond": true
-  },
-  {
-    "id": "a350055",
-    "gid": "1216432672350055",
-    "name": "Fast Co Most Innovative Companies",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-24",
+    "due": "2026-07-29",
     "event": null,
     "notes": "",
     "beyond": true
