@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-24T13:18:11.113Z
+// Last updated: 2026-07-25T13:02:04.921Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -174,19 +174,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a350055",
-    "gid": "1216432672350055",
-    "name": "Fast Co Most Innovative Companies",
-    "section": "Recognition/Awards/Vetted Opportunities",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-24",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a350039",
     "gid": "1216432672350039",
     "name": "Meeting with Michael Brickman-get scheduled",
@@ -330,6 +317,19 @@ window.PA_TASKS = [
     "goals": [
       "PR"
     ],
+    "start": null,
+    "due": "2026-07-29",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350055",
+    "gid": "1216432672350055",
+    "name": "Fast Co Most Innovative Companies",
+    "section": "Recognition/Awards/Vetted Opportunities",
+    "status": "In Progress",
+    "goals": [],
     "start": null,
     "due": "2026-07-29",
     "event": null,
