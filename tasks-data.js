@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-28T13:40:03.160Z
+// Last updated: 2026-07-29T13:46:12.811Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -480,19 +480,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a716428",
-    "gid": "1215925519716428",
-    "name": "John Hope Bryant Podcast",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-26",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a640154",
     "gid": "1215833648640154",
     "name": "Claude Corps: Hosts and fellows selected, content locked, Cohort 2 in motion",
@@ -510,7 +497,7 @@ window.PA_TASKS = [
     "gid": "1213571840623843",
     "name": "Maryland AI Roundtable",
     "section": "Hosted Convenings",
-    "status": "Pending",
+    "status": "In Progress",
     "goals": [],
     "start": null,
     "due": "2026-08-31",
@@ -529,6 +516,19 @@ window.PA_TASKS = [
     "due": "2026-08-31",
     "event": null,
     "notes": "See Vic for more details",
+    "beyond": true
+  },
+  {
+    "id": "a716428",
+    "gid": "1215925519716428",
+    "name": "John Hope Bryant Podcast",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-01",
+    "event": null,
+    "notes": "",
     "beyond": true
   },
   {
