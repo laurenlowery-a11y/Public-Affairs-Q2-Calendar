@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-29T13:46:12.811Z
+// Last updated: 2026-07-30T13:27:32.285Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -174,21 +174,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a350039",
-    "gid": "1216432672350039",
-    "name": "Meeting with Michael Brickman-get scheduled",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-07-28",
-    "event": null,
-    "notes": "Senior Advisor DOL",
-    "beyond": true
-  },
-  {
     "id": "a912058",
     "gid": "1213561203912058",
     "name": "Forbes CIR Pitch",
@@ -337,19 +322,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a989645",
-    "gid": "1213826062989645",
-    "name": "Funders Webinar",
-    "section": "Hosted Convenings",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-29",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a019920",
     "gid": "1215605386019920",
     "name": "CC and KN Summer Roadshow",
@@ -360,6 +332,21 @@ window.PA_TASKS = [
     "due": "2026-07-29",
     "event": null,
     "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a350039",
+    "gid": "1216432672350039",
+    "name": "Meeting with Michael Brickman-get scheduled",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [
+      "GP"
+    ],
+    "start": null,
+    "due": "2026-07-29",
+    "event": null,
+    "notes": "Senior Advisor DOL",
     "beyond": true
   },
   {
@@ -464,6 +451,19 @@ window.PA_TASKS = [
     "due": "2026-08-04",
     "event": null,
     "notes": "Remote, Madison speaking",
+    "beyond": true
+  },
+  {
+    "id": "a989645",
+    "gid": "1213826062989645",
+    "name": "Funders Webinar",
+    "section": "Hosted Convenings",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-05",
+    "event": null,
+    "notes": "",
     "beyond": true
   },
   {
