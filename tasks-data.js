@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-07-31T13:41:15.904Z
+// Last updated: 2026-08-01T12:56:54.310Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -174,50 +174,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a503365",
-    "gid": "1212941263503365",
-    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
-    "section": "Content Development",
-    "status": "Pending",
-    "goals": [
-      "RT"
-    ],
-    "start": null,
-    "due": "2026-07-30",
-    "event": "2026-03-31",
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a254018",
-    "gid": "1212879831254018",
-    "name": "Salesforce x CodePath Storytelling and Comms",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-30",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a253979",
-    "gid": "1212879831253979",
-    "name": "Op-ED with Stephen Moret & Michael Ellison",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-07-31",
-    "event": "2026-02-09",
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
     "id": "a350039",
     "gid": "1216432672350039",
     "name": "Meeting with Michael Brickman-get scheduled",
@@ -303,6 +259,22 @@ window.PA_TASKS = [
     "due": "2026-08-05",
     "event": null,
     "notes": "Pending more info ",
+    "beyond": true
+  },
+  {
+    "id": "a253979",
+    "gid": "1212879831253979",
+    "name": "Op-ED with Stephen Moret & Michael Ellison",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "RT"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-08-05",
+    "event": "2026-02-09",
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
     "beyond": true
   },
   {
@@ -467,6 +439,19 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a254018",
+    "gid": "1212879831254018",
+    "name": "Salesforce x CodePath Storytelling and Comms",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-05",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
     "id": "a000749",
     "gid": "1216756086000749",
     "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
@@ -489,6 +474,21 @@ window.PA_TASKS = [
     "start": null,
     "due": "2026-08-28",
     "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a503365",
+    "gid": "1212941263503365",
+    "name": "Op-Ed with Ade (Base10 Founder) + Michael",
+    "section": "Content Development",
+    "status": "Pending",
+    "goals": [
+      "RT"
+    ],
+    "start": null,
+    "due": "2026-08-31",
+    "event": "2026-03-31",
     "notes": "",
     "beyond": true
   },
