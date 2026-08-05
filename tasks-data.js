@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-04T13:48:15.730Z
+// Last updated: 2026-08-05T13:43:33.420Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -189,19 +189,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a986362",
-    "gid": "1216796698986362",
-    "name": "US Chamber of Commerce Foundation- AI in Nonprofits",
-    "section": "External Event Prep",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-04",
-    "event": null,
-    "notes": "Remote, Madison speaking",
-    "beyond": true
-  },
-  {
     "id": "a350039",
     "gid": "1216432672350039",
     "name": "Meeting with Michael Brickman-get scheduled",
@@ -214,6 +201,19 @@ window.PA_TASKS = [
     "due": "2026-08-04",
     "event": null,
     "notes": "Senior Advisor DOL",
+    "beyond": true
+  },
+  {
+    "id": "a986362",
+    "gid": "1216796698986362",
+    "name": "US Chamber of Commerce Foundation- AI in Nonprofits",
+    "section": "Completed",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-04",
+    "event": null,
+    "notes": "Remote, Madison speaking",
     "beyond": true
   },
   {
