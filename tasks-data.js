@@ -1,178 +1,10 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-05T13:43:33.420Z
+// Last updated: 2026-08-06T13:41:59.184Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
 
 window.PA_TASKS = [
-  {
-    "id": "a557673",
-    "gid": "1212823017557673",
-    "name": "Wells Fargo/Charlotte Partnership ",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-04-22",
-    "event": "2026-03-02",
-    "notes": ""
-  },
-  {
-    "id": "a346341",
-    "gid": "1214559832346341",
-    "name": "Social Innovation Summit: Registrant List Request (by Sarah Perry)",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-07",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a406272",
-    "gid": "1214704755406272",
-    "name": "Submit payment (pay now, submit later)",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-14",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a937199",
-    "gid": "1213636095937199",
-    "name": "Development Team Offsite (Louisville, KY)",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-05-18",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a117306",
-    "gid": "1214390333117306",
-    "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-05-20",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a937202",
-    "gid": "1213636095937202",
-    "name": "Social Innovation Summit (Atlanta)",
-    "section": "Completed",
-    "status": "Pending",
-    "goals": [],
-    "start": "2026-06-02",
-    "due": "2026-06-03",
-    "event": null,
-    "notes": "Development Team Event-Attending"
-  },
-  {
-    "id": "a406268",
-    "gid": "1214704755406268",
-    "name": "Fast Company's \"Next Big Things in Tech\"",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-10",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a984781",
-    "gid": "1213887260984781",
-    "name": "Base 10 + Student + Alumni Panel",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-16",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a716435",
-    "gid": "1215925519716435",
-    "name": "Confirm participation",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-06-29",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a184790",
-    "gid": "1213106556184790",
-    "name": "Q2 OOCEO Quarterly Letter",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-06-30",
-    "event": null,
-    "notes": ""
-  },
-  {
-    "id": "a209744",
-    "gid": "1215240463209744",
-    "name": "Knowledge Network Virtual Meeting",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-06",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a430688",
-    "gid": "1216391801430688",
-    "name": "Wells Fargo Press Release",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-07-16",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a117289",
-    "gid": "1214390333117289",
-    "name": "WF Press Release",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "ER"
-    ],
-    "start": null,
-    "due": "2026-07-16",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
   {
     "id": "a253998",
     "gid": "1212879831253998",
@@ -186,79 +18,6 @@ window.PA_TASKS = [
     "due": "2026-08-03",
     "event": null,
     "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a350039",
-    "gid": "1216432672350039",
-    "name": "Meeting with Michael Brickman-get scheduled",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [
-      "GP"
-    ],
-    "start": null,
-    "due": "2026-08-04",
-    "event": null,
-    "notes": "Senior Advisor DOL",
-    "beyond": true
-  },
-  {
-    "id": "a986362",
-    "gid": "1216796698986362",
-    "name": "US Chamber of Commerce Foundation- AI in Nonprofits",
-    "section": "Completed",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-04",
-    "event": null,
-    "notes": "Remote, Madison speaking",
-    "beyond": true
-  },
-  {
-    "id": "a912058",
-    "gid": "1213561203912058",
-    "name": "Forbes CIR Pitch",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-07-22",
-    "due": "2026-08-05",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-08-05",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
-    "id": "a117328",
-    "gid": "1214390333117328",
-    "name": "Quarterly Engineering Survey",
-    "section": "Media Relations",
-    "status": "Pending",
-    "goals": [
-      "EM"
-    ],
-    "start": "2026-07-22",
-    "due": "2026-08-05",
-    "event": null,
-    "notes": "Pending more info ",
     "beyond": true
   },
   {
@@ -278,6 +37,64 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a254018",
+    "gid": "1212879831254018",
+    "name": "Salesforce x CodePath Storytelling and Comms",
+    "section": "Miscellaneous Asks (Dates to be Determined)",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-05",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
+    "id": "a912058",
+    "gid": "1213561203912058",
+    "name": "Forbes CIR Pitch",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-08-12",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-08-12",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a117328",
+    "gid": "1214390333117328",
+    "name": "Quarterly Engineering Survey",
+    "section": "Media Relations",
+    "status": "Pending",
+    "goals": [
+      "EM"
+    ],
+    "start": "2026-07-22",
+    "due": "2026-08-12",
+    "event": null,
+    "notes": "Pending more info ",
+    "beyond": true
+  },
+  {
     "id": "a772860",
     "gid": "1214389801772860",
     "name": "New Profit Story",
@@ -287,7 +104,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -303,7 +120,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": "2026-04-30",
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "Goal is Q2, dependent on engagement from contacts",
     "beyond": true
@@ -319,7 +136,7 @@ window.PA_TASKS = [
       "RT"
     ],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -334,7 +151,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -350,7 +167,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -366,7 +183,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": "2026-05-04",
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -379,7 +196,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -394,7 +211,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -407,7 +224,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -420,7 +237,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -433,20 +250,7 @@ window.PA_TASKS = [
     "status": "Pending",
     "goals": [],
     "start": null,
-    "due": "2026-08-05",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a254018",
-    "gid": "1212879831254018",
-    "name": "Salesforce x CodePath Storytelling and Comms",
-    "section": "Miscellaneous Asks (Dates to be Determined)",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-05",
+    "due": "2026-08-12",
     "event": null,
     "notes": "",
     "beyond": true
@@ -519,19 +323,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a716428",
-    "gid": "1215925519716428",
-    "name": "John Hope Bryant Podcast",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-09-01",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a298054",
     "gid": "1215559084298054",
     "name": "NY CodePath Week - Knowledge Network + others",
@@ -555,6 +346,19 @@ window.PA_TASKS = [
     "due": "2026-09-01",
     "event": null,
     "notes": "Owned by development",
+    "beyond": true
+  },
+  {
+    "id": "a716428",
+    "gid": "1215925519716428",
+    "name": "John Hope Bryant Podcast",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-03",
+    "event": null,
+    "notes": "",
     "beyond": true
   },
   {
@@ -643,6 +447,21 @@ window.PA_TASKS = [
     "start": null,
     "due": "2026-04-22",
     "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a557673",
+    "gid": "1212823017557673",
+    "name": "Wells Fargo/Charlotte Partnership ",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "HE"
+    ],
+    "start": null,
+    "due": "2026-04-22",
+    "event": "2026-03-02",
     "notes": "",
     "completed": true
   },
@@ -737,6 +556,73 @@ window.PA_TASKS = [
     "notes": ""
   },
   {
+    "id": "a346341",
+    "gid": "1214559832346341",
+    "name": "Social Innovation Summit: Registrant List Request (by Sarah Perry)",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-07",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a406272",
+    "gid": "1214704755406272",
+    "name": "Submit payment (pay now, submit later)",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-14",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a937199",
+    "gid": "1213636095937199",
+    "name": "Development Team Offsite (Louisville, KY)",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-05-18",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a117306",
+    "gid": "1214390333117306",
+    "name": "Learning + Strategy call scheduled w/ Wallerstein + Michael",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "GP"
+    ],
+    "start": null,
+    "due": "2026-05-20",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a937202",
+    "gid": "1213636095937202",
+    "name": "Social Innovation Summit (Atlanta)",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": "2026-06-02",
+    "due": "2026-06-03",
+    "event": null,
+    "notes": "Development Team Event-Attending",
+    "completed": true
+  },
+  {
     "id": "a117311",
     "gid": "1214390333117311",
     "name": "Target List Creation",
@@ -747,6 +633,32 @@ window.PA_TASKS = [
     ],
     "start": "2026-05-04",
     "due": "2026-06-03",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a406268",
+    "gid": "1214704755406268",
+    "name": "Fast Company's \"Next Big Things in Tech\"",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-10",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a984781",
+    "gid": "1213887260984781",
+    "name": "Base 10 + Student + Alumni Panel",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-16",
     "event": null,
     "notes": "",
     "completed": true
@@ -778,6 +690,34 @@ window.PA_TASKS = [
     "completed": true
   },
   {
+    "id": "a716435",
+    "gid": "1215925519716435",
+    "name": "Confirm participation",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-06-29",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a184790",
+    "gid": "1213106556184790",
+    "name": "Q2 OOCEO Quarterly Letter",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "CI"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-06-30",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
     "id": "a117295",
     "gid": "1214390333117295",
     "name": "Introductions: Shonda Gibson and A&M System",
@@ -786,6 +726,19 @@ window.PA_TASKS = [
     "goals": [],
     "start": "2026-04-30",
     "due": "2026-06-30",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a209744",
+    "gid": "1215240463209744",
+    "name": "Knowledge Network Virtual Meeting",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-06",
     "event": null,
     "notes": "",
     "completed": true
@@ -837,6 +790,35 @@ window.PA_TASKS = [
     "notes": "Michael ended up not attending"
   },
   {
+    "id": "a430688",
+    "gid": "1216391801430688",
+    "name": "Wells Fargo Press Release",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-07-16",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a117289",
+    "gid": "1214390333117289",
+    "name": "WF Press Release",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [
+      "EM",
+      "ER"
+    ],
+    "start": null,
+    "due": "2026-07-16",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
     "id": "a406303",
     "gid": "1214704755406303",
     "name": "Jim Shelton write up post CC announcement",
@@ -850,6 +832,33 @@ window.PA_TASKS = [
     "due": "2026-07-22",
     "event": null,
     "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a350039",
+    "gid": "1216432672350039",
+    "name": "Meeting with Michael Brickman-get scheduled",
+    "section": "Completed",
+    "status": "Cancelled",
+    "goals": [
+      "GP"
+    ],
+    "start": null,
+    "due": "2026-08-04",
+    "event": null,
+    "notes": "Senior Advisor DOL"
+  },
+  {
+    "id": "a986362",
+    "gid": "1216796698986362",
+    "name": "US Chamber of Commerce Foundation- AI in Nonprofits",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-04",
+    "event": null,
+    "notes": "Remote, Madison speaking",
     "completed": true
   }
 ];
