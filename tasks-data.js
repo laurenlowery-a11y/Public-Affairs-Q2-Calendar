@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-07T12:40:32.290Z
+// Last updated: 2026-08-08T12:27:07.816Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -243,19 +243,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a019920",
-    "gid": "1215605386019920",
-    "name": "CC and KN Summer Roadshow",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-12",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
     "id": "a000749",
     "gid": "1216756086000749",
     "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
@@ -362,22 +349,9 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a000757",
-    "gid": "1216756086000757",
-    "name": "US News Future of Higher Education Forum",
-    "section": "External Event Prep",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-09-28",
-    "event": null,
-    "notes": "NYC - Michael Speaking",
-    "beyond": true
-  },
-  {
     "id": "a894927",
     "gid": "1217019703894927",
-    "name": "NYC Forum",
+    "name": "U.S. News Future of Higher Ed Forum",
     "section": "External Event Prep",
     "status": "In Progress",
     "goals": [],
@@ -859,6 +833,19 @@ window.PA_TASKS = [
     "due": "2026-08-04",
     "event": null,
     "notes": "Remote, Madison speaking",
+    "completed": true
+  },
+  {
+    "id": "a019920",
+    "gid": "1215605386019920",
+    "name": "CC and KN Summer Roadshow",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-12",
+    "event": null,
+    "notes": "",
     "completed": true
   }
 ];
