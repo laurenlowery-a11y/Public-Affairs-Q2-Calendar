@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-12T12:44:23.895Z
+// Last updated: 2026-08-13T12:45:33.280Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -50,6 +50,19 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a000749",
+    "gid": "1216756086000749",
+    "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-13",
+    "event": null,
+    "notes": "",
+    "beyond": true
+  },
+  {
     "id": "a912058",
     "gid": "1213561203912058",
     "name": "Forbes CIR Pitch",
@@ -59,7 +72,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "Goal is Q2 - Complicated timeline due to contributions",
     "beyond": true
@@ -74,7 +87,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "Goal is Q2 - Complicated timeline due to contributions",
     "beyond": true
@@ -88,8 +101,8 @@ window.PA_TASKS = [
     "goals": [
       "EM"
     ],
-    "start": "2026-07-22",
-    "due": "2026-08-12",
+    "start": null,
+    "due": "2026-08-19",
     "event": null,
     "notes": "Pending more info ",
     "beyond": true
@@ -104,7 +117,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -119,8 +132,8 @@ window.PA_TASKS = [
       "HE",
       "EM"
     ],
-    "start": "2026-04-30",
-    "due": "2026-08-12",
+    "start": null,
+    "due": "2026-08-19",
     "event": null,
     "notes": "Goal is Q2, dependent on engagement from contacts",
     "beyond": true
@@ -136,7 +149,7 @@ window.PA_TASKS = [
       "RT"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -151,7 +164,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -167,7 +180,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -182,8 +195,8 @@ window.PA_TASKS = [
       "RT",
       "CI"
     ],
-    "start": "2026-05-04",
-    "due": "2026-08-12",
+    "start": null,
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -196,7 +209,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -211,7 +224,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -224,7 +237,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-12",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
@@ -237,20 +250,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-12",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a000749",
-    "gid": "1216756086000749",
-    "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-13",
+    "due": "2026-08-19",
     "event": null,
     "notes": "",
     "beyond": true
