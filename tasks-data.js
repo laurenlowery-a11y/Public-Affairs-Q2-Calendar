@@ -1,41 +1,10 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-13T12:45:33.280Z
+// Last updated: 2026-08-14T12:41:51.324Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
 
 window.PA_TASKS = [
-  {
-    "id": "a253998",
-    "gid": "1212879831253998",
-    "name": "FIU Case Study",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "HE"
-    ],
-    "start": null,
-    "due": "2026-08-03",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a253979",
-    "gid": "1212879831253979",
-    "name": "Op-ED with Stephen Moret & Michael Ellison",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [
-      "EM",
-      "RT"
-    ],
-    "start": "2026-05-04",
-    "due": "2026-08-05",
-    "event": "2026-02-09",
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
   {
     "id": "a254018",
     "gid": "1212879831254018",
@@ -45,19 +14,6 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-08-05",
-    "event": null,
-    "notes": "",
-    "beyond": true
-  },
-  {
-    "id": "a000749",
-    "gid": "1216756086000749",
-    "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
-    "section": "Content Development",
-    "status": "In Progress",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-13",
     "event": null,
     "notes": "",
     "beyond": true
@@ -108,6 +64,22 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a253979",
+    "gid": "1212879831253979",
+    "name": "Op-ED with Stephen Moret & Michael Ellison",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "EM",
+      "RT"
+    ],
+    "start": "2026-05-04",
+    "due": "2026-08-19",
+    "event": "2026-02-09",
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
     "id": "a772860",
     "gid": "1214389801772860",
     "name": "New Profit Story",
@@ -125,7 +97,7 @@ window.PA_TASKS = [
   {
     "id": "a117314",
     "gid": "1214390333117314",
-    "name": "Faculty Op-Ed Pipeline",
+    "name": "Potential Faculty Op Ed (Sarah Cox, Merritt)",
     "section": "Content Development",
     "status": "In Progress",
     "goals": [
@@ -284,6 +256,19 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a323790",
+    "gid": "1217452766323790",
+    "name": "FIU Case Study Webinar",
+    "section": "Hosted Convenings",
+    "status": "Not Started",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-31",
+    "event": null,
+    "notes": "Date still in progress",
+    "beyond": true
+  },
+  {
     "id": "a623843",
     "gid": "1213571840623843",
     "name": "Maryland AI Roundtable",
@@ -310,29 +295,18 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a298054",
-    "gid": "1215559084298054",
-    "name": "NY CodePath Week - Knowledge Network + others",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
+    "id": "a253998",
+    "gid": "1212879831253998",
+    "name": "FIU Case Study",
+    "section": "Content Development",
+    "status": "In Progress",
+    "goals": [
+      "HE"
+    ],
     "start": null,
     "due": "2026-09-01",
     "event": null,
-    "notes": "September or Mid October",
-    "beyond": true
-  },
-  {
-    "id": "a994871",
-    "gid": "1215032985994871",
-    "name": "NY Convening ",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-09-01",
-    "event": null,
-    "notes": "Owned by development",
+    "notes": "",
     "beyond": true
   },
   {
@@ -359,6 +333,19 @@ window.PA_TASKS = [
     "due": "2026-09-28",
     "event": null,
     "notes": "Michael Speaking, Rachel onsite contact",
+    "beyond": true
+  },
+  {
+    "id": "a298054",
+    "gid": "1215559084298054",
+    "name": "Knowledge Network In-Person",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-30",
+    "event": null,
+    "notes": "September or Mid October",
     "beyond": true
   },
   {
@@ -844,6 +831,19 @@ window.PA_TASKS = [
     "goals": [],
     "start": null,
     "due": "2026-08-12",
+    "event": null,
+    "notes": "",
+    "completed": true
+  },
+  {
+    "id": "a000749",
+    "gid": "1216756086000749",
+    "name": "EdTech Podcast w/ Mike Wales + Madison McCormick",
+    "section": "Completed",
+    "status": "Completed",
+    "goals": [],
+    "start": null,
+    "due": "2026-08-13",
     "event": null,
     "notes": "",
     "completed": true
