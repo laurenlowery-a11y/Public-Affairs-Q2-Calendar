@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-15T12:18:15.509Z
+// Last updated: 2026-08-16T12:19:01.361Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
