@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-18T12:24:20.345Z
+// Last updated: 2026-08-19T12:24:36.513Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -282,19 +282,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a013947",
-    "gid": "1214149663013947",
-    "name": "Shultz Convening",
-    "section": "Hosted Convenings",
-    "status": "Pending",
-    "goals": [],
-    "start": null,
-    "due": "2026-08-31",
-    "event": null,
-    "notes": "See Vic for more details",
-    "beyond": true
-  },
-  {
     "id": "a253998",
     "gid": "1212879831253998",
     "name": "FIU Case Study",
@@ -333,6 +320,19 @@ window.PA_TASKS = [
     "due": "2026-09-28",
     "event": null,
     "notes": "Michael Speaking, Rachel onsite contact",
+    "beyond": true
+  },
+  {
+    "id": "a013947",
+    "gid": "1214149663013947",
+    "name": "Shultz Convening",
+    "section": "Hosted Convenings",
+    "status": "Pending",
+    "goals": [],
+    "start": null,
+    "due": "2026-09-29",
+    "event": null,
+    "notes": "See Vic for more details",
     "beyond": true
   },
   {
