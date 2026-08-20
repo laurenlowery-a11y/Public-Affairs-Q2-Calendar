@@ -1,5 +1,5 @@
 // Q2 2026 Public Affairs tasks — auto-refreshed from Asana
-// Last updated: 2026-08-19T12:24:36.513Z
+// Last updated: 2026-08-20T12:27:15.777Z
 // Goals: AP=Anthropic Partnership, HE=Higher Ed Strategy, GP=Govt & Public Sector,
 // ES=Events & Speaking, EM=Earned Media/Content Development, RT=Research/Thought Leadership,
 // CI=CEO Influence, ER=Earned Revenue, PR=Public Recognition
@@ -19,51 +19,6 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
-    "id": "a912058",
-    "gid": "1213561203912058",
-    "name": "Forbes CIR Pitch",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-08-19",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
-    "id": "a772864",
-    "gid": "1214389801772864",
-    "name": "The Atlantic - Quote + Intro Call",
-    "section": "Media Relations",
-    "status": "In Progress",
-    "goals": [
-      "CI"
-    ],
-    "start": null,
-    "due": "2026-08-19",
-    "event": null,
-    "notes": "Goal is Q2 - Complicated timeline due to contributions",
-    "beyond": true
-  },
-  {
-    "id": "a117328",
-    "gid": "1214390333117328",
-    "name": "Quarterly Engineering Survey",
-    "section": "Media Relations",
-    "status": "Pending",
-    "goals": [
-      "EM"
-    ],
-    "start": null,
-    "due": "2026-08-19",
-    "event": null,
-    "notes": "Pending more info ",
-    "beyond": true
-  },
-  {
     "id": "a253979",
     "gid": "1212879831253979",
     "name": "Op-ED with Stephen Moret & Michael Ellison",
@@ -80,6 +35,51 @@ window.PA_TASKS = [
     "beyond": true
   },
   {
+    "id": "a912058",
+    "gid": "1213561203912058",
+    "name": "Forbes CIR Pitch",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-08-26",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a772864",
+    "gid": "1214389801772864",
+    "name": "The Atlantic - Quote + Intro Call",
+    "section": "Media Relations",
+    "status": "In Progress",
+    "goals": [
+      "CI"
+    ],
+    "start": null,
+    "due": "2026-08-26",
+    "event": null,
+    "notes": "Goal is Q2 - Complicated timeline due to contributions",
+    "beyond": true
+  },
+  {
+    "id": "a117328",
+    "gid": "1214390333117328",
+    "name": "Quarterly Engineering Survey",
+    "section": "Media Relations",
+    "status": "Pending",
+    "goals": [
+      "EM"
+    ],
+    "start": null,
+    "due": "2026-08-26",
+    "event": null,
+    "notes": "Pending more info ",
+    "beyond": true
+  },
+  {
     "id": "a772860",
     "gid": "1214389801772860",
     "name": "New Profit Story",
@@ -89,7 +89,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -105,7 +105,7 @@ window.PA_TASKS = [
       "EM"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "Goal is Q2, dependent on engagement from contacts",
     "beyond": true
@@ -121,7 +121,7 @@ window.PA_TASKS = [
       "RT"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -136,7 +136,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -152,7 +152,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -168,7 +168,7 @@ window.PA_TASKS = [
       "CI"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -181,7 +181,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -196,7 +196,7 @@ window.PA_TASKS = [
       "PR"
     ],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -209,7 +209,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -222,7 +222,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-08-19",
+    "due": "2026-08-26",
     "event": null,
     "notes": "",
     "beyond": true
@@ -304,7 +304,7 @@ window.PA_TASKS = [
     "status": "In Progress",
     "goals": [],
     "start": null,
-    "due": "2026-09-03",
+    "due": "2026-09-21",
     "event": null,
     "notes": "",
     "beyond": true
